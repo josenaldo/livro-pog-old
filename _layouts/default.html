@@ -1,0 +1,30 @@
+---
+---
+<!DOCTYPE html> 
+
+<html>
+{% include head.html %}
+
+<body class="{{ site.css }} lighten-5">
+
+  {% include header.html %}
+
+  <div id="page-wrap">
+    <div id="main-content">
+      <div id="guts">
+        <div class="container">
+          <div class="wrapper {{ site.css }}-text text-darken-3">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  {% include footer.html %}  
+
+  {% include scripts.html %}
+
+</body>
+
+</html>

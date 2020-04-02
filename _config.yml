@@ -1,0 +1,83 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Programação Orientada a Gambiarra
+email: josenaldo@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Livro Programação Orientada a Gambiarra - COMO GARANTIR QUE O INFERNO SEJA UMA AMOSTRA GRÁTIS DO SEU TRABALHO!
+baseurl: "/livro-pog" # the subpath of your site, e.g. /blog
+url: "http://josenaldo.github.io/livro-pog/"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+plugins:
+  - jekyll-feed
+
+# Social usernames/URLs
+twitter_username: vudureverso
+github_username:  josenaldo
+instagram_username: vudureverso
+reddit_username: vudureverso
+linkedin_link: https://www.linkedin.com/in/josenaldo/
+facebook_link: https://www.facebook.com/josenaldo.matos
+
+# Required by template
+css: "blue-grey"
+scroll-cursor: "#00BCD4"
+scroll-rail: "#0097A7"
+highlighter: null #pygments
+lsi: false
+safe: false
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+permalink: pretty
+exclude: [vendor]
+
+# Coleções
+collections_dir: collections
+collections:
+  capitulos:
+    output: true
+    
+excerpt_separator: <!--more-->
+
+# Valores default
+defaults:
+  - scope:
+      path: ""
+      type: "capitulos"
+    values:
+      layout: "capitulo"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "home"
+

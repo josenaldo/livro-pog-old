@@ -1,0 +1,14 @@
+<div class="videos">
+    <ul class="collapsible">
+        {% for video in include.videos %}
+        <li>
+            <div class="collapsible-header"><i class="fas fa-video"></i>Vídeo {{forloop.index}}</div>
+            <div class="collapsible-body">
+                <div id="video-{{video}}" class="video-container col s12">
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/{{video}}" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>

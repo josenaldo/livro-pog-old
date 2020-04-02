@@ -1,0 +1,28 @@
+---
+layout: page
+title: Capítulos
+icon: "fas fa-book"
+---
+
+<div class="row flex">
+
+  {% for capitulo in site.capitulos %}
+
+    <div class="col s12 m6 l4 ">
+      <div class="card advantage {{site.css}} white-text darken-1 ">
+        <div class="card-image">
+          <img src="{{site.baseurl}}{{capitulo.image}}">
+         
+        </div>
+        <div class="card-content">
+          <div class="card-title">{{ capitulo.title}}</div>
+          <div class="card-text truncate">{{ capitulo.description}}</div>
+        </div>
+        <div class="card-action center-align">
+          <a class="darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn single" href="{{site.baseurl}}{{ capitulo.url }}">Ver capitulo</a>
+        </div>
+      </div>
+    </div>   
+  {% endfor %}
+
+</div>

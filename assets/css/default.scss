@@ -1,0 +1,176 @@
+--- 
+--- 
+
+@charset 'UTF-8';
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+$green: #16A085;
+$black6: rgba(0, 0, 0, .6);
+$gray: #404040;
+$white: #FFFFFF;
+
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-header {
+    .logo {
+        font-size: 2.1rem;
+        margin-left: 10px;
+    }
+
+    .sidenav li>a {
+        font-size: 20px;
+    }
+}
+
+
+.page-footer  {
+
+	padding: 3em 0;
+	text-align: center;
+
+	.social-title {
+		color: $white;
+		font-weight: bold;
+	    font-size: 1.5em;
+	}
+
+	.social {
+
+		
+
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+						
+			li {
+				display: inline;
+				font-size: 32px;
+				margin: 0 5px;;
+	
+				a:-webkit-any-link{
+					text-decoration: none !important;
+					color: $white;
+				}
+			}
+		}
+	}
+}
+
+.container-aula {
+    h1 {
+        display: inline-block;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 3.2rem;        
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 2.8rem;
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 2.4rem;
+    }
+
+    h4 {
+        text-align: left;
+        font-size: 2.0rem;
+    } 
+
+    h5 {
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    h6 {
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    .video {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+  
+}
+
+.card {
+    .card-content {
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-text {     
+            text-align: left;
+        }
+
+    }
+    .cover {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        transition: 0.3s all ease;
+        overflow: hidden;
+    }
+    
+   .cover .cover-text{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;       
+        overflow: hidden;
+        text-overflow: clip; /*add max-width */
+        max-width: 100%;        
+    }
+    
+     .cover .filter {
+        width: 100%;
+        height: 120%;
+        opacity: 0.7;
+        display: block;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center-img {        
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card a.single {
+    margin: 0;
+
+}
+
+.card.horizontal .card-image  {
+  overflow: hidden;
+  max-width: 20%;
+  max-height: 230px
+}
+.card-image img {
+  height: 100%;  
+}

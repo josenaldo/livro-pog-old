@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="post container-fluid card z-depth-2 ">
+  {% if page.image %}
+  <div class="z-depth-1 center-align cover" style="background-image: url('{{site.baseurl}}/assets/images/{{page.image}}'); background-repeat: no-repeat, repeat;">
+    <div class="{{ site.css }} darken-3 filter">
+      <div class="cover-text white-text text-darken-4">
+        <h1>{{page.title}}</h1>
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} •
+          {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </div>
+    </div>
+  </div>
+
+  {% else %}
+
+  <div class="z-depth-1 center-align">
+    <div class="{{ site.css }}">
+      <div class="cover-text white-text text-darken-4">
+        <h1>{{page.title}}</h1>
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} •
+          {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </div>
+    </div>
+  </div>
+
+  {% endif %}
+
+  <div class="text-darken-4 card-content {{ site.css }}-text ">
+
+    <article class="post-content">
+      {{ content }}
+    </article>
+
+  </div>
+</div>

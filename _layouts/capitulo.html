@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<div class="container-capitulo container-fluid card z-depth-2">
+
+    <div class="z-depth-1 center-align">
+        <div class="{{ site.css }}">
+            <div class="cover-text white-text text-darken-4">
+                <h1>{{page.title}}</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-darken-4 card-content {{ site.css }}-text ">
+
+        <div class="capitulo-nav center-align">
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
+                href="{{site.baseurl}}{{ page.previous.url }}">
+                <i class="fas fa-arrow-left"></i> Anterior
+            </a>
+
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
+                href="{{site.baseurl}}/capitulos/">
+                <i class="fas fa-book"></i> Capítulos
+            </a>
+
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
+                href="{{site.baseurl}}{{ page.next.url }}">
+                Próxima <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+        <br />
+        <hr /><br />
+
+        {{ content }}
+
+        <br />
+        <hr /><br />
+
+        <div class="capitulo-nav center-align">
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
+                href="{{site.baseurl}}{{ page.previous.url }}">
+                <i class="fas fa-arrow-left"></i> Anterior
+            </a>
+
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
+                href="{{site.baseurl}}/capitulos/">
+                <i class="fas fa-book"></i> Capítulos
+            </a>
+
+            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
+                href="{{site.baseurl}}{{ page.next.url }}">
+                Próxima <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+    </div>
+</div>
