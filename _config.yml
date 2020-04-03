@@ -68,30 +68,30 @@ collections:
       - requisitos.md
       - principios.md
       - tecnicas.md
-      - tecnica-zipomatic-versioning.md
-      - tecnica-incremental-patching-debug.md
-      - tecnica-my-precious.md
-      - tecnica-psychoding.md
+      - tecnicas/tecnica-zipomatic-versioning.md
+      - tecnicas/tecnica-incremental-patching-debug.md
+      - tecnicas/tecnica-my-precious.md
+      - tecnicas/tecnica-psychoding.md
       - gambi-design-patterns.md
-      - gdp-que-porra-e-essa.md
-      - gdp-reuse-by-copy-and-paste.md
-      - gdp-hardcoded-data.md
-      - gdp-forceps.md
-      - gdp-ostrich-syndrome-skill.md
-      - gdp-nonsense-flag.md
-      - gdp-commented-code-implementation.md
-      - gdp-reinvented-square-wheel-helper.md
-      - gdp-you-shall-not-pass.md
-      - gdp-bulletproof.md
-      - gdp-exception-success.md
-      - gdp-string-sushiman.md
-      - gdp-human-factor.md
-      - gdp-black-cat-in-a-dark-room.md
-      - gdp-mega-zord.md
-      - gdp-thunder-mega-zord.md
-      - gdp-controller-confusion.md
-      - gdp-no-more-layers.md
-      - gdp-db-is-our-god.md
+      - gambi-design-patterns/gdp-que-porra-e-essa.md
+      - gambi-design-patterns/gdp-reuse-by-copy-and-paste.md
+      - gambi-design-patterns/gdp-hardcoded-data.md
+      - gambi-design-patterns/gdp-forceps.md
+      - gambi-design-patterns/gdp-ostrich-syndrome-skill.md
+      - gambi-design-patterns/gdp-nonsense-flag.md
+      - gambi-design-patterns/gdp-commented-code-implementation.md
+      - gambi-design-patterns/gdp-reinvented-square-wheel-helper.md
+      - gambi-design-patterns/gdp-you-shall-not-pass.md
+      - gambi-design-patterns/gdp-bulletproof.md
+      - gambi-design-patterns/gdp-exception-success.md
+      - gambi-design-patterns/gdp-string-sushiman.md
+      - gambi-design-patterns/gdp-human-factor.md
+      - gambi-design-patterns/gdp-black-cat-in-a-dark-room.md
+      - gambi-design-patterns/gdp-mega-zord.md
+      - gambi-design-patterns/gdp-thunder-mega-zord.md
+      - gambi-design-patterns/gdp-controller-confusion.md
+      - gambi-design-patterns/gdp-no-more-layers.md
+      - gambi-design-patterns/gdp-db-is-our-god.md
       - conclusoes.md
     
 excerpt_separator: <!--more-->
