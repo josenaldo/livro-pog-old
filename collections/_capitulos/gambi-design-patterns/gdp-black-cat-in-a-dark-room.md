@@ -1,5 +1,11 @@
 ---
-title: 
+title: Black Cat In A Dark Room
 description: 
-image: 
+image: cat.jpg
+sentence: Tem bug, mas não é no código!!
+sentence-author: Estagiário justificando os erros no programa para o gerente
 ---
+Precisa usar vários parâmetros para um método?
+Use um MAP!
+Muito usado em PHP e em Java
+É o capiroto em forma de design pattern!
