@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+.site-header .logo {
+  font-size: 2.1rem;
+  margin-left: 10px; }
+.site-header .sidenav li > a {
+  font-size: 20px; }
+
+.page-footer {
+  padding: 3em 0;
+  text-align: center; }
+  .page-footer .social-title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.5em; }
+  .page-footer .social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .page-footer .social ul li {
+      display: inline;
+      font-size: 32px;
+      margin: 0 5px; }
+      .page-footer .social ul li a:-webkit-any-link {
+        text-decoration: none !important;
+        color: #FFFFFF; }
+
+.container-aula h1 {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 3.2rem; }
+.container-aula h2 {
+  text-align: left;
+  font-size: 2.8rem; }
+.container-aula h3 {
+  text-align: left;
+  font-size: 2.4rem; }
+.container-aula h4 {
+  text-align: left;
+  font-size: 2.0rem; }
+.container-aula h5 {
+  text-align: left;
+  font-size: 1.6rem; }
+.container-aula h6 {
+  text-align: left;
+  font-size: 1.2rem; }
+.container-aula .video {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  text-align: center; }
+
+.card .card-content .card-title {
+  font-weight: bold; }
+.card .card-content .card-text {
+  text-align: left; }
+.card .cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.3s all ease;
+  overflow: hidden; }
+.card .cover .cover-text {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-overflow: clip;
+  /*add max-width */
+  max-width: 100%; }
+.card .cover .filter {
+  width: 100%;
+  height: 120%;
+  opacity: 0.7;
+  display: block; }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap; }
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.card a.single {
+  margin: 0; }
+
+.card.horizontal .card-image {
+  overflow: hidden;
+  max-width: 20%;
+  max-height: 230px; }
+
+.card-image img {
+  height: 100%; }
