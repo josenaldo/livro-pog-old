@@ -10,7 +10,7 @@ layout: default
     <h1>Últimos Capítulos</h1>
 </div>
 <div class="row">
-    {%  assign limit = site.capitulos.size > 3 ? 3 : site.capitulos.size%}
+    {% assign limit = site.capitulos.size > 3 ? 3 : site.capitulos.size %}
     {% for i in (1..limit)%}
         {% assign index = site.capitulos.size |  minus: i %}       
         {% assign capitulo = site.capitulos[index] %}

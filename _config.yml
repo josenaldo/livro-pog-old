@@ -26,6 +26,7 @@ kramdown:
   math_engine: mathjax
 plugins:
   - jekyll-feed
+  - jekyll/scholar
 
 # Social usernames/URLs
 twitter_username: vudureverso
