@@ -33,3 +33,15 @@ O endereço para acesso é [http://IP_DO_DOCKER_MACHINE/livro-pog]([http://IP_DO
 ```shell
 docker exec -it livro-pog bash
 ```
+
+### Se precisar reconectar num servidor que já está rodando
+
+```shell
+killall jekyll
+```
+
+ou
+
+```shell
+pkill -u jekyll
+```
