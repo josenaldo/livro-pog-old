@@ -10,3 +10,4 @@ POG é uma arte dominada por poucos
 Quanto mais experiente, menos POGramador
 Quanto mais conhecimento, menor a capacidade de POGagem
 Quanto mais disciplinado, menor a atração sobre POGs
+
