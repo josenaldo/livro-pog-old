@@ -114,3 +114,8 @@ defaults:
     values:
       layout: "home"
 
+scholar:
+  style: associacao-brasileira-de-normas-tecnicas
+  locale: pt-br
+  source: ./_bibliography
+  bibliography: library.bib
