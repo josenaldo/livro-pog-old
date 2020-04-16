@@ -1,6 +1,5 @@
 ---
 ---
-
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 $screen-sm-min: 768px;
@@ -36,11 +35,12 @@ body {
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{site.baseurl}}/assets/images/logo/hero.png");*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("{{site.baseurl}}/assets/images/logo/hero.png");
-  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url("{{site.baseurl}}/assets/images/logo/hero.png");
+
     /* Set a specific height */
     height: 50%;
-  
+
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
@@ -58,38 +58,39 @@ body {
     }
 }
 
-.page-footer  {
+.page-footer {
 
-	padding: 3em 0;
-	text-align: center;
+    padding: 3em 0;
+    text-align: center;
 
-	.social-title {
-		color: $white;
-		font-weight: bold;
-	    font-size: 1.5em;
-	}
+    .social-title {
+        color: $white;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
 
-	.social {
+    .social {
 
-		
 
-		ul{
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-						
-			li {
-				display: inline;
-				font-size: 32px;
-				margin: 0 5px;;
-	
-				a:-webkit-any-link{
-					text-decoration: none !important;
-					color: $white;
-				}
-			}
-		}
-	}
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline;
+                font-size: 32px;
+                margin: 0 5px;
+                ;
+
+                a:-webkit-any-link {
+                    text-decoration: none !important;
+                    color: $white;
+                }
+            }
+        }
+    }
 }
 
 
@@ -98,7 +99,7 @@ body {
         display: inline-block;
         padding-right: 20px;
         padding-left: 20px;
-        font-size: 3.2rem;        
+        font-size: 3.2rem;
     }
 
     h2 {
@@ -114,7 +115,7 @@ body {
     h4 {
         text-align: left;
         font-size: 2.0rem;
-    } 
+    }
 
     h5 {
         text-align: left;
@@ -132,20 +133,26 @@ body {
         width: 100%;
         text-align: center;
     }
-  
+
 }
 
 .card {
-    .card-content {
-        .card-title {
-            font-weight: bold;
-        }
+    .card-title {
+        font-weight: bold;
 
-        .card-text {     
+        h1 {
+            display: inline-block;
+        }
+    }
+
+    .card-content {
+
+        .card-text {
             text-align: left;
         }
 
     }
+
     .cover {
         background-repeat: no-repeat;
         background-position: center;
@@ -153,17 +160,18 @@ body {
         transition: 0.3s all ease;
         overflow: hidden;
     }
-    
-   .cover .cover-text{
+
+    .cover .cover-text {
         text-align: center;
         margin-left: auto;
-        margin-right: auto;       
+        margin-right: auto;
         overflow: hidden;
-        text-overflow: clip; /*add max-width */
-        max-width: 100%;        
+        text-overflow: clip;
+        /*add max-width */
+        max-width: 100%;
     }
-    
-     .cover .filter {
+
+    .cover .filter {
         width: 100%;
         height: 120%;
         opacity: 0.7;
@@ -176,7 +184,7 @@ body {
     flex-wrap: wrap;
 }
 
-.center-img {        
+.center-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -189,11 +197,38 @@ body {
 
 }
 
-.card.horizontal .card-image  {
-  overflow: hidden;
-  max-width: 20%;
-  max-height: 230px
+.card.horizontal .card-image {
+    overflow: hidden;
+    max-width: 20%;
+    max-height: 230px
 }
+
 .card-image img {
-  height: 100%;  
+    height: 100%;
 }
+
+.bibliography {
+    padding-inline-start: 10px;
+    text-align: left;
+    li {
+        margin-bottom: 20px;
+        word-wrap: break-word;
+    }
+}
+
+
+.sumario {
+    .sumario-item {
+        display: block;
+
+        .sumario-titulo {
+            font-weight: bold;
+            font-size: larger;
+        }
+        .sumario-descricao {
+            font-size: small;
+            margin: 0 0 1em 2em;
+        }
+    }
+}
+

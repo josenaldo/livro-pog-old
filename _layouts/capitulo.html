@@ -1,60 +1,44 @@
 ---
 layout: default
 ---
-<div class="container-capitulo container-fluid card z-depth-2">
+<div class="container-fluid card  z-depth-2">
 
-    <div class="z-depth-1 center-align">
-        <div class="{{ site.css }}">
-            <div class="cover-text white-text text-darken-4">
-                <h1>{{page.title}}</h1>
-            </div>
+    <div class="card-title center-align">
+        <div class="cover-text {{ site.css }}-text text-darken-2">
+            <h1>{{page.title}}</h1>
         </div>
     </div>
 
-    <div class="text-darken-4 card-content {{ site.css }}-text ">
-
-        <div class="capitulo-nav center-align">
-            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
-                href="{{site.baseurl}}{{ page.previous.url }}">
-                <i class="fas fa-arrow-left"></i> Anterior
-            </a>
-
-            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
-                href="{{site.baseurl}}/capitulos/">
-                <i class="fas fa-book"></i> Capítulos
-            </a>
-
-            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
-                href="{{site.baseurl}}{{ page.next.url }}">
-                Próxima <i class="fas fa-arrow-right"></i>
-            </a>
-
-        </div>
-
-        <br />
-        <hr /><br />
+    <div class="card-content {{ site.css }}-text text-darken-4">
 
         {{ content }}
 
-        <br />
-        <hr /><br />
-
-        <div class="capitulo-nav center-align">
-            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
-                href="{{site.baseurl}}{{ page.previous.url }}">
-                <i class="fas fa-arrow-left"></i> Anterior
-            </a>
-
-            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
-                href="{{site.baseurl}}/capitulos/">
-                <i class="fas fa-book"></i> Capítulos
-            </a>
-
-            <a class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn btn-small"
-                href="{{site.baseurl}}{{ page.next.url }}">
-                Próxima <i class="fas fa-arrow-right"></i>
-            </a>
-
+        <div class="capitulo-nav  row">
+            <div class="col s4 left-align">
+                <a class="{{ site.css }}-text text-lighten-4 waves-effect"
+                    href="{{site.baseurl}}{{ page.previous.url }}">
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fas fa-arrow-left fa-stack-1x {{ site.css }}-text"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="col s4 center-align">
+                <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{site.baseurl}}/capitulos/">
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fas fa-home fa-stack-1x {{ site.css }}-text"></i>
+                      </span>
+                </a>
+            </div>
+            <div class="col s4 right-align">
+                <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{site.baseurl}}{{ page.next.url }}">
+                    <span class="fa-stack fa-2x">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text"></i>
+                      </span>
+                </a>
+            </div>
         </div>
     </div>
 </div>

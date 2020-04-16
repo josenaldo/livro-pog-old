@@ -1,7 +1,7 @@
 ---
 title: Conclusões
 description: Conclusões opinativas completamente irrelevantes
-image: 
+image:
 sentence: Vou realizar os testes em produção
 sentence-author: POGramador corajoso arrancando suspiros das mocinhas inocentes
 order_number: 310000

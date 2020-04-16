@@ -89,3 +89,4 @@ scholar:
   locale: pt-br
   source: ./_bibliography
   bibliography: library.bib
+  relative: /livro-pog/capitulos/referencias/

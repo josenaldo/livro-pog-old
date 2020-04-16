@@ -76,8 +76,10 @@ body {
   width: 100%;
   text-align: center; }
 
-.card .card-content .card-title {
+.card .card-title {
   font-weight: bold; }
+  .card .card-title h1 {
+    display: inline-block; }
 .card .card-content .card-text {
   text-align: left; }
 .card .cover {
@@ -121,3 +123,19 @@ body {
 
 .card-image img {
   height: 100%; }
+
+.bibliography {
+  padding-inline-start: 10px;
+  text-align: left; }
+  .bibliography li {
+    margin-bottom: 20px;
+    word-wrap: break-word; }
+
+.sumario .sumario-item {
+  display: block; }
+  .sumario .sumario-item .sumario-titulo {
+    font-weight: bold;
+    font-size: larger; }
+  .sumario .sumario-item .sumario-descricao {
+    font-size: small;
+    margin: 0 0 1em 2em; }

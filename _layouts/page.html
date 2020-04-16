@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-<div id="skrollr-body">
-    <div class="post">
+<div class="container-fluid card z-depth-2">
 
-        <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-        </header>
-
-        <article class="post-content">
-            {{ content }}
-        </article>
-
+    <div class="card-title center-align">
+        <div class="cover-text {{ site.css }}-text text-darken-4">
+            <h1>{{page.title}}</h1>
+        </div>
     </div>
+
+    <article class="card-content {{ site.css }}-text text-darken-4">
+
+        {{ content }}
+    </article>
 </div>

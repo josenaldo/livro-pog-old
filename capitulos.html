@@ -1,29 +1,20 @@
 ---
 layout: page
-title: Índice
+title: Sumário
 icon: "fas fa-book"
 ---
 
-<div class="row flex">
+<div class="row sumario ">
   {% assign ordered_capitulo = site.capitulos | sort:"order_number" %}
   {% for capitulo in ordered_capitulo %}
 
-  <div class="col s12 ">
+  <div class="col s12 sumario-item">
 
-    <div class="card horizontal {{site.baseurl}}-text darken-3 ">
-      <div class="card-image">
-        <img src="{{site.baseurl}}/assets/images/{{capitulo.image}}">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <span class="card-title">{{ capitulo.title}}</span>
-          <p>{{ capitulo.description }}</p>
-        </div>
-        <div class="card-action">
-          <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
-            href="{{site.baseurl}}{{ capitulo.url }}">Ler capítulo</a>
-        </div>
-      </div>
-    </div>
+    <a class="sumario-titulo {{site.css}}-text text-darken-4 waves-effect" href="{{site.baseurl}}{{ capitulo.url }}">
+      <span class="card-title">{{ capitulo.title}}</span>
+    </a>
+
+    <p class="sumario-descricao">{{ capitulo.description }}</p>
   </div>
   {% endfor %}
+</div>

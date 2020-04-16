@@ -22,6 +22,3 @@ sed do eiusmod tempor.
 
 Lorem ipsum dolor sit amet, consectetur adipisicing.
 {% endquote %}
-
---- 
-{% bibliography --cited %}
