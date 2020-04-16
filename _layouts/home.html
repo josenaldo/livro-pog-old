@@ -1,16 +1,36 @@
 ---
-layout: default
 ---
+<!DOCTYPE html>
 
-<div class="w3-container w3-card w3-white w3-margin-bottom">
+<html>
+{% include head.html %}
 
-    <h2 class="w3-text-grey w3-padding-16">
-        {%if page.icon %}<i class="{{ page.icon }} w3-margin-right w3-xxlarge w3-text-teal"></i>{%endif%}
-        <span class="w3-text-teal">{{page.title}}</span>
-    </h2>
+<body class="{{ site.css }} lighten-5">
 
-    <div class="w3-container">
-      {{ content }}
+  {% include header.html %}
+
+  <div class="hero-image">
+    <div class="hero-text white-text center">
+      <h1>Programação Orientada a Gambiarra</h1>
+      <h3 class="flow-text">Como garantir que o inferno seja uma amostra grátis do deu trabalho</p>
+      <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn" href="{{site.baseurl}}/capitulos">Começar a ler</a>
     </div>
-    
-</div>  
+  </div>
+
+  <div id="page-wrap">
+    <div id="main-content">
+      <div class="container">
+        <div class="wrapper {{ site.css }}-text text-darken-4">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+</body>
+
+</html>

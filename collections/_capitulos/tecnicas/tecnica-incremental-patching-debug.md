@@ -1,9 +1,10 @@
 ---
 title: Incremental patching debug
-description: 
+description:
 image: 
 sentence: Limpa o histórico e o cache e dá um [Control + F5] que funciona
 sentence-author: Resposta padrão do Webmaster sobre POG
+order_number: 8000
 ---
 
 A versão atual parou?

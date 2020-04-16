@@ -1,28 +1,29 @@
 ---
 layout: page
-title: Capítulos
+title: Índice
 icon: "fas fa-book"
 ---
 
 <div class="row flex">
+  {% assign ordered_capitulo = site.capitulos | sort:"order_number" %}
+  {% for capitulo in ordered_capitulo %}
 
-  {% for capitulo in site.capitulos %}
+  <div class="col s12 ">
 
-    <div class="col s12 m6 l4 ">
-      <div class="card advantage {{site.css}} white-text darken-1 ">
-        <div class="card-image">
-          <img src="{{site.baseurl}}{{capitulo.image}}">
-         
-        </div>
+    <div class="card horizontal {{site.baseurl}}-text darken-3 ">
+      <div class="card-image">
+        <img src="{{site.baseurl}}/assets/images/{{capitulo.image}}">
+      </div>
+      <div class="card-stacked">
         <div class="card-content">
-          <div class="card-title">{{ capitulo.title}}</div>
-          <div class="card-text truncate">{{ capitulo.description}}</div>
+          <span class="card-title">{{ capitulo.title}}</span>
+          <p>{{ capitulo.description }}</p>
         </div>
-        <div class="card-action center-align">
-          <a class="darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn single" href="{{site.baseurl}}{{ capitulo.url }}">Ver capitulo</a>
+        <div class="card-action">
+          <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
+            href="{{site.baseurl}}{{ capitulo.url }}">Ler capítulo</a>
         </div>
       </div>
-    </div>   
+    </div>
+  </div>
   {% endfor %}
-
-</div>

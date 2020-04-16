@@ -4,6 +4,7 @@ description:
 image: 
 sentence: Tive que arrumar direto no banco - daí funcionou! Se o problema "voltar", nos ligue novamente.
 sentence-author: POGger sobre O Poder da Fé
+order_number: 13000
 ---
 
 Copie o máximo de código que puder: Princípio da Reflexão Reprodutória

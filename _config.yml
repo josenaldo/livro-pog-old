@@ -16,7 +16,7 @@
 title: Programação Orientada a Gambiarra
 email: josenaldo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Livro Programação Orientada a Gambiarra - COMO GARANTIR QUE O INFERNO SEJA UMA AMOSTRA GRÁTIS DO SEU TRABALHO!
+  Livro Programação Orientada a Gambiarra - Como garantir que o inferno seja uma amostra grátis do deu trabalho
 baseurl: "/livro-pog" # the subpath of your site, e.g. /blog
 url: "http://josenaldo.github.io/livro-pog/"
 
@@ -63,16 +63,7 @@ collections:
   capitulos:
     output: true
     order:
-      - introducao.md
-      - o-que-e-pog.md
-      - historia.md
-      - requisitos.md
-      - principios.md
-      - tecnicas.md
-      - tecnicas/tecnica-zipomatic-versioning.md
-      - tecnicas/tecnica-incremental-patching-debug.md
-      - tecnicas/tecnica-my-precious.md
-      - tecnicas/tecnica-psychoding.md
+
       - gambi-design-patterns.md
       - gambi-design-patterns/gdp-que-porra-e-essa.md
       - gambi-design-patterns/gdp-reuse-by-copy-and-paste.md
@@ -103,11 +94,13 @@ defaults:
       path: ""
       type: "capitulos"
     values:
+      image: default-image.jpg
       layout: "capitulo"
   - scope:
       path: ""
       type: "posts"
     values:
+      image: default-image.jpg
       layout: "post"
   - scope:
       path: ""

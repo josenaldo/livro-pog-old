@@ -1,9 +1,9 @@
 ---
 title: Príncípios da POG
 description: Normas que o POGramador deve ter cravadas na alma
-image: 
 sentence: Se compilou é porque funciona!
 sentence-author: Você, ao fazer POG
+order_number: 5000
 ---
 
 * Enjambração Criativística

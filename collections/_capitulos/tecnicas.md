@@ -1,9 +1,9 @@
 ---
 title: Técnicas da POG
 description: POG é fácil de fazer, difícil de masterizar
-image: 
-sentence: 
-sentence-author: 
+sentence: É fácil, não vejo dificuldade em fazer isso!
+sentence-author: Gerente sem-noção definindo prazo junto com o POGgramador
+order_number: 6000
 ---
 
 ### Hoi teste

@@ -1,9 +1,9 @@
 ---
 title: O que é POG?
 description: Porque é importante compreendermos o conceito de Programação Orientada a Gambiarra
-image: 
 sentence: A culpa é do Hardware!
 sentence-author: Desenvolvedor de software sobre POG
+order_number: 2000
 ---
 
 A Programação Orientada a Gambiarras (POG ou WOP – Workaround-oriented programming) é um paradigma de programação de sistemas de software que integra-se perfeitamente a qualquer grande Paradigma de Programação atual. {% cite Felicio2017 Maia2016 %}

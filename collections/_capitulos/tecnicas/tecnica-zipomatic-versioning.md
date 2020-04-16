@@ -4,6 +4,7 @@ description: Cada zip, uma versão
 image: 
 sentence: Na minha máquina funcionou
 sentence-author: POGramador sobre POG
+order_number: 7000
 ---
 
 ## Precisa guardar versões?
@@ -18,4 +19,3 @@ sentence-author: POGramador sobre POG
 * Ferramentas de versionamento
 * SVN é coisa do diabo
 * Git nem o diabo quer
-  

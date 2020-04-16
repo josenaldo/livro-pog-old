@@ -4,6 +4,7 @@ description:
 image: 
 sentence: É só colocar um IF!!
 sentence-author: Gerente sem-noção sugerindo a solução técnica
+order_number: 12000
 ---
 Sabe aquele código que você sabe que funciona, mas que, pra você, parece magia negra?
 

@@ -4,6 +4,7 @@ description:
 image: 
 sentence: O código tá certo, deve ser problema na massa de dados.
 sentence-author: POGgramador Experiente, com várias certificações em POG
+order_number: 15000
 ---
 
 Por algum motivo nefasto, uma variável não recebe o valor que deveria ter. O que fazer?

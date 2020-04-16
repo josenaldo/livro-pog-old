@@ -1,64 +1,64 @@
 ---
-layout: default
+layout: home
 ---
-
 <div class="row">
-    <img class="materialboxed responsive-img center-img" width="400" src="{{site.baseurl}}/assets/images/logo/capa.png">
-</div>
-
-<div class="row">
-    <h1>Últimos Capítulos</h1>
+    <h2>Últimos Capítulos</h2>
 </div>
 <div class="row">
     {% assign limit = site.capitulos.size | at_most: 3 %}
     {% for i in (1..limit)%}
-        {% assign index = site.capitulos.size |  minus: i %}       
-        {% assign capitulo = site.capitulos[index] %}
-        
-        <div class="col s12 m4">
-            <div class="card advantage {{site.css}} white-text darken-1 ">                
+    {% assign index = site.capitulos.size |  minus: i %}
+    {% assign ordered_capitulo = site.capitulos | sort:"order_number" %}
+    {% assign capitulo = ordered_capitulo[index] %}
+
+    <div class="col s12 m12">
+        <div class="card horizontal {{site.baseurl}}-text darken-3 ">
+            <div class="card-image">
+                <img src="{{site.baseurl}}/assets/images/{{capitulo.image}}">
+            </div>
+            <div class="card-stacked">
                 <div class="card-content">
                     <span class="card-title">{{ capitulo.title}}</span>
                     <p>{{ capitulo.description }}</p>
                 </div>
-                <div class="card-action center-align">
+                <div class="card-action">
                     <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
-                        href="{{site.baseurl}}{{ capitulo.url }}">Ler capítulo</a>
+                    href="{{site.baseurl}}{{ capitulo.url }}">Ler capítulo</a>
                 </div>
             </div>
         </div>
+    </div>
     {% endfor %}
 
 </div>
 
 <div class="row">
-    <h1>Novidades</h1>
+    <h2>Novidades</h2>
 </div>
 <div class="row">
 
     {% for post in site.posts limit:5 %}
     <div class="col s12">
-        
-        <div class="card horizontal">
-          
-          <div class="card-image ">
-            {% if post.image %}
+        <div class="card horizontal {{site.baseurl}}-text darken-3 ">
+            <div class="card-image">
+                {% if post.image %}
                 <img src="{{site.baseurl}}/assets/images/{{post.image}}">
-            {% else %}
-                <i class="{{site.baseurl}}/assets/images/default-card.jpg"></i>
-            {% endif%}
-          </div>
-
-          <div class="card-stacked">
-            <div class="card-content">
-                <h4 class="header">{{ post.title }}</h4>
-                <p>{{post.excerpt }}</p>
+                {% else %}
+                <i class="{{site.baseurl}}/assets/images/default-image.jpg"></i>
+                {% endif%}
             </div>
-            <div class="card-action">
-              <a href="{{site.baseurl}}{{ post.url }}">Ler artigo</a>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <span class="card-title">{{ post.title }}</span>
+                    <p>{{post.excerpt }}</p>
+                </div>
+                <div class="card-action">
+                    <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
+                    href="{{site.baseurl}}{{ post.url }}">Ler artigo</a>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+
+    </div>
     {% endfor %}
 </div>

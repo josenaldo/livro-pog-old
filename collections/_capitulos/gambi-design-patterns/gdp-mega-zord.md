@@ -4,5 +4,6 @@ description:
 image: 
 sentence: Claro que dá pra alterar essa configuração. É só mexer no código!
 sentence-author: POGramador propondo uma POG ao gerente
+order_number: 26000
 ---
 Criar várias funções torna o programa mais lento.

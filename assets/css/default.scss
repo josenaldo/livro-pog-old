@@ -1,4 +1,4 @@
---- 
+---
 ---
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
@@ -33,6 +33,30 @@ body {
     }
 }
 
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{site.baseurl}}/assets/images/logo/hero.png");*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("{{site.baseurl}}/assets/images/logo/hero.png");
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+    h1 {
+        font-weight: bolder;
+    }
+
+    p {
+        font-weight: bolder;
+    }
+}
 
 .page-footer  {
 
@@ -67,6 +91,7 @@ body {
 		}
 	}
 }
+
 
 .container-aula {
     h1 {

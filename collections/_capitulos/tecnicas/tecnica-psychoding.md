@@ -4,6 +4,7 @@ description:
 image: 
 sentence: Não me interessa se é restrição da ferramenta, dá um jeito e coloca isso funcionando até amanhã!
 sentence-author: Gerente de Projeto mostrando como se lidera a equipe a criar uma POG
+order_number: 10000
 ---
 Não sabe como fazer algo?
 
