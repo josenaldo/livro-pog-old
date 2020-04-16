@@ -62,29 +62,6 @@ collections_dir: collections
 collections:
   capitulos:
     output: true
-    order:
-
-      - gambi-design-patterns.md
-      - gambi-design-patterns/gdp-que-porra-e-essa.md
-      - gambi-design-patterns/gdp-reuse-by-copy-and-paste.md
-      - gambi-design-patterns/gdp-hardcoded-data.md
-      - gambi-design-patterns/gdp-forceps.md
-      - gambi-design-patterns/gdp-ostrich-syndrome-skill.md
-      - gambi-design-patterns/gdp-nonsense-flag.md
-      - gambi-design-patterns/gdp-commented-code-implementation.md
-      - gambi-design-patterns/gdp-reinvented-square-wheel-helper.md
-      - gambi-design-patterns/gdp-you-shall-not-pass.md
-      - gambi-design-patterns/gdp-bulletproof.md
-      - gambi-design-patterns/gdp-exception-success.md
-      - gambi-design-patterns/gdp-string-sushiman.md
-      - gambi-design-patterns/gdp-human-factor.md
-      - gambi-design-patterns/gdp-black-cat-in-a-dark-room.md
-      - gambi-design-patterns/gdp-mega-zord.md
-      - gambi-design-patterns/gdp-thunder-mega-zord.md
-      - gambi-design-patterns/gdp-controller-confusion.md
-      - gambi-design-patterns/gdp-no-more-layers.md
-      - gambi-design-patterns/gdp-db-is-our-god.md
-      - conclusoes.md
     
 excerpt_separator: <!--more-->
 
