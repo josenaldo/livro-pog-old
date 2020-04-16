@@ -142,10 +142,16 @@ body {
 
         h1 {
             display: inline-block;
+            font-weight: bold;
         }
     }
 
     .card-content {
+
+        word-wrap: normal;
+        .highlight{
+            word-wrap: normal;
+         }
 
         .card-text {
             text-align: left;
@@ -230,5 +236,13 @@ body {
             margin: 0 0 1em 2em;
         }
     }
+}
+
+.brand-logo {
+    background-image: url("{{site.baseurl}}/assets/images/logo/brand.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin-left: 10px;
+    padding-left: 50px !important;
 }
 

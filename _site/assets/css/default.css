@@ -79,9 +79,14 @@ body {
 .card .card-title {
   font-weight: bold; }
   .card .card-title h1 {
-    display: inline-block; }
-.card .card-content .card-text {
-  text-align: left; }
+    display: inline-block;
+    font-weight: bold; }
+.card .card-content {
+  word-wrap: normal; }
+  .card .card-content .highlight {
+    word-wrap: normal; }
+  .card .card-content .card-text {
+    text-align: left; }
 .card .cover {
   background-repeat: no-repeat;
   background-position: center;
@@ -139,3 +144,10 @@ body {
   .sumario .sumario-item .sumario-descricao {
     font-size: small;
     margin: 0 0 1em 2em; }
+
+.brand-logo {
+  background-image: url("/livro-pog/assets/images/logo/brand.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  margin-left: 10px;
+  padding-left: 50px !important; }
