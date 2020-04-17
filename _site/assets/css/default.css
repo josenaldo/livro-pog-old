@@ -136,6 +136,10 @@ body {
     margin-bottom: 20px;
     word-wrap: break-word; }
 
+.capitulo-nav {
+  margin-top: 20px;
+  margin-bottom: 0 !important; }
+
 .sumario .sumario-item {
   display: block; }
   .sumario .sumario-item .sumario-titulo {
@@ -143,11 +147,13 @@ body {
     font-size: larger; }
   .sumario .sumario-item .sumario-descricao {
     font-size: small;
-    margin: 0 0 1em 2em; }
+    margin: 0 0 1em 2em;
+    text-align: left; }
 
 .brand-logo {
   background-image: url("/livro-pog/assets/images/logo/brand.png");
   background-repeat: no-repeat;
   background-position-y: center;
   margin-left: 10px;
-  padding-left: 50px !important; }
+  padding-left: 50px !important;
+  font-weight: bold; }

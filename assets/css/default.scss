@@ -222,6 +222,10 @@ body {
     }
 }
 
+.capitulo-nav {
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+}
 
 .sumario {
     .sumario-item {
@@ -234,6 +238,7 @@ body {
         .sumario-descricao {
             font-size: small;
             margin: 0 0 1em 2em;
+            text-align: left;
         }
     }
 }
@@ -244,5 +249,6 @@ body {
     background-position-y: center;
     margin-left: 10px;
     padding-left: 50px !important;
+    font-weight: bold;
 }
 
