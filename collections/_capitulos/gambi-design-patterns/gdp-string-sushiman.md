@@ -5,6 +5,7 @@ image:
 sentence: Quando eu testei, funcionou!
 sentence-author: POGramador demonstrando as gambiarras para seu Gerente Sem Noçao
 order_number: 23000
+date: 2020-04-16 00:22
 ---
 
 Ao invés de criar parâmetros, passe uma ou poucas strings!

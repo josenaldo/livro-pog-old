@@ -173,7 +173,6 @@ body {
         margin-right: auto;
         overflow: hidden;
         text-overflow: clip;
-        /*add max-width */
         max-width: 100%;
     }
 
@@ -205,12 +204,11 @@ body {
 
 .card.horizontal .card-image {
     overflow: hidden;
-    max-width: 20%;
-    max-height: 230px
+    max-width: 50%;
 }
 
 .card-image img {
-    height: 100%;
+    
 }
 
 .bibliography {
@@ -252,3 +250,8 @@ body {
     font-weight: bold;
 }
 
+.post-content {
+    p {
+        margin-bottom: 10px !important;
+    }
+}

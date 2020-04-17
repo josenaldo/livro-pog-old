@@ -77,7 +77,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      image: default-image.jpg
+      image: default-cover.jpg
       layout: "post"
   - scope:
       path: ""

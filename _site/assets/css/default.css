@@ -99,7 +99,6 @@ body {
   margin-right: auto;
   overflow: hidden;
   text-overflow: clip;
-  /*add max-width */
   max-width: 100%; }
 .card .cover .filter {
   width: 100%;
@@ -123,11 +122,7 @@ body {
 
 .card.horizontal .card-image {
   overflow: hidden;
-  max-width: 20%;
-  max-height: 230px; }
-
-.card-image img {
-  height: 100%; }
+  max-width: 50%; }
 
 .bibliography {
   padding-inline-start: 10px;
@@ -157,3 +152,6 @@ body {
   margin-left: 10px;
   padding-left: 50px !important;
   font-weight: bold; }
+
+.post-content p {
+  margin-bottom: 10px !important; }

@@ -5,6 +5,7 @@ image:
 sentence: Quando eu cheguei já tava assim!!!
 sentence-author: Gambizeiro querendo tirar o seu da reta!
 order_number: 22000
+date: 2020-04-16 00:21
 ---
 Use exceções para o controle de fluxo do POGrama!
 

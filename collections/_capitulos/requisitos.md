@@ -4,6 +4,7 @@ description: Pré-condições para o despertar do Capiroto
 sentence: java.lang.NullPointerException
 sentence-author: Java sobre POG
 order_number: 4000
+date: 2020-04-16 00:03
 ---
 
 * Pessoas não qualificadas se intrometendo no desenvolvimento

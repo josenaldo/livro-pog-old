@@ -4,6 +4,7 @@ description: Como assim um papa foi o primeiro pogramador da história?
 sentence: O Papa é POG
 sentence-author: Engenheiros do Hawaii sobre POG
 order_number: 3000
+date: 2020-04-16 00:02
 ---
 
 A primeira POG da história foi criada pelo Paga Gregório XIII

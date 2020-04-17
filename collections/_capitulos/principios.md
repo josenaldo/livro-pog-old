@@ -4,6 +4,7 @@ description: Normas que o POGramador deve ter cravadas na alma
 sentence: Se compilou é porque funciona!
 sentence-author: Você, ao fazer POG
 order_number: 5000
+date: 2020-04-16 00:04
 ---
 
 * Enjambração Criativística

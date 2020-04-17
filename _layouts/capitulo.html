@@ -1,13 +1,25 @@
 ---
 layout: default
 ---
-<div class="container-fluid card  z-depth-2">
+<div class="container-fluid card advantage z-depth-2">
 
-    <div class="card-title center-align">
-        <div class="cover-text {{ site.css }}-text text-darken-4">
-            <h1>{{page.title}}</h1>
+    {%if page.image %}
+        <div class="cover card-title center-align" style="background-image: url('{{site.baseurl}}/assets/images/{{page.image}}');">
+            <div class="filter">
+                <div class="cover-text white-text {{site.css}} darken-3" >
+                    <h1>{{page.title}}</h1>
+                </div>
+            </div>
+
         </div>
-    </div>
+    {%else%}
+        <div class="cover card-title center-align" style="background-image: url('{{site.baseurl}}/assets/images/default-cover.jpg');">
+            <div class="cover-text white-text {{site.css}} darken-3" >
+                <h1>{{page.title}}</h1>
+            </div>
+        </div>
+    {%endif%}
+
 
     <div class="card-content {{ site.css }}-text text-darken-4">
 
