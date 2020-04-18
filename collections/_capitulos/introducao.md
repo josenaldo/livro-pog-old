@@ -5,6 +5,7 @@ sentence: Esta é a solução ótima, não temos tempo para isso. Faça a soluç
 sentence-author: Líder de Projeto sobre POG
 order_number: 1000
 date: 2020-04-16 00:00
+image: capitulos/introducao.jpg
 ---
 
 Saudações, POGramador!
@@ -15,7 +16,7 @@ Bem, pode comemorar. Você está no lugar certo. Já pode tocar Aleluia no celul
 
 Aqui, você não vai aprender a resolver suas gambiarras. Pode tirar essa ilusão desse seu coraçãozinho maltratado.Aqui, você vai aprender a abraçar o GLS (Gambi Life Style) de vez.
 
-Durante a leitura desde tomo sagrado, sua mente passará pela POGramação Neuro Linguiça, que capacitará você a identificar, utilizar e idealizar as POGs que tornarão o inferno uma amostra grátis do seu trabalho.
+Durante a leitura deste tomo sagrado, sua mente passará pela POGramação Neuro Linguiça, que capacitará você a identificar, utilizar e idealizar as POGs que tornarão o inferno uma amostra grátis do seu trabalho.
 
 O livro é dividido em 3 partes.
 
