@@ -17,42 +17,42 @@ layout: default
         </div>
     </div>
 
+    <blockquote class="sentence {{site.css}} lighten-5">
+        <p>{{page.sentence}}</p>
+        <footer>
+            <cite>{{page.sentence-author}}</cite>
+        </footer>
+    </blockquote>
+
     <div class="card-content {{ site.css }}-text text-darken-4">
-        <blockquote class="sentence {{site.css}} lighten-5">
-            <p>{{page.sentence}}</p>
-            <footer>
-                <cite>{{page.sentence-author}}</cite>
-            </footer>
-        </blockquote>
-
         {{ content }}
+    </div>
 
-        <div class="capitulo-nav row">
-            <div class="col s4 left-align">
-                <a class="{{ site.css }}-text text-lighten-4 waves-effect"
-                    href="{{site.baseurl}}{{ page.previous.url }}">
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-square fa-stack-2x"></i>
-                        <i class="fas fa-arrow-left fa-stack-1x {{ site.css }}-text text-darken-4"></i>
-                    </span>
-                </a>
-            </div>
-            <div class="col s4 center-align">
-                <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{site.baseurl}}/capitulos/">
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-square fa-stack-2x"></i>
-                        <i class="fas fa-home fa-stack-1x {{ site.css }}-text text-darken-4"></i>
-                    </span>
-                </a>
-            </div>
-            <div class="col s4 right-align">
-                <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{site.baseurl}}{{ page.next.url }}">
-                    <span class="fa-stack fa-2x">
-                        <i class="fas fa-square fa-stack-2x"></i>
-                        <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4"></i>
-                    </span>
-                </a>
-            </div>
+    <div class="capitulo-nav row {{site.css}} lighten-5">
+        <div class="col s4 left-align">
+            <a class="{{ site.css }}-text text-lighten-4 waves-effect"
+                href="{{site.baseurl}}{{ page.previous.url }}">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-square fa-stack-2x"></i>
+                    <i class="fas fa-arrow-left fa-stack-1x {{ site.css }}-text text-darken-4"></i>
+                </span>
+            </a>
+        </div>
+        <div class="col s4 center-align">
+            <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{site.baseurl}}/capitulos/">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-square fa-stack-2x"></i>
+                    <i class="fas fa-home fa-stack-1x {{ site.css }}-text text-darken-4"></i>
+                </span>
+            </a>
+        </div>
+        <div class="col s4 right-align">
+            <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{site.baseurl}}{{ page.next.url }}">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-square fa-stack-2x"></i>
+                    <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4"></i>
+                </span>
+            </a>
         </div>
     </div>
 </div>
