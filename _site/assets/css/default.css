@@ -87,6 +87,9 @@ body {
     word-wrap: normal; }
   .card .card-content .card-text {
     text-align: left; }
+  .card .card-content p {
+    margin-top: 0;
+    margin-bottom: 16px; }
 .card .cover {
   background-repeat: no-repeat;
   background-position: center;
