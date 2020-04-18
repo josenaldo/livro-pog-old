@@ -2,26 +2,30 @@
 layout: default
 ---
 <div class="container-fluid card advantage z-depth-2">
+    {% if page.image %}
+        {% assign imagem_do_post =  page.image %}
+    {% else %}
+        {% assign imagem_do_post = "default-cover.jpg"%}
+    {% endif%}
 
-    {%if page.image %}
-        <div class="cover card-title center-align" style="background-image: url('{{site.baseurl}}/assets/images/{{page.image}}');">
-            <div class="filter">
-                <div class="cover-text white-text {{site.css}} darken-3" >
-                    <h1>{{page.title}}</h1>
-                </div>
-            </div>
-
-        </div>
-    {%else%}
-        <div class="cover card-title center-align" style="background-image: url('{{site.baseurl}}/assets/images/default-cover.jpg');">
-            <div class="cover-text white-text {{site.css}} darken-3" >
+    <div class="z-depth-1 center-align cover"
+        style="background-image: url('{{site.baseurl}}/assets/images/{{imagem_do_post}}'); background-repeat: no-repeat, repeat;;">
+        <div class="{{ site.css }} darken-4 filter">
+            <div class="cover-text white-text text-darken-4">
                 <h1>{{page.title}}</h1>
             </div>
         </div>
-    {%endif%}
+    </div>
+
 
 
     <div class="card-content {{ site.css }}-text text-darken-4">
+        <blockquote class="sentence {{site.css}} lighten-5">
+            <p>{{page.sentence}}</p>
+            <footer>
+                <cite>{{page.sentence-author}}</cite>
+            </footer>
+        </blockquote>
 
         {{ content }}
 
@@ -31,7 +35,7 @@ layout: default
                     href="{{site.baseurl}}{{ page.previous.url }}">
                     <span class="fa-stack fa-2x">
                         <i class="fas fa-square fa-stack-2x"></i>
-                        <i class="fas fa-arrow-left fa-stack-1x {{ site.css }}-text text-darken-4" ></i>
+                        <i class="fas fa-arrow-left fa-stack-1x {{ site.css }}-text text-darken-4"></i>
                     </span>
                 </a>
             </div>
@@ -40,7 +44,7 @@ layout: default
                     <span class="fa-stack fa-2x">
                         <i class="fas fa-square fa-stack-2x"></i>
                         <i class="fas fa-home fa-stack-1x {{ site.css }}-text text-darken-4"></i>
-                      </span>
+                    </span>
                 </a>
             </div>
             <div class="col s4 right-align">
@@ -48,7 +52,7 @@ layout: default
                     <span class="fa-stack fa-2x">
                         <i class="fas fa-square fa-stack-2x"></i>
                         <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4"></i>
-                      </span>
+                    </span>
                 </a>
             </div>
         </div>

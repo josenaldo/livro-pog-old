@@ -106,6 +106,17 @@ body {
   opacity: 0.7;
   display: block; }
 
+.sentence {
+  margin: 0 0 10px 0;
+  text-align: center;
+  border: none;
+  padding: 5px; }
+  .sentence p {
+    margin: 0;
+    font-size: large; }
+  .sentence footer {
+    font-size: small; }
+
 .flex {
   display: flex;
   flex-wrap: wrap; }
