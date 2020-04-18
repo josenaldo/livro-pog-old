@@ -9,7 +9,7 @@ layout: default
     {% endif%}
 
     <div class="z-depth-1 center-align cover"
-        style="background-image: url('{{site.baseurl}}/assets/images/{{imagem_do_post}}'); background-repeat: no-repeat, repeat;;">
+        style="background-image: url('{{imagem_do_post | prepend:'assets/images/' | relative_url}}'); background-repeat: no-repeat, repeat;">
         <div class="{{ site.css }} darken-4 filter">
             <div class="cover-text white-text text-darken-4">
                 <h1>{{page.title}}</h1>
@@ -32,7 +32,7 @@ layout: default
     <div class="capitulo-nav row {{site.css}} lighten-5">
         <div class="col s4 left-align">
             <a class="{{ site.css }}-text text-lighten-4 waves-effect"
-                href="{{site.baseurl}}{{ page.previous.url }}">
+                href="{{ page.previous.url | relative_url }}">
                 <span class="fa-stack fa-2x">
                     <i class="fas fa-square fa-stack-2x"></i>
                     <i class="fas fa-arrow-left fa-stack-1x {{ site.css }}-text text-darken-4"></i>
@@ -40,7 +40,7 @@ layout: default
             </a>
         </div>
         <div class="col s4 center-align">
-            <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{site.baseurl}}/capitulos/">
+            <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{'capitulos' | relative_url}}">
                 <span class="fa-stack fa-2x">
                     <i class="fas fa-square fa-stack-2x"></i>
                     <i class="fas fa-home fa-stack-1x {{ site.css }}-text text-darken-4"></i>
@@ -48,7 +48,7 @@ layout: default
             </a>
         </div>
         <div class="col s4 right-align">
-            <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{site.baseurl}}{{ page.next.url }}">
+            <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{page.next.url | relative_url }}">
                 <span class="fa-stack fa-2x">
                     <i class="fas fa-square fa-stack-2x"></i>
                     <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4"></i>

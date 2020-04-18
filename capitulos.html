@@ -16,7 +16,7 @@ icon: "fas fa-book"
         <p class="sumario-descricao">{{ capitulo.description }}</p>
       </div>
       <div class="col s2 right-align">
-        <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{site.baseurl}}{{ capitulo.url }}">
+        <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{capitulo.url | relative_url}}">
           <span class="fa-stack fa-2x">
             <i class="fas fa-square fa-stack-2x"></i>
             <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4"></i>

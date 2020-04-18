@@ -11,13 +11,13 @@ layout: home
     <div class="col s12">
         <div class="card {{site.css}}-text darken-3 ">
             {% if post.image %}
-                {% assign imagem_do_post =  post.image %}
+            {% assign imagem_do_post =  post.image %}
             {% else %}
-                {% assign imagem_do_post = "default-cover.jpg"%}
+            {% assign imagem_do_post = "default-cover.jpg"%}
             {% endif%}
 
             <div class="z-depth-1 center-align cover"
-                style="background-image: url('{{site.baseurl}}/assets/images/posts/{{imagem_do_post}}'); background-repeat: no-repeat, repeat;">
+                style="background-image: url('{{ imagem_do_post | prepend: 'assets/images/posts/' | relative_url}}');background-repeat: no-repeat, repeat;">
                 <div class="{{ site.css }} darken-4 filter">
                     <div class="cover-text white-text text-darken-4">
                         <h1>{{post.title}}</h1>
@@ -34,7 +34,7 @@ layout: home
                 </div>
                 <div class="card-action">
                     <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
-                        href="{{site.baseurl}}{{ post.url }}">Ler artigo</a>
+                        href="{{ post.url | relative_url}}">Ler artigo</a>
                 </div>
             </div>
         </div>

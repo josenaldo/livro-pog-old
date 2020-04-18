@@ -2,8 +2,8 @@ title: Programação Orientada a Gambiarra
 email: josenaldo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Livro Programação Orientada a Gambiarra - Como garantir que o inferno seja uma amostra grátis do deu trabalho
-baseurl: "/livro-pog" # the subpath of your site, e.g. /blog
-url: "http://josenaldo.github.io/livro-pog/"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://www.livro-pog.com.br"
 
 # Build settings
 markdown: kramdown
@@ -74,4 +74,4 @@ scholar:
   locale: pt-br
   source: ./_bibliography
   bibliography: library.bib
-  relative: /livro-pog/capitulos/referencias/
+  relative: capitulos/referencias/
