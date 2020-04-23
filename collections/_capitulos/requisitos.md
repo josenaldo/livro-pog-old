@@ -17,3 +17,4 @@ date: 2020-04-16 00:03
 * Aparecimento caótico de requisitos
 * Processo Go Horse!
 * Ausência de café
+^Na comunicação verbal catinga + codigo = codinga
