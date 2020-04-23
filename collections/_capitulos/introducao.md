@@ -8,7 +8,7 @@ date: 2020-04-16 00:00
 image: capitulos/introducao.jpg
 ---
 
-Saudações, POGramador!
+**Saudações, ruma de POGramador!**
 
 Sejamos sinceros... Você chegou a esse livro porque está cansado. Você deveria estar trabalhando, estudando, desenvolvendo o software que vai deixar seu chefe mais rico... Mas você está de saco cheio e resolveu gastar seu tempo lendo sobre Gambiarras.
 

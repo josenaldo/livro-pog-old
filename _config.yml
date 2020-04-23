@@ -9,6 +9,7 @@ url: "http://www.livro-pog.com.br"
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
 plugins:
   - jekyll-feed
   - jekyll/scholar
@@ -74,4 +75,4 @@ scholar:
   locale: pt-br
   source: ./_bibliography
   bibliography: library.bib
-  relative: capitulos/referencias/
+  relative: /capitulos/referencias/
