@@ -1,9 +1,9 @@
 title: Programação Orientada a Gambiarra
 email: josenaldo@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Livro Programação Orientada a Gambiarra - Como garantir que o inferno seja uma amostra grátis do deu trabalho
+description: Como garantir que o inferno seja uma amostra grátis do deu trabalho
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.livropog.com.br"
+author: Vudu Reverso
 
 # Build settings
 markdown: kramdown
@@ -31,7 +31,7 @@ twitter:
   card: summary_large_image
 
 #logo
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo/logo.png"
 
 social:
   name: Vudu Reverso
@@ -42,7 +42,7 @@ social:
     - https://github.com/josenaldo
 
 lang: pt-BR
-author: vudureverso
+
 
 # Required by template
 css: "blue-grey"
