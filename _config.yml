@@ -3,7 +3,7 @@ email: josenaldo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Livro Programação Orientada a Gambiarra - Como garantir que o inferno seja uma amostra grátis do deu trabalho
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://www.livro-pog.com.br"
+url: "http://www.livropog.com.br"
 
 # Build settings
 markdown: kramdown
@@ -13,6 +13,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll/scholar
+  - jekyll-seo-tag
 
 destination: docs
 
@@ -23,6 +24,25 @@ instagram_username: vudureverso
 reddit_username: vudureverso
 linkedin_link: https://www.linkedin.com/in/josenaldo/
 facebook_link: https://www.facebook.com/josenaldo.matos
+
+#Twitter
+twitter:
+  username: vudureverso
+  card: summary_large_image
+
+#logo
+logo: "/assets/images/logo.png"
+
+social:
+  name: Vudu Reverso
+  links:
+    - https://twitter.com/vudureverso
+    - https://www.facebook.com/josenaldo.matos
+    - https://www.linkedin.com/in/josenaldo/
+    - https://github.com/josenaldo
+
+lang: pt-BR
+author: vudureverso
 
 # Required by template
 css: "blue-grey"
