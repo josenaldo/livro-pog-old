@@ -1,6 +1,6 @@
 title: Programação Orientada a Gambiarra
 email: josenaldo@gmail.com
-description: Como garantir que o inferno seja uma amostra grátis do deu trabalho
+description: Como garantir que o inferno seja uma amostra grátis do seu trabalho
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.livropog.com.br"
 author: Vudu Reverso
@@ -91,6 +91,10 @@ defaults:
       path: ""
     values:
       layout: "home"
+      image:
+        path: "/assets/images/logo/og-image.png"
+        width: "1280"
+        height: "640"
 
 scholar:
   style: associacao-brasileira-de-normas-tecnicas

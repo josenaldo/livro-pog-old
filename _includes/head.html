@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
     <!-- Materialize CSS -->
@@ -32,8 +32,8 @@
     <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta name="google-site-verification" content="1cbkSny462_R3ImGQRd6txNTIoESz9RwkuvOysUdRls" />
-     
-    {% seo %}
+
+    {% seo title=false %}
 </head>
 
 
