@@ -92,7 +92,7 @@ defaults:
     values:
       layout: "home"
       image:
-        path: "/assets/images/logo/og-image.png"
+        path: "/assets/images/og-image.png"
         width: "1280"
         height: "640"
 
