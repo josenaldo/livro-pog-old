@@ -11,9 +11,11 @@ kramdown:
   math_engine: mathjax
 
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll/scholar
   - jekyll-seo-tag
+
 
 destination: docs
 
