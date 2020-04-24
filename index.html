@@ -20,7 +20,7 @@ layout: home
                 style="background-image: url('{{ imagem_do_post | prepend: 'assets/images/posts/' | relative_url}}');background-repeat: no-repeat, repeat;">
                 <div class="{{ site.css }} darken-4 filter">
                     <div class="cover-text white-text text-darken-4">
-                        <h1>{{post.title}}</h1>
+                        <h3>{{post.title}}</h3>
                         <p class="post-meta">{{ post.date | date: "%d/%m/%Y" }}{% if post.author %} •
                             {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
                     </div>
@@ -29,7 +29,6 @@ layout: home
 
             <div class="card-stacked">
                 <div class="card-content {{ site.css }}-text text-darken-4">
-                    <span class="card-title">{{ post.title }}</span>
                     <p>{{post.excerpt }}</p>
                 </div>
                 <div class="card-action">
