@@ -1,69 +1,85 @@
 <footer class="page-footer {{ site.css }} darken-4">
     <div class="container">
         <div class="row">
-            
-			
-			<p class="social-title">Encontre-me nas redes sociais</p>
-			<div class="social">
-				<ul>
-					{% if site.twitter_username %}
+			<div class="col l6 s12">
+				<p class="social-title">Encontre esse projeto no Github</p>
+				<div class="social">
+					<ul>
 						<li>
-							<a href="https://www.twitter.com/{{ site.twitter_username }}" target="_new">
-								<i class="fab fa-twitter"></i>
+							<a href="https://github.com/josenaldo/livro-pog/" target="_new">
+								<i class="fab fa-github"></i>
 							</a>
 						</li>
-					{% endif %}
-				
-					{% if site.linkedin_link %}
-						<li>
-							<a href="{{ site.linkedin_link }}" target="_new" >
-								<i class="fab fa-linkedin"></i>
-							</a>
-						</li>
-					{% endif %}
-									
-					{% if site.facebook_link %}
-						<li>
-							<a href="{{ site.facebook_link }}" target="_new">
-								<i class="fab fa-facebook"></i>
-							</a>
-						</li>
-					{% endif %}
-				
-					{% if site.github_username %}
-						<li>
-							<a href="https://github.com/{{ site.github_username }}" target="_new">
-								<i class="fab fa-github-alt"></i>
-							</a>
-						</li>
-					{% endif %}
-													
-					{% if site.instagram_username %}
-						<li>
-							<a href="https://www.instagram.com/{{ site.instagram_username }}" target="_new">
-								<i class="fab fa-instagram"></i>
-							</a>
-						</li>
-					{% endif %}
-				
-					{% if site.reddit_username %}
-						<li>
-							<a href="https://www.reddit.com/u/{{ site.reddit_username }}" target="_new">
-								<i class="fab fa-reddit-alien"></i>
-							</a>
-						</li>
-					{% endif %}
-				
-					<li>
-						<a href="{{'feed.xml' | relative_url }}" target="_new">
-							<i class="fa fa-rss"></i>
-						</a>
-					</li>
-				</ul>
+					</ul>
+				</div>
 			</div>
 
-
+			<div class="col l6 s12">
+				<p class="social-title">Social Media</p>
+				<div class="social">
+					<ul>
+						{% if site.twitter_username %}
+							<li>
+								<a href="https://www.twitter.com/{{ site.twitter_username }}" target="_new">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+						{% endif %}
+					
+						{% if site.linkedin_link %}
+							<li>
+								<a href="{{ site.linkedin_link }}" target="_new" >
+									<i class="fab fa-linkedin"></i>
+								</a>
+							</li>
+						{% endif %}
+										
+						{% if site.facebook_link %}
+							<li>
+								<a href="{{ site.facebook_link }}" target="_new">
+									<i class="fab fa-facebook"></i>
+								</a>
+							</li>
+						{% endif %}
+					
+						{% if site.github_username %}
+							<li>
+								<a href="https://github.com/{{ site.github_username }}" target="_new">
+									<i class="fab fa-github-alt"></i>
+								</a>
+							</li>
+						{% endif %}
+														
+						{% if site.instagram_username %}
+							<li>
+								<a href="https://www.instagram.com/{{ site.instagram_username }}" target="_new">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+						{% endif %}
+					
+						{% if site.reddit_username %}
+							<li>
+								<a href="https://www.reddit.com/u/{{ site.reddit_username }}" target="_new">
+									<i class="fab fa-reddit-alien"></i>
+								</a>
+							</li>
+						{% endif %}
+					
+						<li>
+							<a href="{{'feed.xml' | relative_url }}" target="_new">
+								<i class="fa fa-rss"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
         </div>
-    </div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+			Copyright © 2020 Vudu Reverso Tudo nessa porra é reservado
+		</div>
+	  </div>
     
 </footer>

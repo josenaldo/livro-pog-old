@@ -6,7 +6,7 @@ category: novidades
 author: Vudu Reverso
 image: 2020-04-17-inicio-da-gambiarra.jpg
 ---
-**Saudações, ruma de POGramador!**
+**Saudações, ruma de POGramadores!**
 
 Esse post marca o início desse que será o grande projeto de minha vida, meu grande legado, a herança que envergonhará meus descendentes e causará desconforto na família: um livro sobre Programação Orientada a Gambiarras.
 <!--more-->
