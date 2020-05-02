@@ -12,7 +12,7 @@ Quando procuramos definir a primeira POG da história, a maior dificuldade está
 
 Uma outra dificuldade são as lendas que espalham desinformação.
 
-{% quote Cabessa2020 %}
+{% quote Cabeca2020 %}
 Qualquer afirmação suficientemente convicta é indistinguível da verdade.
 {% endquote %}
 
