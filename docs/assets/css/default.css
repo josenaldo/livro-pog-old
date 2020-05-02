@@ -42,12 +42,18 @@ body {
     font-weight: bolder; }
 
 .page-footer {
-  padding: 3em 0;
+  padding: 3em 0 0 0;
   text-align: center; }
   .page-footer .social-title {
     color: #FFFFFF;
     font-weight: bold;
     font-size: 1.5em; }
+  .page-footer .social-link {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1em; }
+    .page-footer .social-link a {
+      color: #FFFFFF; }
   .page-footer .social ul {
     list-style-type: none;
     margin: 0;

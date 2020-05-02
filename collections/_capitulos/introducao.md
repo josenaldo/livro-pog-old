@@ -21,6 +21,7 @@ Durante a leitura deste tomo sagrado, sua mente passará pela POGramação Neuro
 O livro é dividido em 3 partes.
 
 {: .browser-default }
+
 * Conceitos
 * Técnicas
 * Gambi Design Patterns
@@ -29,7 +30,7 @@ Na primeira parte desse livro, **"Conceitos"** iremos viajar pelos conceitos lig
 
 O que é um POGramador? O que é uma Gambiarra? Quais o requisitos que um ambiente deve atender para que a Gambiarra floresça? Quais princípios um POGramador deve ter marcado no âmago de seu ser?
 
-Na seguna parte, **Técnicas**, conheceremos as (rufem os tambores!) técnicas que constam do arsenal de um POGramador.
+Na segunda parte, **Técnicas**, conheceremos as (rufem os tambores!) técnicas que constam do arsenal de um POGramador.
 
 Por fim, veremos a aplicação dessas técnicas na terceira parte, **Gambi Design Patterns**, que é um catálogo dos principais padrões de projeto da desgracença.
 

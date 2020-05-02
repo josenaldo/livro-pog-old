@@ -46,6 +46,7 @@ ou
 pkill -u jekyll
 ```
 
+### Configurando o Git
 
 git config --global user.email "josenaldo@gmail.com"
 git config --global user.name "Josenaldo de Oliveira Matos Filho"
