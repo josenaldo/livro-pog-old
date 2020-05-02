@@ -1,19 +1,39 @@
 ---
 title: História da POG
-description: Como assim um papa foi o primeiro pogramador da história?
+description: Como assim um papa foi o primeiro POGramador da história?
 sentence: O Papa é POG
 sentence-author: Engenheiros do Hawaii sobre POG
 order_number: 3000
 date: 2020-04-16 00:02
+image: capitulos/historia.jpg
 ---
 
-A primeira POG da história foi criada pelo Paga Gregório XIII
+Quando procuramos definir a primeira POG da história, a maior dificuldade está no fato de que o bom POGramador não deixa rastros de seus méritos, pois POGramador não usa comentários(a não ser que sejam inúteis).
 
-* Nosso calendário: 365 dias
+Uma outra dificuldade são as lendas que espalham desinformação.
+
+{% quote Cabessa2020 %}
+Qualquer afirmação suficientemente convicta é indistinguível da verdade.
+{% endquote %}
+
+Uma dessas lendas diz que a primeira POG foi criada pelo Papa Gregório XIII[^fn-romanos].
+
+* Dias no calendário Gregoriano: 365 dias
 * Translação da Terra: 365,25
 * Problema: 6 Horas a mais por ano!
 * Resolução: um dia a mais a cada 4 anos
 
-29 DE FEVEREIRO – DIA INTERNACIONAL DA POG
+Assim, afirmam que o Papa Gregório XIII foi o criador do Ano Bissexto. Mas isso é um erro!
 
-A Programação Orientada a Gambiarras foi uma evolução natural do uso do Programa Bacalhau, também conhecido como ATND – “Artifício Técnico Não Documentado” ( na Química, também conhecido como MTEDM – “Manutenção Técnica com Elementos Disponíveis no Momento” e na Engenharia Civil como STCT – “Solução Técnica de Cunho Temporário”, nome pouco apropriado, uma vez que, todos sabemos, as soluções se tornam permanentes), dos anos 1960–1980, e vem de uma antiga expressão brasileira: “Para quem é, bacalhau basta” (época em que o peixe seco ainda era barato). Programadores e analistas mais preocupados em usar buzzwords costumam utilizar o termo workaround para impor respeito.
+É óbvio que um POGramador experiente é capitalista com os méritos, socialista com os erros e autoritário com a culpa. Mas o Gregório nem sequer tentou assumir a autoria desse projeto!
+
+O ano bissexto foi introduzido no Calendário Juliano, criado pelo imperador romano Júlio César, em 46 a.C., e deveria ocorrer de 4 em 4 anos.
+
+Somente em 24 de Fevereiro de 1582 é que Gregório XIII criou o Calendário Gregoriano, se sobrepondo ao Calendário Juliano.
+
+Portanto, se considerarmos o Ano Bissexto com a primeira POG, seria Júlio César o primeiro POGramador.
+
+Devido a essa confusão, que atribui os mérito da criação do Ano Bissexto ao Papa Gregório XIII, é que ele é considerado o Padroeiro dos POGramadores e, no dia 29 de Fevereiro, é comemorado o Dia Internacional da POG.
+
+---
+[^fn-romanos]: Em minha opinião, o próprio sistema de numeração romano é uma grande POG. "Julius, precisamos de símbolos para os números", disse César. "Que nada, César. Usa letra mesmo, que vai dar menos trabalho. Lá na frente, alguém troca".
