@@ -4,7 +4,7 @@ title: O Início da gambiarra
 date: 2020-04-17 02:52:00 -0300
 category: novidades
 author: Vudu Reverso
-image: 2020-04-17-inicio-da-gambiarra.jpg
+image: /assets/images/posts/2020-04-17-inicio-da-gambiarra.jpg
 ---
 **Saudações, ruma de POGramadores!**
 

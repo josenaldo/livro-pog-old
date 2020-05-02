@@ -9,7 +9,7 @@ layout: default
     {% endif%}
 
     <div class="z-depth-1 center-align cover"
-        style="background-image: url('{{imagem_do_post | prepend:'assets/images/' | relative_url}}'); background-repeat: no-repeat, repeat;">
+        style="background-image: url('{{imagem_do_post | relative_url}}'); background-repeat: no-repeat, repeat;">
         <div class="{{ site.css }} darken-4 filter">
             <div class="cover-text white-text text-darken-4">
                 <h1>{{page.title}}</h1>

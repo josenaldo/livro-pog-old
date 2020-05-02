@@ -4,7 +4,7 @@ title: A História da POG precisa de sua ajuda
 date: 2020-05-02 07:23:00 -0300
 category: novidades
 author: Vudu Reverso
-image: 2020-05-02-me-ajudem-com-a-historia-da-pog.jpg
+image: /assets/images/posts/2020-05-02-me-ajudem-com-a-historia-da-pog.jpg
 ---
 
 **Saudações, ruma de Faz Deploy por FTP!**

@@ -4,7 +4,7 @@ description: Porque é importante compreendermos o conceito de Programação Ori
 sentence: A culpa é do Hardware!
 sentence-author: Desenvolvedor de software sobre POG
 order_number: 2000
-image: capitulos/o-que-e-pog.jpg
+image: /assets/images/capitulos/o-que-e-pog.jpg
 date: 2020-04-16 00:01
 ---
 

@@ -5,7 +5,7 @@ sentence: Esta é a solução ótima, não temos tempo para isso. Faça a soluç
 sentence-author: Líder de Projeto sobre POG
 order_number: 1000
 date: 2020-04-16 00:00
-image: capitulos/introducao.jpg
+image: /assets/images/capitulos/introducao.jpg
 ---
 
 **Saudações, ruma de POGramador!**

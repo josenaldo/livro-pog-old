@@ -4,7 +4,7 @@ title: Primeiros capítulos
 date: 2020-04-24 20:21:00 -0300
 category: novidades
 author: Vudu Reverso
-image: 2020-04-24-primeiros-capitulos.jpg
+image: /assets/images/posts/2020-04-24-primeiros-capitulos.jpg
 ---
 **Saudações, ruma de POGramadores!**
 
