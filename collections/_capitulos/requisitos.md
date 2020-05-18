@@ -171,7 +171,7 @@ Portanto, ao criar seus sistemas, torne a arquitetura dele o mais rígida que co
 
 ## Dimensão Estrutural
 
-Mesmo que a tecnologia empregada esteja em consonância com as almas imaculadas e gentis dos participantes do projeto, ainda temos Requisitos que podem encarnar na forma de problemas concernentes à estrutura que abriga os profissionais. Os problemas da Dimensão Estrutural aparecem, dentre muitas, nas seguintes formas:
+<!-- Mesmo que a tecnologia empregada esteja em consonância com as almas imaculadas e gentis dos participantes do projeto, ainda temos Requisitos que podem encarnar na forma de problemas concernentes à estrutura que abriga os profissionais. Os problemas da Dimensão Estrutural aparecem, dentre muitas, nas seguintes formas: -->
 
 ### Cafeína Ausente
 
@@ -185,7 +185,7 @@ Mesmo que a tecnologia empregada esteja em consonância com as almas imaculadas 
 
 ## Dimensão Processual
 
-A Dimensão Processual engloba os requisitos que são satisfeitos e documentados através dos processos escolhidos pela empresa por puro sadismo.
+<!-- A Dimensão Processual engloba os requisitos que são satisfeitos e documentados através dos processos escolhidos pela empresa por puro sadismo. -->
 
 ### Prazos suicidas
 
@@ -201,11 +201,11 @@ A Dimensão Processual engloba os requisitos que são satisfeitos e documentados
 
 ### Convivência com a Codinga
 
-Na comunicação verbal catinga + codigo = codinga
+<!-- Na comunicação verbal catinga + codigo = codinga -->
 
 ### Débito Técnico
 
-* Débito técnico como medida de POG
+<!-- * Débito técnico como medida de POG
   Imprudente intencional: “Sabemos do problemas mas não vamos resolver!”
 Imprudente não intencional: “Trabalhar com uma nova linguagem de programação”
 Consciente intencional: “Temos um prazo X, precisamos entregar com esse problemas, depois corrigimos”
@@ -213,7 +213,7 @@ Consciente não intencional: “Agora que entregamos o projeto sabemos como deve
 
 * É inevitável, ela sempre vai existir
 * Se não for pago, o débito tende a aumentar com o tempo
-* É “subjetivo”
+* É “subjetivo” -->
 
 ## Dimensão Temporal
 
@@ -229,10 +229,10 @@ Consciente não intencional: “Agora que entregamos o projeto sabemos como deve
 
 #### Fim de semana
 
-
+<!-- 
 Regra do escoteiro:  “sempre deixar o código um pouco melhor do que ele estava quando começou a mexer”.
 
-Regra do escoteiro maldito?  “sempre deixar o código um pouco pior do que ele estava quando começou a mexer”.
+Regra do escoteiro maldito?  “sempre deixar o código um pouco pior do que ele estava quando começou a mexer”. -->
 
 ---
 [^fn-artefardo]: Um artefardo é um artefato que cria, para a equipe, um fardo extra. Dessa forma, um artefardo é um ativo valioso para o POGramador, pois exige desse mais trabalho, o que ajuda a manter seu emprego.
