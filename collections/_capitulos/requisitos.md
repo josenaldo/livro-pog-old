@@ -203,7 +203,7 @@ E o que acontece quando um Gerente Sem Noção resolve "economizar" no café?
 
 A POG vem. E vem com força.
 
-Cérebros descafeinados tentem a procurar (no Google) a solução mais fácil (Starckoverflow) para um problema. E acabam adotando a primeira pog que encontram.
+Cérebros descafeinados tendem a procurar (no Google) a solução mais fácil (Starckoverflow) para um problema. E acabam adotando a primeira pog que encontram.
 
 Além disso, por estarem com seus pensamentos se movendo no mesmo ritmo dos civis, os POGramadores se tornam mais suscetíveis aos Intrometidos Ineptos, que, curiosamente, aparecem com mais frequência nesses momentos.
 
@@ -211,7 +211,31 @@ Curiosamente, a cafeína em excesso (conceito cientificamente controverso, já q
 
 ### Trono da Tortura
 
+Trabalhar já é uma atividade deprimente. Quem, em sã consciência, diz que ama trabalhar quando poderia estar fazendo atividades mais lúdicas, como cuidar de uma fazenda virtual, quebrar pedras coloridas ou combater demônios, em pleno inferno, com uma metralhadora do tamanho de seu complexo de inferioridade?
+
+Mas nós precisamos trabalhar. Vivemos no capitalismo e, a não ser que você seja um privilegiado que não precisa pagar suas próprias contas, é necessário fazer programa por dinheiro.
+
+O trabalho do POGramador é resolver problemas. E, pra cada problema resolvido, ele precisa criar pelo menos mais dois. É parte do jogo. Mas pessoas confortáveis tendem a resolver mais problemas do que criam. Isso é ruim para os negócios.
+
+Para resolver este problema (e criar mais), o Gerente Sem Noção inteligente sabe que sacrifícios devem ser feitos. No caso, o sacrifício da coluna do POGramador. É por isso que sua cadeira, essa onde você está sentado agora, é um lixo.
+
+Esse instrumento de tortura, abandonado pela santa inquisição por ser demasiado desumano, é a primeira escolha de uma empresa que deseja manter alta taxa de geração pogacional.
+
+Observe só os gamers. Observe eles, em suas cadeiras estilosas e confortáveis, algumas equipadas até com vão centrar para instalação de um shit bucket (não procure no Google). O que eles fazem o dia inteiro? RESOLVEM PROBLEMAS!
+
+Eles salvam planetas de tiranos, ajudam encanadores a resgatar princesas das mãos de calangos anabolizados, vencem, pela milésima vez, a guerra contras os nazistas (coisa que nós, humanos normais, ainda falhamos em fazer) e ainda encontram tempo para roubar, matar, espancar pessoas e atropelar velhinhas inocentes em cidades fictícias. Tudo isso sentado!
+
+É óbvio, portanto, uma equipe detentora de um aparato portador de busanfas de alta qualidade é incapaz de manter o fluxo problemático tão necessário à manutenção da lucratividade corporativa.
+
+Boas cadeiras só servem pra tornar POGramadores em programadores. E não é isso que nós queremos, certo?
+
+Se não bastasse tudo isso, cada POGramador com problema na coluna é um consumidor voraz de medicamentos e, em casos mais graves, consultas médicas e a profissionais de procedência duvidosa. Imagine toda essa gente desempregada e desamparada, apenas porque alguém resolveu que quer se sentar confortavelmente.
+
+Cadeira ruim é dinheiro pra todos!
+
 ### Automação Capenga
+
+
 
 ### Poluição Sonora
 
