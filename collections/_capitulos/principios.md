@@ -37,3 +37,4 @@ date: 2020-04-16 00:04
   * Se alguém já usou uma solução, faça diferente.
 * Simplicidade Indolente
   * Se tá funcionando sem isso, pra que colocar?
+* SHIT

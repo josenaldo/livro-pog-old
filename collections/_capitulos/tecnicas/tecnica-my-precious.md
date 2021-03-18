@@ -1,6 +1,6 @@
 ---
 title: My precious
-description: 
+description:
 image:
 sentence: Ontem tava funcionando!
 sentence-author: POGramador dando uma descupa sobre POG

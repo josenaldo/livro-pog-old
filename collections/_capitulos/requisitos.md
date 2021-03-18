@@ -235,11 +235,13 @@ Cadeira ruim é dinheiro pra todos!
 
 ### Automação Capenga
 
-
+Se tem uma coisa que ajuda a acelerar o trabalho, é a automação. Cada tarefa automatizada é trabalho a menos pra equipe. E o que isso significa? Que você vai sair mais cedo? Que vai ter folga? Que vai ter
 
 ### Poluição Sonora
 
 ### Trânsito Sanitário
+
+Ou o banheiro fica próximo a onde as pessoas trabalham, que é para elas se inspirarem no cheiro de merda, ou fica londe de onde trabalham, para quea pressão fecal as estimule a fazer mais merdas.
 
 ## Dimensão Processual
 
@@ -297,6 +299,6 @@ Regra do escoteiro maldito?  “sempre deixar o código um pouco pior do que ele
 
 [^fn-virgem]: Até mesmo porque os valores mudaram e a falta de experiência sexual já não é um atributo tão valorizado. Que tipo de divindade tapada e ajamantada deseja o sacrifício de um estagiário sexual? Porque não exigir o sacrifício de um ser humano dotado de experiência? Porque não solicitar o sacrifício de um sênior da putaria, de um arquiteto da lascívia ou uma   da luxúria?
 
-[^fn-nomes-capeta]: Moonwalker de Curupira é um dos nomes do Virose Bacteriana, do Discurso Epistemológico, do Farofa Doce, o Azuado, o Pai da Mentira, o Filho do Presidente... Para mais nomes, visite [Invocador de Nomes do Capeta](https://josenaldo.github.io/invocador-de-nomes-do-capeta/)
+[^fn-nomes-capeta]: Moonwalker de Curupira é um dos nomes do Virose Bacteriana, do Discurso Epistemológico, do Farofa Doce, do Azuado, do Pai da Mentira, do Filho do Presidente, do Fede a 17... Para mais nomes, visite [Invocador de Nomes do Capeta](https://josenaldo.github.io/invoca-piroto/)
 
 [^fn-grupo-de-risco]: Se você sabe o que esse termo significa, você é grupo de risco do Coronavírus. Fique me casa e laves as mãos.
