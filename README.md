@@ -11,8 +11,12 @@ docker build -t livro-pog .
 ### Execução do contêiner
 
 ```shell
-docker run --rm -it -v "/d/repositorios/livro-pog:/srv/jekyll" -v "/d/repositorios/livro-pog/vendor/bundle:/usr/local/bundle" -p 4000:4000 -p 35729:35729 --name livro-pog livro-pog bash
+docker run --rm -it -v "d:\repositorios\livro-pog:/srv/jekyll" -v "d:\repositorios\livro-pog\vendor\bundle:/usr/local/bundle" -p 4000:4000 -p 35729:35729 --name livro-pog livro-pog bash
 ```
+
+Se, após a execução desse comando, ocorrer algum problema com o docker em relação a diretórios já existente, atualize o docker e reinicie a máquina.
+
+Talvez, reiniciar o docker-machine ou o próprio docker funcione. Teste essa hipótese.
 
 ### Pra executar o servidor de desenvolvimento
 

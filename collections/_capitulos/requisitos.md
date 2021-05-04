@@ -21,7 +21,7 @@ Os Requisitos da POG podem ser classificados em diversas categorias, de acordo c
 
 Durante milhares de anos, a humanidade encarou o mundo em 3 dimensões: largura, altura e profundidade. A ciência do século XX e a ficção científica acabaram por nos desvelar a possibilidade encararmos a realidade pelo prisma de mais dimensões. Agora, tempo é uma dimensão. Alguns modelos que explicam a realidade apontam a existência de até 11 dimensões!
 
-Podemos, portanto, utilizar o conceito e dimensões como uma forma de classificar e melhor compreender cada um desses requisitos. E porque o conceito de dimensões? Porque fica muito mais estiloso, óbvio! Se a ciência e a realidade não concordam com minha noção de estilo, elas duas que se corrijam!
+Podemos, portanto, utilizar o conceito de dimensões como uma forma de classificar e melhor compreender cada um desses requisitos. E porque o conceito de dimensões? Porque fica muito mais estiloso, óbvio! Se a ciência e a realidade não concordam com minha noção de estilo, elas duas que lutem!
 
 Vejamos, portanto, quais são os Requisitos da POG, de acordo com cada uma das dimensões.
 
@@ -53,7 +53,7 @@ Esse profissional costuma ser um grande invocador de pogs da equipe, o que acaba
 
 ### Arquiteto MacGyver
 
-Numa equipe POG, ou mesmo em uma empresa usuária de POG, existe uma figura mítica: o Arquiteto MacGyver.
+Numa equipe POG, ou mesmo em uma empresa usuária de POG, é muito comum a existência de uma figura mítica: o Arquiteto MacGyver.
 
 Esse profissional ostenta capacidades excepcionais de produção de sistemas em tempo recorde, com mínimos recursos. Dê a ele 2 dias e uma garrafa de café, e ele volta com um ERP completo.
 
@@ -79,19 +79,19 @@ O Cliente Corrosivo é a entidade que paga por duas coisas: pelo projeto e pelo 
 
 Dentre os comportamentos nocivos deste cliente, temos:
 
-* Interferir, a todo momento, nas tarefas da equipe, passando por cima da autoridade de todos os idiotas que ele está pagando para comandar essa equipe.
-* Fazer solicitações impossíveis, a essa mesma equipe, ignorando o aviso dos imbecis que ele contratou para avisá-lo sobre solicitações impossíveis e pedidos impraticáveis.
-* Esquecer acordos que ele mesmo aceitou e quebrar contratos que ele mesmo assinou.
-* Ignorar parâmetros de completude de tarefas que ele mesmo estabeleceu
-* Voltar atrás na palavra que ele mesmo deu.
-* Pedir mudanças fora do escopo que ele mesmo aprovou.
-* Ignorar o fato de que a equipe que ele contratou é formada de criaturas da espécie humana e não de robôs. Essas criaturas têm necessidades importantes que devem ser plenamente satisfeitas, tais como sono, fome, sede, cansaço e desejo homicida de atirar pedras de granito, que pesam 5kg cada, na cabeça do cliente.
+- Interferir, a todo momento, nas tarefas da equipe, passando por cima da autoridade de todos os idiotas que ele está pagando para comandar essa equipe.
+- Fazer solicitações impossíveis e pedidos impraticáveis, a essa mesma equipe, ignorando o aviso dos imbecis que ele contratou para avisá-lo sobre solicitações impossíveis e pedidos impraticáveis.
+- Esquecer acordos que ele mesmo aceitou e quebrar contratos que ele mesmo assinou.
+- Ignorar parâmetros de completude de tarefas que ele mesmo estabeleceu.
+- Voltar atrás na palavra que ele mesmo deu.
+- Pedir mudanças fora do escopo que ele mesmo aprovou.
+- Ignorar o fato de que a equipe que ele contratou é formada de criaturas da espécie humana e não de robôs. Essas criaturas têm necessidades importantes que devem ser plenamente satisfeitas, tais como sono, fome, sede, cansaço e desejo homicida de atirar pedras de granito, que pesam 5kg cada, na cabeça do cliente.
 
-O Cliente Corrosivo tem esse nome porque sua atuação no projeto é semelhante a de um ácido, corroendo até mesmo o melhor dos materiais e transformando uma boa equipe em aterro sanitário de boas ideias capaz de produzir o mais puro suco de chorume em forma de código POG.
+O Cliente Corrosivo tem esse nome porque sua atuação no projeto é semelhante a de um ácido, corroendo até mesmo o melhor dos materiais e transformando uma boa equipe em aterro sanitário de boas ideias, capaz de produzir o mais puro suco de chorume em forma de código POG.
 
 ### Usuário Abrasivo
 
-Ainda que o cliente não seja corrosivo, seu séquito de lacaios, os usuários abrasivos, podem contribuir para criar um ambiente mais propício ao aparecimento de POG.
+Ainda que o cliente não seja corrosivo, seu séquito de lacaios, os usuários abrasivos, podem contribuir para criar um ambiente propício ao aparecimento de POG.
 
 O Usuário Abrasivo é aquele usuário que não tem poder de decisão sobre o andamento do projeto, mas tem o poder de atravancar e atrapalhar o desenvolvimento deste. Algumas vezes ele age como se sua vida estivesse ameaçada por este projeto (e às vezes ele está certo). Em outras, ele simplesmente se recusa a fazer o que tem de fazer.
 
@@ -109,7 +109,7 @@ Pra completar a corte enviada pelo Estraga Suruba[^fn-nomes-capeta], temos o Int
 
 O Intrometido Inepto costuma colaborar na criação de pogs ao colocar ideias perniciosas nas mentes de tomadores de decisões despreparados para lidar com essa influência danosa.
 
-É esse filho do Chinelo Emborcado[^fn-nomes-capeta] que planta, na mente fértil do gerente sem noção, a ideia de que seria muito útil se o sistema financeiro tivesse uma funcionalidade de geração aleatória de nomes do capeta no campo de nomes dos fornecedores.
+É esse filho do Chinelo Emborcado[^fn-nomes-capeta] que planta, na mente fértil do Gerente Sem Noção, a ideia de que seria muito útil se o sistema financeiro tivesse uma funcionalidade de geração aleatória de nomes do capeta no campo de nomes dos fornecedores.
 
 É esse Torresmo de Prepúcio[^fn-nomes-capeta] que, num ato de covardia e prazer pelo sofrimento alheio, convence o cliente de que o sistema precisa ter a capacidade de enviar emails através de pombos-correio, caso a internet caia.
 
@@ -127,9 +127,9 @@ Temos, portanto, as seguintes aparições que, quando presentes, trazem à equip
 
 ### Tecnologia Inadequada
 
-Ah, a beleza da tecnologia. Milhares de anos de esforço científico, milhões de horas de trabalho aplicadas com o intuito de facilitar o trabalho humano, o ápice do conhecimento encarnado em forma de técnica e o que a equipe escolhe para cortar um pão? Um martelo.
+Ah, a beleza da tecnologia. Milhares de anos de esforço científico, milhões de horas de trabalho aplicadas com o intuito de facilitar o trabalho humano. O ápice do conhecimento encarnado em forma de técnica. E o que a equipe escolhe para cortar um pão? Um martelo.
 
-Isso mesmo. Um martelo. Um maldito martelo.
+Isso mesmo. Um martelo. Um maldito martelo!
 
 Para quem só sabe usar martelo, todo problema é prego.
 
@@ -169,7 +169,7 @@ Olhe para o colega ao seu lado. Se ele faz uso desse tipo de técnica, ele é um
 
 Flexibilidade real é a capacidade que seu software tem de ser usado para outras situações, mas com SUA intervenção. Num ambiente de flexibilidade saudável, você pode pegar seu sistema de controle de vídeo locadora[^fn-grupo-de-risco] e, com SUAS adaptações (obviamente em formato de pogs), transformar essa pequena pérola da engenharia humana em um sistema de controle hospitalar! Assim, você transforma em oportunidade o produto da Obsolescência Adquirida e ainda se utiliza do princípio da Enjambração para economizar tempo e lucrar!
 
-Portanto, ao criar seus sistemas, torne a arquitetura dele o mais rígida que conseguir, para impedir outros de roubarem seu trabalho, mas não flexível o suficiente para que você possa adaptar esse sistema a uma situação completamente adversa da original, com mais gambiarras! Lembre-se: quanto mais gambiarra, mais emprego!
+Portanto, ao criar seus sistemas, torne a arquitetura dele o mais rígida que conseguir, para impedir outros de roubarem seu trabalho, mas flexível o suficiente para que você possa adaptar esse sistema a uma situação completamente adversa da original, com mais gambiarras! Lembre-se: quanto mais gambiarra, mais emprego!
 
 ### Projeto Malamanhado
 
@@ -179,7 +179,7 @@ Esse era o momento em que o regimento da empresa deveria deixar claro que permit
 
 Esse arquiteto traíra está criando uma armadilha com o único intuito de alavancar a própria carreira e mudar de empresa. E, enquanto ele sai pra se esbaldar com sua nova proposta salarial indecente, larga essa Equipe Apática com um projeto super bem estruturado... que ninguém sabe mexer.
 
-Um Projeto Malamanhado tem o seu valor. Ele é democrático. Todo mundo consegue pogar nele, desde o Arquiteto até aquele estagiário que tem tanta concentração alcoólica no sangue que poderia entrar em combustão espontânea!
+Um Projeto Malamanhado tem o seu valor. Ele é democrático. Todo mundo consegue pogar nele, desde o Programador Supervalorizado frequentador de reuniões sexuais de segurança duvidosa até aquele estagiário que tem tanta concentração alcoólica no sangue que poderia entrar em combustão espontânea!
 
 Pra que padrões de projetos? Para que usar guia de estilo? Pra que criar uma arquitetura? Deixem que seu código simplesmente surja das mentes de cada membro da equipe, e vão integrando tudo à medida que é necessário (e possível). Um bom projeto POG vê seu código se espalhar e crescer, não como um arranha-céu, mas como os tentáculos de Cthulhu invadindo nossa dimensão para roubar nossas almas!
 
@@ -197,7 +197,7 @@ O santo néctar dos deuses, o combustível da invocação codística, o puro sum
 
 Este estimulante saudável (principalmente se tomado em doses que fariam um elefante voar propelido pela tromba) é o combustível que nosso cérebro usa para transformar ideias em código. Esqueça tudo o que já te disseram sobre glicose, ATP, PQP ou VSF. É a cafeína que vai virar código.
 
-A cafeína assume várias formas. As mais comuns são o café (a mais tradicional), o chá (quase ninguém relevante para o código toma), ou em forma de refrigerante escuro que não mencionarei o nome porque não esta me pagando.
+A cafeína assume várias formas. As mais comuns são o café (a mais tradicional), o chá (quase ninguém relevante para o código toma), ou em forma de refrigerante escuro que não mencionarei o nome porque não esta me pagando (#paganois).
 
 E o que acontece quando um Gerente Sem Noção resolve "economizar" no café?
 
@@ -235,7 +235,15 @@ Cadeira ruim é dinheiro pra todos!
 
 ### Automação Capenga
 
-Se tem uma coisa que ajuda a acelerar o trabalho, é a automação. Cada tarefa automatizada é trabalho a menos pra equipe. E o que isso significa? Que você vai sair mais cedo? Que vai ter folga? Que vai ter
+Se tem uma coisa que ajuda a acelerar o trabalho, é a automação. Cada tarefa automatizada é trabalho a menos pra equipe. E o que isso significa? Que você vai sair mais cedo? Que vai ter folga? Que vai ter mais dinheiro no bolso?
+
+Não. Significa que você terá menos trabalho. E menos trabalho é igual a menos emprego.
+
+Uma automação bem feita, além de diminuir o seu trabalho, diminui sensivelmente a taxa de erros, gerados pela equipe devido à execução repetida de tarefas complexas. E isso é muito ruim, pois elimina uma importante fonte geradora de pogs espontâneos.
+
+Como resolver isso? Não automatizando, óbvio. E, se for necessário automatizar, faça com que a execução dessa automação seja tão ou mais complexa que o próprio processo que foi automatizado.
+
+Dessa forma, ao executar um processo capengamente automatizado, podemos continuar inserindo, aleatoriamente, erros no ambiente, de forma a estimular a criação de pogs para a resolução desses erros.
 
 ### Poluição Sonora
 
@@ -297,7 +305,7 @@ Regra do escoteiro maldito?  “sempre deixar o código um pouco pior do que ele
 ---
 [^fn-artefardo]: Um artefardo é um artefato que cria, para a equipe, um fardo extra. Dessa forma, um artefardo é um ativo valioso para o POGramador, pois exige desse mais trabalho, o que ajuda a manter seu emprego.
 
-[^fn-virgem]: Até mesmo porque os valores mudaram e a falta de experiência sexual já não é um atributo tão valorizado. Que tipo de divindade tapada e ajamantada deseja o sacrifício de um estagiário sexual? Porque não exigir o sacrifício de um ser humano dotado de experiência? Porque não solicitar o sacrifício de um sênior da putaria, de um arquiteto da lascívia ou uma   da luxúria?
+[^fn-virgem]: Até mesmo porque os valores mudaram e a falta de experiência sexual já não é um atributo tão valorizado. Que tipo de divindade tapada e ajamantada deseja o sacrifício de um estagiário sexual? Porque não exigir o sacrifício de um ser humano dotado de experiência? Porque não solicitar o sacrifício de um sênior da putaria, de um arquiteto da lascívia ou uma diretora da luxúria?
 
 [^fn-nomes-capeta]: Moonwalker de Curupira é um dos nomes do Virose Bacteriana, do Discurso Epistemológico, do Farofa Doce, do Azuado, do Pai da Mentira, do Filho do Presidente, do Fede a 17... Para mais nomes, visite [Invocador de Nomes do Capeta](https://josenaldo.github.io/invoca-piroto/)
 
