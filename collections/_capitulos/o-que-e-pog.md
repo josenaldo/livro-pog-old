@@ -2,7 +2,7 @@
 title: O que é POG?
 description: Porque é importante compreendermos o conceito de Programação Orientada a Gambiarra
 sentence: A culpa é do Hardware!
-sentence-author: Desenvolvedor de software sobre POG
+sentence-author: POGramador explicando porque o sistema POG não funciona
 order_number: 2000
 image: /assets/images/capitulos/o-que-e-pog.jpg
 date: 2020-04-16 00:01

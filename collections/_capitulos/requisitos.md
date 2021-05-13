@@ -249,7 +249,11 @@ Dessa forma, ao executar um processo capengamente automatizado, podemos continua
 
 ### Trânsito Sanitário
 
-Ou o banheiro fica próximo a onde as pessoas trabalham, que é para elas se inspirarem no cheiro de merda, ou fica londe de onde trabalham, para quea pressão fecal as estimule a fazer mais merdas.
+Apesar do que muitos empresários acreditam, os membros de uma equipe produtora de POGramas pertencem à espécie humana. O número de erros que eles cometem é a maior prova disso. Nem precisamos olhar o DNA.
+
+Como seres humanos, seus corpos possuem necessidades que devem ser adequadamente satisfeitas para que continuem funcionando adequadamente. Tá, não precisa ser tão adequado assim, apenas  : comer, beber, dormir, defecar, urinar e ingerir cafeína.
+
+Ou o banheiro fica próximo a onde as pessoas trabalham, que é para elas se inspirarem no cheiro de merda, ou fica londe de onde trabalham, para que a pressão fecal as estimule a fazer mais merdas.
 
 ## Dimensão Processual
 

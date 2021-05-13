@@ -2,8 +2,8 @@
 title: Db Is Our God
 description: 
 image: 
-sentence: É só um botão, o que pode dar errado?
-sentence-author: Gerente sem-noção sobre nova funcionalidade
+sentence: Se o sistema está lento é por causa do banco.
+sentence-author: POGramador tirando o dele da reta
 order_number: 30000
 date: 2020-04-16 00:29
 ---

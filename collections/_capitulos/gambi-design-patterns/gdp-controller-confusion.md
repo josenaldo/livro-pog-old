@@ -2,8 +2,8 @@
 title: Controller Confusion
 description: 
 image: 
-sentence: Não se preocupe, nenhum sistema "entra redondo". O importante agora é entrar em produção, depois consertamos os erros! 
-sentence-author: Gerente sem noção tentando acalmar desenvolvedor sobre projeto MOG com prazo estourado.
+sentence: Não se preocupe, nenhum sistema "entra redondo". O importante agora é entrar em produção, depois consertamos os erros!
+sentence-author: Gerente sem noção tentando acalmar desenvolvedor sobre projeto POG com prazo estourado.
 order_number: 28000
 date: 2020-04-16 00:27
 ---
