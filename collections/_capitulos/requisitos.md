@@ -117,6 +117,20 @@ O Intrometido Inepto costuma colaborar na criação de pogs ao colocar ideias pe
 
 Se você identificar um Intrometido Inepto junto aos tomadores de decisão associados ao seu projeto, a atitude mais correta e humana é capturar e entregar para o Ibama. Se isso não for possível, reze. Se for ateu, essa é uma boa hora pra adotar uma religião.
 
+## Dobrador de problemas
+
+Ao tratarmos da dimensão humana, não poderíamos deixar de mencionar um papel que pode ser assumido por qualquer um dos membros dessa pequena seita de invocação de calamidades digitais: o Dobrador de Problemas.
+
+Não se sabe qual fenômeno causa essa transfiguração na criatura humana. O que se sabe é que, em qualquer momento de um projeto, o espírito do Dobrador de Problemas pode encarnar em seu avatar (que poder ser qualquer um, mas quase sempre é o gerente) e esse passa controlar os problemas da equipe com toda destreza e graciosidade do Nariz Fora da Máscara[^fn-nomes-capeta] tentando causar um pequeno apocalipse.
+
+Tal qual um Jesus da Desgracença, o Dobrador de Problemas pega um pequeno empecilho pra resolver e, a partir desse minúsculo pedacinho de caos, ele gera um tufão de esmerdalhamento que multiplica e joga problemas pra todos os lados, fazendo o efeito Asa de Urubu parecer um folheto de igreja que mostra uma criança loira montando um leão vegano.
+
+Você dá um problema pra essa criatura desatinada resolver e, de repente, ela invocou um Tiamat de 37 cabeças. Era pra fazer um café. Uma mísera garrafa de café. Como isso gerou um prejuízo de 3 bilhões, para o cliente, 3 mil empregos perdidos (nenhum de POGramador) e uma crise diplomática com o Canadá? COMO INFERNO ALGUÉM CONSEGUE ARRUMAR UMA BRIGA COM O CANADÁ?
+
+Ninguém sabe. Mas agora o gerente exige a contratação de mais 18 POGramadores e nosso espírito de luz (de casa de prática de programação pélvica) pode retornar ao seu limbo, feliz pelos empregos criados e projetos extendidos, e aguardar a próxima vez que será sumonado.
+
+Quem será o próximo a ser possuído?[^fn-next-problem-bender]
+
 ## Dimensão Tecnológica
 
 Uma outra dimensão que afeta constantemente nossos projetos, adubando o jardim da desgracença para que a POG possa germinar com todo vigor, é a Dimensão Tecnológica.
@@ -247,6 +261,22 @@ Dessa forma, ao executar um processo capengamente automatizado, podemos continua
 
 ### Poluição Sonora
 
+De todos os requisitos necessários para a implementação de um ambiente saudável e propício a geração de pogs, a Poluição Sonora costuma ser um dos mais subestimados.
+
+É prática recorrente dos POGramadores o uso de fones de ouvidos. Muitos alegam que isso ajuda na concentração, mas a verdade é que eles estão apenas utilizando uma forma de manter outros seres humanos à distância. O fone de ouvido é o isolamento social antes de ser modinha.
+
+Acontece que POGramadores, isolados de outros POGramadores, perdem muito do seu potencial de gerar POGs! Além disso, o uso da música como isolante acústico ajuda o POGramador a entrar num estado de fluxo mental que pode fazer com que ele RESOLVA mais problemas do que consegue CRIAR, que é a função primordial dele.
+
+Dessa forma, faz-se necessário criar um ambiente em que o som da barafunda à sua volta consiga penetrar a barreira de proteção dada pelos fones[^fn-fones].
+
+Para atingir tão nobre objetivo, podemos usar de diversos artifícios, alguns permanentes e outros temporários. Lembre-se que a aleatoriedade do barulho ajuda a atrair a atenção do POGramador.
+
+Podemos fazer desde reuniões ruidosas, perto do ambiente de trabalho, até colocar um som ambiente com trilha sonora qualidade duvidosa em um volume agressivamente alto.
+
+Podemos implantar um funcionário, com o tom vocal de um feirante de novela da Globo, próximo à equipe. E podemos atingir um combo se esse funcionário for dotado de um telefone que toca mais que celular vazado no BatePapo do UOL.
+
+Telefones, aliás, pode ser uma arma extremamente eficiente para esse fim. Dê vários telefones para a equipe. Se possível, um pra cada POGramador. Agora, dê esses números para os clientes. Veja a POG fluir de seu projeto como a água flui nas cataratas do Iguaçu.
+
 ### Trânsito Sanitário
 
 Apesar do que muitos empresários acreditam, os membros de uma equipe produtora de POGramas pertencem à espécie humana. O número de erros que eles cometem é a maior prova disso. Nem precisamos olhar o DNA.
@@ -314,3 +344,7 @@ Regra do escoteiro maldito?  “sempre deixar o código um pouco pior do que ele
 [^fn-nomes-capeta]: Moonwalker de Curupira é um dos nomes do Virose Bacteriana, do Discurso Epistemológico, do Farofa Doce, do Azuado, do Pai da Mentira, do Filho do Presidente, do Fede a 17... Para mais nomes, visite [Invocador de Nomes do Capeta](https://josenaldo.github.io/invoca-piroto/)
 
 [^fn-grupo-de-risco]: Se você sabe o que esse termo significa, você é grupo de risco do Coronavírus. Fique me casa e laves as mãos.
+
+[^fn-next-problem-bender]: Certeza que é o gerente. É sempre o gerente.
+
+[^fn-fones]: Atenção: JAMAIS tire os fones de um POGramador. Isso desabilita qualquer parte do seu cérebro que controle a violência e torna o POGramador passível de comportamento bestial, semelhante a um felino acuado por alguém vestindo uma fantasia de gato de loja de fantasias baratas.
