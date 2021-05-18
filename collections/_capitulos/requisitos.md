@@ -117,7 +117,7 @@ O Intrometido Inepto costuma colaborar na criação de pogs ao colocar ideias pe
 
 Se você identificar um Intrometido Inepto junto aos tomadores de decisão associados ao seu projeto, a atitude mais correta e humana é capturar e entregar para o Ibama. Se isso não for possível, reze. Se for ateu, essa é uma boa hora pra adotar uma religião.
 
-## Dobrador de problemas
+### Dobrador de problemas
 
 Ao tratarmos da dimensão humana, não poderíamos deixar de mencionar um papel que pode ser assumido por qualquer um dos membros dessa pequena seita de invocação de calamidades digitais: o Dobrador de Problemas.
 
