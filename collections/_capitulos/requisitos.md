@@ -127,7 +127,7 @@ Tal qual um Jesus da Desgracença, o Dobrador de Problemas pega um pequeno empec
 
 Você dá um problema pra essa criatura desatinada resolver e, de repente, ela invocou um Tiamat de 37 cabeças. Era pra fazer um café. Uma mísera garrafa de café. Como isso gerou um prejuízo de 3 bilhões, para o cliente, 3 mil empregos perdidos (nenhum de POGramador) e uma crise diplomática com o Canadá? COMO INFERNO ALGUÉM CONSEGUE ARRUMAR UMA BRIGA COM O CANADÁ?
 
-Ninguém sabe. Mas agora o gerente exige a contratação de mais 18 POGramadores e nosso espírito de luz (de casa de prática de programação pélvica) pode retornar ao seu limbo, feliz pelos empregos criados e projetos extendidos, e aguardar a próxima vez que será sumonado.
+Ninguém sabe. Mas agora o gerente exige a contratação de mais 18 POGramadores e nosso espírito de luz (de cabaré) pode retornar ao seu limbo, feliz pelos empregos criados e projetos extendidos, e aguardar a próxima vez que será sumonado.
 
 Quem será o próximo a ser possuído?[^fn-next-problem-bender]
 
