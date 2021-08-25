@@ -89,6 +89,9 @@
 - [x] Claro que dá pra alterar essa configuração. É só mexer no código!
   - POGramador propondo uma POG ao gerente
   - Local: [gambi-design-patterns/gdp-mega-zord.md](collections/_capitulos/gambi-design-patterns/gdp-mega-zord.md)
+- [x] A Função ficou com 3000 linhas porque é impossível deixar ela menor
+  - Programador POG tentando se passar por expert
+  - Local: [gambi-design-patterns/gdp-snow-white-returns.md](collections/_capitulos/gambi-design-patterns/gdp-snow-white-returns.md)
 
 ## tecnicas
 
@@ -151,9 +154,6 @@
   - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
 - [ ] Dá um Build All que funciona!
   - Programador VB desesperado por não saber a procedência do erro
-  - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
-- [ ] A Função ficou com 3000 linhas porque é impossível deixar ela menor
-  - Programador POG tentando se passar por expert
   - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
 - [ ] Como não faz?! Tem que implementar, acabamos de vender o produto com isto.
   - Gerente de vendas de uma empresa qualquer
