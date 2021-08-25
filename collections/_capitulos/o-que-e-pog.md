@@ -76,7 +76,7 @@ O exemplo mais notório dessa regra é o acrônimo recursivo GNU, que significa 
 
 Mas existe um termo que merece uma explicação adicional, devido às suas peculiaridades: Marreta[^fn-marreta].
 
-#### Marreta
+### Marreta
 
 O termo "Marreta" é usado por quem associa o poder gambiarrizador à ferramenta Marreta, que é usada no lugar de um martelo. O POGramador também associa o poder gambiarrizante ao deus Thor, que resolvia tudo na base do martelo.
 
@@ -84,7 +84,7 @@ A origem do termo está no ditado "Pra quem só sabe usar martelo, todo problema
 
 Obviamente que podemos discutir o porquê de não se usar o termo "Martelo", mas o uso do termo correto associado ao ditado é uma incoerência gambiarrística! A própria utilização da marreta, no lugar do martelo, demonstra uma gambiarra verbal, o que fecha o ciclo lógico da gambiarra numa metagambiarra.
 
-#### Gambiarra em outras línguas
+### Gambiarra em outras línguas
 
 A gambiarra é um conceito universal. Não importa o país que você visite, sempre existe uma criatura abençoada alterando alguma coisa, de forma improvisada, para que um propósito não planejado seja atingido ou algum reparo desejado, mas impossível, seja tornado possível.
 
