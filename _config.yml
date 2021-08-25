@@ -57,13 +57,16 @@ safe: false
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# - .sass-cache/
+# - .jekyll-cache/
+# - gemfiles/
+# - Gemfile
+# - Gemfile.lock
+# - node_modules/
+# - vendor/bundle/
+# - vendor/cache/
+# - vendor/gems/
+# - vendor/ruby/
 permalink: pretty
 exclude: [vendor]
 
@@ -72,7 +75,7 @@ collections_dir: collections
 collections:
   capitulos:
     output: true
-    
+
 excerpt_separator: <!--more-->
 
 # Valores default
@@ -100,7 +103,7 @@ defaults:
 
 scholar:
   style: associacao-brasileira-de-normas-tecnicas
-  locale: pt-br
+  # locale: pt-br
   source: ./_bibliography
   bibliography: library.bib
   relative: /capitulos/referencias/
