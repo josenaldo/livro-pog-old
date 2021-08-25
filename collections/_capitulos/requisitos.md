@@ -281,9 +281,21 @@ Telefones, aliás, pode ser uma arma extremamente eficiente para esse fim. Dê v
 
 Apesar do que muitos empresários acreditam, os membros de uma equipe produtora de POGramas pertencem à espécie humana. O número de erros que eles cometem é a maior prova disso. Nem precisamos olhar o DNA.
 
-Como seres humanos, seus corpos possuem necessidades que devem ser adequadamente satisfeitas para que continuem funcionando adequadamente. Tá, não precisa ser tão adequado assim, apenas  : comer, beber, dormir, defecar, urinar e ingerir cafeína.
+Como seres humanos, seus corpos possuem necessidades que devem ser adequadamente satisfeitas para que continuem funcionando adequadamente. Tá, não precisa ser tão adequado assim. Se garantirmos o mínimo de alimentação, hidratação, excreção, sono, ingestão de cafeína e alimentação de ego com infantilidade no ambiente de trabalho, o POGramador será plenamente capaz de exercer as suas funções geradoras de lucro.
 
-Ou o banheiro fica próximo a onde as pessoas trabalham, que é para elas se inspirarem no cheiro de merda, ou fica londe de onde trabalham, para que a pressão fecal as estimule a fazer mais merdas.
+Dessas necessidades, devemos destacar a influência de uma sobre a produção individual de pogs: a necessidade de defecar.
+
+Desde a revolução industrial que o capitalismo tenta, a todo custo, controlar a necessidade que indivíduo tem de colocar pra fora o resto de sua alimentação. Tempo é dinheiro e funcionário no banheiro está ganhando pra defecar. Isso não é desejável.
+
+Contudo, um funcionário impedido de usar o banheiro pode se tornar um problema pra empresa. Uma pessoa forçadamente entupida é incapaz de produzir qualquer coisa que seja, até mesmo a mais sinistra POG. Além disso, uma empresa que venha a aderir a tais práticas pode ser mal vista pelo público, seja por uma denúncia às autoridades competentes, seja por um episódio se surto simiano em um programador de meia idade, que, tomado pelo ódio, passa a cagar na mão e a atirar merda nos clientes, funcionários e patrões. Isso não seria legal. Viralizaria, mas não seria legal.
+
+Como conciliar o atendimento a uma necessidade tão básica do ser humano com as necessidades de geração de POG da equipe?
+
+Use estrategicamente a lcoalização do sanitário!
+
+Ou o banheiro fica próximo a onde as pessoas trabalham, que é para elas se inspirarem no cheiro de merda, ou fica londe de onde trabalham, para que a preguiça as faça demorar mais pra ir ao banheiro, oque gera uma enorme pressão fecal que as estimule a fazer mais merdas no código.
+
+Seja inspiração interna ou externa, a posição do banheiro pode potencializar o nível de produção de sua equipe!
 
 ## Dimensão Processual
 
