@@ -1,35 +1,21 @@
----
----
 <!DOCTYPE html>
-
 <html>
+
 {% include head.html %}
 
-<body class="{{ site.css }} lighten-5">
+<body class="d-flex flex-column h-100">
 
-  {% include header.html %}
+  <main role="main" class="flex-shrink-0">
+    {% include navbar.html %}
 
-  <div class="hero-image">
-    <div class="hero-text white-text center">
-      <h1>Programação Orientada a Gambiarra</h1>
-      <h3 class="flow-text">Como garantir que o inferno seja uma amostra grátis do seu trabalho</p>
-      <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn" href="{{'capitulos' | relative_url}}">Começar a ler</a>
-    </div>
-  </div>
-
-  <div id="page-wrap">
-    <div id="main-content">
-      <div class="container">
-        <div class="wrapper {{ site.css }}-text text-darken-4">
-          {{ content }}
-        </div>
-      </div>
-    </div>
-  </div>
+    {{ content }}
+  </main>
 
   {% include footer.html %}
 
   {% include scripts.html %}
+
+  {% include gtag.html %}
 
 </body>
 

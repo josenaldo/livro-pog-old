@@ -1,0 +1,74 @@
+<header>
+    <nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-dark">
+
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="{{'/' | relative_url}}">
+                <img src="{{'/assets/images/logo/brand.png' | relative_url}}" alt="{{site.title}}">
+                POG
+            </a>
+
+            <!-- Navbar Toggler -->
+            <div class="bs-offset-main bs-canvas-anim">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" data-bs-scroll="false"
+                data-bs-backdrop="true" aria-labelledby="offcanvasNavbarLabel">
+
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="{{'/' | relative_url}}">
+                        <img src="{{'/assets/images/logo/brand.png' | relative_url}}" alt="{{site.title}}">
+                        POG
+                    </a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav text-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{'/' | relative_url}}">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{'noticias' | relative_url}}">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{'biografia' | relative_url}}">Biografia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{'pnd' | relative_url}}">PND</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{'videos' | relative_url}}">Vídeos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{'podcasts' | relative_url}}">Podcasts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{'movimentos' | relative_url}}">Movimentos de Apoio </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{'colaboradores' | relative_url}}">Colaboradores</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex py-2" action="{{ 'busca.html' | prepend: site.baseurl}}" method="get">
+                        <input class="form-control me-2"
+                            type="search"
+                            id="search-box"
+                            name="query"
+                            placeholder="Busca"
+                            aria-label="Busca">
+                        <button class="btn btn-outline-success" type="submit">Busca</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

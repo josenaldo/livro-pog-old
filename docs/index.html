@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Programação Orientada a Gambiarra</title>
     
-    <!-- Materialize CSS -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/materialize.min.css" media="screen,projection" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
+        integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
+        crossorigin="anonymous">
 
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/all.css">
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Defaul Aplication CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
     <!-- Katex CSS -->
     <link rel="stylesheet" type="text/css" href="/assets/css/katex.css">
-
-    <!-- Defaul Aplication CSS -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/default.css">
 
     <link rel="canonical" href="http://www.livropog.com.br//">
 
@@ -63,37 +66,85 @@
 
 
 
-<body class="blue-grey lighten-5">
+<body class="d-flex flex-column h-100">
 
-  <header class="site-header">
+  <main role="main" class="flex-shrink-0">
+    <header>
+    <nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-dark">
 
-    <div class="nav navbar-fixed">
-        <nav class="blue-grey darken-4">
-            <div class="nav-wrapper">
-                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
-                <a internal class="brand-logo waves-effect" href="/"> POG
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li>
-                        <a internal class="waves-effect" href="/">Home</a>
-                    </li>
-                    <li>
-                        <a internal class="waves-effect" href="/capitulos"> Capítulos</a>
-                    </li>
-                </ul>
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="/">
+                <img src="/assets/images/logo/brand.png" alt="Programação Orientada a Gambiarra">
+                POG
+            </a>
+
+            <!-- Navbar Toggler -->
+            <div class="bs-offset-main bs-canvas-anim">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-        </nav>
 
-    </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" data-bs-scroll="false"
+                data-bs-backdrop="true" aria-labelledby="offcanvasNavbarLabel">
 
-    <ul id="nav-mobile" class="sidenav">
-        <li><a internal class="waves-effect waves-light" href="/">Home</a></li>
-        <li><a internal class="waves-effect waves-light" href="/capitulos">Capítulos</a></li>
-    </ul>
+                <div class="offcanvas-header">
+                    <a class="navbar-brand" href="/">
+                        <img src="/assets/images/logo/brand.png" alt="Programação Orientada a Gambiarra">
+                        POG
+                    </a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav text-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/noticias">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/biografia">Biografia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pnd">PND</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/videos">Vídeos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/podcasts">Podcasts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/movimentos">Movimentos de Apoio </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/colaboradores">Colaboradores</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex py-2" action="/busca.html" method="get">
+                        <input class="form-control me-2"
+                            type="search"
+                            id="search-box"
+                            name="query"
+                            placeholder="Busca"
+                            aria-label="Busca">
+                        <button class="btn btn-outline-success" type="submit">Busca</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
 </header>
 
-
-  <div class="hero-image">
+    <div class="hero-image">
     <div class="hero-text white-text center">
       <h1>Programação Orientada a Gambiarra</h1>
       <h3 class="flow-text">Como garantir que o inferno seja uma amostra grátis do seu trabalho</p>
@@ -105,30 +156,30 @@
     <div id="main-content">
       <div class="container">
         <div class="wrapper blue-grey-text text-darken-4">
-          <div class="row">
-    <h2>Novidades</h2>
-</div>
-<div class="row">
-
-    
-    <div class="col s12">
-        <div class="card blue-grey-text darken-3 ">
-            
-
-            <div class="z-depth-1 center-align cover"
-                style="background-image: url('/assets/images/posts/2020-05-02-me-ajudem-com-a-historia-da-pog.jpg');background-repeat: no-repeat, repeat;">
-                <div class="blue-grey darken-4 filter">
-                    <div class="cover-text white-text text-darken-4">
-                        <h3>A História da POG precisa de sua ajuda</h3>
-                        <p class="post-meta">02/05/2020 •
-                            Vudu Reverso</p>
-                    </div>
-                </div>
+            <div class="row">
+                <h2>Novidades</h2>
             </div>
-
-            <div class="card-stacked">
-                <div class="card-content blue-grey-text text-darken-4">
-                    <p><p><strong>Saudações, ruma de Faz Deploy por FTP!</strong></p>
+            <div class="row">
+            
+                
+                <div class="col s12">
+                    <div class="card blue-grey-text darken-3 ">
+                        
+            
+                        <div class="z-depth-1 center-align cover"
+                            style="background-image: url('/assets/images/posts/2020-05-02-me-ajudem-com-a-historia-da-pog.jpg');background-repeat: no-repeat, repeat;">
+                            <div class="blue-grey darken-4 filter">
+                                <div class="cover-text white-text text-darken-4">
+                                    <h3>A História da POG precisa de sua ajuda</h3>
+                                    <p class="post-meta">02/05/2020 •
+                                        Vudu Reverso</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="card-stacked">
+                            <div class="card-content blue-grey-text text-darken-4">
+                                <p><p><strong>Saudações, ruma de Faz Deploy por FTP!</strong></p>
 
 <p>Acabou de surgir uma moda: o dev de palco.</p>
 
@@ -139,34 +190,34 @@
 <p>Agora, amigo POGramador, eu necessito de sua colaboração!</p>
 
 </p>
-                </div>
-                <div class="card-action">
-                    <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
-                        href="/novidades/2020/05/02/me-ajudem-com-a-historia-da-pog/">Ler artigo</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    
-    <div class="col s12">
-        <div class="card blue-grey-text darken-3 ">
-            
-
-            <div class="z-depth-1 center-align cover"
-                style="background-image: url('/assets/images/posts/2020-04-24-primeiros-capitulos.jpg');background-repeat: no-repeat, repeat;">
-                <div class="blue-grey darken-4 filter">
-                    <div class="cover-text white-text text-darken-4">
-                        <h3>Primeiros capítulos</h3>
-                        <p class="post-meta">24/04/2020 •
-                            Vudu Reverso</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
+                                    href="/novidades/2020/05/02/me-ajudem-com-a-historia-da-pog/">Ler artigo</a>
+                            </div>
+                        </div>
                     </div>
+            
                 </div>
-            </div>
-
-            <div class="card-stacked">
-                <div class="card-content blue-grey-text text-darken-4">
-                    <p><p><strong>Saudações, ruma de POGramadores!</strong></p>
+                
+                <div class="col s12">
+                    <div class="card blue-grey-text darken-3 ">
+                        
+            
+                        <div class="z-depth-1 center-align cover"
+                            style="background-image: url('/assets/images/posts/2020-04-24-primeiros-capitulos.jpg');background-repeat: no-repeat, repeat;">
+                            <div class="blue-grey darken-4 filter">
+                                <div class="cover-text white-text text-darken-4">
+                                    <h3>Primeiros capítulos</h3>
+                                    <p class="post-meta">24/04/2020 •
+                                        Vudu Reverso</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="card-stacked">
+                            <div class="card-content blue-grey-text text-darken-4">
+                                <p><p><strong>Saudações, ruma de POGramadores!</strong></p>
 
 <p>Aproveitando a pandemia pra desenvolver suas habilidades de POGramador jogando qualquer joguinho fuleiro que você goste?</p>
 
@@ -175,70 +226,74 @@
 <p>Porque desperdiças tua vida, cabrunco?</p>
 
 </p>
-                </div>
-                <div class="card-action">
-                    <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
-                        href="/novidades/2020/04/24/primeiros-capitulos/">Ler artigo</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    
-    <div class="col s12">
-        <div class="card blue-grey-text darken-3 ">
-            
-
-            <div class="z-depth-1 center-align cover"
-                style="background-image: url('/assets/images/posts/2020-04-17-inicio-da-gambiarra.jpg');background-repeat: no-repeat, repeat;">
-                <div class="blue-grey darken-4 filter">
-                    <div class="cover-text white-text text-darken-4">
-                        <h3>O Início da gambiarra</h3>
-                        <p class="post-meta">17/04/2020 •
-                            Vudu Reverso</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
+                                    href="/novidades/2020/04/24/primeiros-capitulos/">Ler artigo</a>
+                            </div>
+                        </div>
                     </div>
+            
                 </div>
-            </div>
-
-            <div class="card-stacked">
-                <div class="card-content blue-grey-text text-darken-4">
-                    <p><p><strong>Saudações, ruma de POGramadores!</strong></p>
+                
+                <div class="col s12">
+                    <div class="card blue-grey-text darken-3 ">
+                        
+            
+                        <div class="z-depth-1 center-align cover"
+                            style="background-image: url('/assets/images/posts/2020-04-17-inicio-da-gambiarra.jpg');background-repeat: no-repeat, repeat;">
+                            <div class="blue-grey darken-4 filter">
+                                <div class="cover-text white-text text-darken-4">
+                                    <h3>O Início da gambiarra</h3>
+                                    <p class="post-meta">17/04/2020 •
+                                        Vudu Reverso</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="card-stacked">
+                            <div class="card-content blue-grey-text text-darken-4">
+                                <p><p><strong>Saudações, ruma de POGramadores!</strong></p>
 
 <p>Esse post marca o início desse que será o grande projeto de minha vida, meu grande legado, a herança que envergonhará meus descendentes e causará desconforto na família: um livro sobre Programação Orientada a Gambiarras.</p>
 </p>
+                            </div>
+                            <div class="card-action">
+                                <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
+                                    href="/novidades/2020/04/17/inicio-da-gambiarra/">Ler artigo</a>
+                            </div>
+                        </div>
+                    </div>
+            
                 </div>
-                <div class="card-action">
-                    <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
-                        href="/novidades/2020/04/17/inicio-da-gambiarra/">Ler artigo</a>
-                </div>
+                
             </div>
-        </div>
-
-    </div>
-    
-</div>
         </div>
       </div>
     </div>
   </div>
 
-  <footer class="page-footer blue-grey darken-4">
-    <div class="container">
-        <div class="row">
-			<div class="col l4 s12">
-				<p class="social-title">Encontre esse projeto no Github</p>
+
+
+  </main>
+
+  <footer class="page-footer bg-dark py-4 mt-auto" id="sticky-footer">
+	<div class="container px-3">
+		<div class="row align-items-center justify-content-between flex-column flex-sm-row">
+			<div class="col-sm text-center">
+				<p class="social-title text-light">Encontre esse projeto no Github</p>
 				<div class="social">
 					<ul>
 						<li>
 							<a href="https://github.com/josenaldo/livro-pog/" target="_new">
-								<i class="fab fa-github"></i>
+								<i class="fab fa-github fa-5x"></i>
 							</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 
-			<div class="col l4 s12">
+			<div class="col-sm text-white text-center">
 				<p class="social-title">Patrocine esse projeto</p>
 				<div class="social-link">
 					<p>
@@ -253,94 +308,86 @@
 				</div>
 			</div>
 
-			<div class="col l4 s12">
-				<p class="social-title">Social Media</p>
-				<div class="social">
-					<ul>
-						
-							<li>
-								<a href="https://www.twitter.com/vudureverso" target="_new">
-									<i class="fab fa-twitter"></i>
-								</a>
-							</li>
-						
-					
-						
-							<li>
-								<a href="https://www.linkedin.com/in/josenaldo/" target="_new" >
-									<i class="fab fa-linkedin"></i>
-								</a>
-							</li>
-						
-										
-						
-							<li>
-								<a href="https://www.facebook.com/josenaldo.matos" target="_new">
-									<i class="fab fa-facebook"></i>
-								</a>
-							</li>
-						
-					
-						
-							<li>
-								<a href="https://github.com/josenaldo" target="_new">
-									<i class="fab fa-github-alt"></i>
-								</a>
-							</li>
-						
-														
-						
-							<li>
-								<a href="https://www.instagram.com/vudureverso" target="_new">
-									<i class="fab fa-instagram"></i>
-								</a>
-							</li>
-						
-					
-						
-							<li>
-								<a href="https://www.reddit.com/u/vudureverso" target="_new">
-									<i class="fab fa-reddit-alien"></i>
-								</a>
-							</li>
-						
-					
+			<div class="col-sm text-white text-center">
+				<p class="social-title">Quer falar comigo?</p>
+				<div class="link-light social">
+					<ul class="social-link">
 						<li>
-							<a href="/feed.xml" target="_new">
-								<i class="fa fa-rss"></i>
+							<a class="link-light" href="mailto:josenaldo@gmail.com" target="_new">
+								<i class="fas fa-envelope fa-2x"></i>
 							</a>
 						</li>
+
+						<li>
+							<a class="link-light" href="https://github.com/josenaldo" target="_new">
+								<i class="fab fa-github-alt fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.twitter.com/vudureverso" target="_new">
+								<i class="fab fa-twitter fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.linkedin.com/in/josenaldo/" target="_new">
+								<i class="fab fa-linkedin fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.facebook.com/josenaldo.matos" target="_new">
+								<i class="fab fa-facebook fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.instagram.com/vudureverso" target="_new">
+								<i class="fab fa-instagram fa-2x"></i>
+							</a>
+						</li>
+
 					</ul>
 				</div>
 			</div>
-        </div>
-	</div>
-	<div class="footer-copyright">
-		<div class="container">
-			Copyright © 2020 Vudu Reverso Tudo nessa porra é reservado
 		</div>
-	  </div>
-    
+	</div>
+	<div class="footer-copyright text-light">
+		<div class="container text-center">
+			Copyright © 2021 - Vudu Reverso - Tudo nessa porra é reservado
+		</div>
+	</div>
+
 </footer>
 
 
   
 <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/materialize.min.js"></script>
+
 <script type="text/javascript" src="/assets/js/katex.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160840751-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!-- Popover -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 
-  gtag('config', 'UA-160840751-2');
-</script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
+<!-- Mansory -->
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 
 <script type="text/javascript" src="/assets/js/app.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9PC2G049F"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E9PC2G049F');
+</script>
+
 
 </body>
 

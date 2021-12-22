@@ -4,17 +4,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     
-    <!-- Materialize CSS -->
-    <link rel="stylesheet" type="text/css" href="{{'assets/css/materialize.min.css' | prepend: site.baseurl}}" media="screen,projection" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
+        integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
+        crossorigin="anonymous">
 
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" type="text/css" href="{{'assets/css/all.css' | prepend: site.baseurl }}">
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Defaul Aplication CSS -->
+    <link rel="stylesheet" type="text/css" href="{{'assets/css/style.css' | prepend: site.baseurl }}">
 
     <!-- Katex CSS -->
     <link rel="stylesheet" type="text/css" href="{{'assets/css/katex.css' | prepend: site.baseurl }}">
-
-    <!-- Defaul Aplication CSS -->
-    <link rel="stylesheet" type="text/css" href="{{'assets/css/default.css' | prepend: site.baseurl }}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 

@@ -1,20 +1,20 @@
-<footer class="page-footer {{ site.css }} darken-4">
-    <div class="container">
-        <div class="row">
-			<div class="col l4 s12">
-				<p class="social-title">Encontre esse projeto no Github</p>
+<footer class="page-footer bg-dark py-4 mt-auto" id="sticky-footer">
+	<div class="container px-3">
+		<div class="row align-items-center justify-content-between flex-column flex-sm-row">
+			<div class="col-sm text-center">
+				<p class="social-title text-light">Encontre esse projeto no Github</p>
 				<div class="social">
 					<ul>
 						<li>
 							<a href="https://github.com/josenaldo/livro-pog/" target="_new">
-								<i class="fab fa-github"></i>
+								<i class="fab fa-github fa-5x"></i>
 							</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 
-			<div class="col l4 s12">
+			<div class="col-sm text-white text-center">
 				<p class="social-title">Patrocine esse projeto</p>
 				<div class="social-link">
 					<p>
@@ -29,72 +29,55 @@
 				</div>
 			</div>
 
-			<div class="col l4 s12">
-				<p class="social-title">Social Media</p>
-				<div class="social">
-					<ul>
-						{% if site.twitter_username %}
-							<li>
-								<a href="https://www.twitter.com/{{ site.twitter_username }}" target="_new">
-									<i class="fab fa-twitter"></i>
-								</a>
-							</li>
-						{% endif %}
-					
-						{% if site.linkedin_link %}
-							<li>
-								<a href="{{ site.linkedin_link }}" target="_new" >
-									<i class="fab fa-linkedin"></i>
-								</a>
-							</li>
-						{% endif %}
-										
-						{% if site.facebook_link %}
-							<li>
-								<a href="{{ site.facebook_link }}" target="_new">
-									<i class="fab fa-facebook"></i>
-								</a>
-							</li>
-						{% endif %}
-					
-						{% if site.github_username %}
-							<li>
-								<a href="https://github.com/{{ site.github_username }}" target="_new">
-									<i class="fab fa-github-alt"></i>
-								</a>
-							</li>
-						{% endif %}
-														
-						{% if site.instagram_username %}
-							<li>
-								<a href="https://www.instagram.com/{{ site.instagram_username }}" target="_new">
-									<i class="fab fa-instagram"></i>
-								</a>
-							</li>
-						{% endif %}
-					
-						{% if site.reddit_username %}
-							<li>
-								<a href="https://www.reddit.com/u/{{ site.reddit_username }}" target="_new">
-									<i class="fab fa-reddit-alien"></i>
-								</a>
-							</li>
-						{% endif %}
-					
+			<div class="col-sm text-white text-center">
+				<p class="social-title">Quer falar comigo?</p>
+				<div class="link-light social">
+					<ul class="social-link">
 						<li>
-							<a href="{{'feed.xml' | relative_url }}" target="_new">
-								<i class="fa fa-rss"></i>
+							<a class="link-light" href="mailto:josenaldo@gmail.com" target="_new">
+								<i class="fas fa-envelope fa-2x"></i>
 							</a>
 						</li>
+
+						<li>
+							<a class="link-light" href="https://github.com/josenaldo" target="_new">
+								<i class="fab fa-github-alt fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.twitter.com/vudureverso" target="_new">
+								<i class="fab fa-twitter fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.linkedin.com/in/josenaldo/" target="_new">
+								<i class="fab fa-linkedin fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.facebook.com/josenaldo.matos" target="_new">
+								<i class="fab fa-facebook fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.instagram.com/vudureverso" target="_new">
+								<i class="fab fa-instagram fa-2x"></i>
+							</a>
+						</li>
+
 					</ul>
 				</div>
 			</div>
-        </div>
-	</div>
-	<div class="footer-copyright">
-		<div class="container">
-			Copyright © 2020 Vudu Reverso Tudo nessa porra é reservado
 		</div>
-	  </div>
-    
+	</div>
+	<div class="footer-copyright text-light">
+		<div class="container text-center">
+			Copyright © 2021 - Vudu Reverso - Tudo nessa porra é reservado
+		</div>
+	</div>
+
 </footer>

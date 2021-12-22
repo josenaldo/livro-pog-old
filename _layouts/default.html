@@ -1,28 +1,23 @@
----
----
 <!DOCTYPE html>
-
 <html>
+
 {% include head.html %}
 
-<body class="{{ site.css }} lighten-5">
+<body class="d-flex flex-column h-100">
 
-  {% include header.html %}
+    <main role="main" class="flex-shrink-0">
+        {% include navbar.html %}
 
-  <div id="page-wrap">
-    <div id="main-content">
-      <div class="container">
-        <div class="wrapper {{ site.css }}-text text-darken-4">
-          {{ content }}
-        </div>
-      </div>
-    </div>
-  </div>
+        {% include breadcrumbs.html %}
 
-  {% include footer.html %}
+        {{ content }}
+    </main>
 
-  {% include scripts.html %}
+    {% include footer.html %}
 
+    {% include scripts.html %}
+
+    {% include gtag.html %}
 </body>
 
 </html>

@@ -2,42 +2,60 @@
 layout: home
 ---
 
-<div class="row">
-    <h2>Novidades</h2>
-</div>
-<div class="row">
+<div class="hero-image">
+    <div class="hero-text white-text center">
+      <h1>Programação Orientada a Gambiarra</h1>
+      <h3 class="flow-text">Como garantir que o inferno seja uma amostra grátis do seu trabalho</p>
+      <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn" href="{{'capitulos' | relative_url}}">Começar a ler</a>
+    </div>
+  </div>
 
-    {% for post in site.posts limit:5 %}
-    <div class="col s12">
-        <div class="card {{site.css}}-text darken-3 ">
-            {% if post.image %}
-            {% assign imagem_do_post =  post.image %}
-            {% else %}
-            {% assign imagem_do_post = "default-cover.jpg"%}
-            {% endif%}
-
-            <div class="z-depth-1 center-align cover"
-                style="background-image: url('{{ imagem_do_post | relative_url}}');background-repeat: no-repeat, repeat;">
-                <div class="{{ site.css }} darken-4 filter">
-                    <div class="cover-text white-text text-darken-4">
-                        <h3>{{post.title}}</h3>
-                        <p class="post-meta">{{ post.date | date: "%d/%m/%Y" }}{% if post.author %} •
-                            {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
-                    </div>
-                </div>
+  <div id="page-wrap">
+    <div id="main-content">
+      <div class="container">
+        <div class="wrapper {{ site.css }}-text text-darken-4">
+            <div class="row">
+                <h2>Novidades</h2>
             </div>
-
-            <div class="card-stacked">
-                <div class="card-content {{ site.css }}-text text-darken-4">
-                    <p>{{post.excerpt }}</p>
+            <div class="row">
+            
+                {% for post in site.posts limit:5 %}
+                <div class="col s12">
+                    <div class="card {{site.css}}-text darken-3 ">
+                        {% if post.image %}
+                        {% assign imagem_do_post =  post.image %}
+                        {% else %}
+                        {% assign imagem_do_post = "default-cover.jpg"%}
+                        {% endif%}
+            
+                        <div class="z-depth-1 center-align cover"
+                            style="background-image: url('{{ imagem_do_post | relative_url}}');background-repeat: no-repeat, repeat;">
+                            <div class="{{ site.css }} darken-4 filter">
+                                <div class="cover-text white-text text-darken-4">
+                                    <h3>{{post.title}}</h3>
+                                    <p class="post-meta">{{ post.date | date: "%d/%m/%Y" }}{% if post.author %} •
+                                        {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="card-stacked">
+                            <div class="card-content {{ site.css }}-text text-darken-4">
+                                <p>{{post.excerpt }}</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
+                                    href="{{ post.url | relative_url}}">Ler artigo</a>
+                            </div>
+                        </div>
+                    </div>
+            
                 </div>
-                <div class="card-action">
-                    <a class="red darken-1 white-text text-darken-3 waves-effect waves-red waves-light btn"
-                        href="{{ post.url | relative_url}}">Ler artigo</a>
-                </div>
+                {% endfor %}
             </div>
         </div>
-
+      </div>
     </div>
-    {% endfor %}
-</div>
+  </div>
+
+
