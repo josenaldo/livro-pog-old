@@ -1,9 +1,0 @@
-diff a/_includes/head.html b/_includes/head.html	(rejected hunks)
-@@ -3,7 +3,6 @@
-     <meta name="viewport" content="width=device-width initial-scale=1" />
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
- 
--    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-     <meta name="description" content="{{ site.description }}">
- 
-     <!-- Materialize CSS -->

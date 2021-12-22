@@ -1,11 +1,10 @@
 ---
 layout: asset
 ---
-@import "variables";
+@import "theme/darkly/variables";
 @import "bootstrap/bootstrap";
-@import "bootswatch";
+@import "theme/darkly/bootswatch";
 @import "tipografia";
-@import "timeline";
 @import "search";
 @import "header";
 @import "footer";

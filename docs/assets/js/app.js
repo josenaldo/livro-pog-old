@@ -2,13 +2,13 @@ var App = (function (){
 
     var self = this;
 
-    self.initGoogleAnalytics = function (){
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'UA-160840751-1');
-    };
+    // self.initGoogleAnalytics = function (){
+    //     window.dataLayer = window.dataLayer || [];
+    //     function gtag(){dataLayer.push(arguments);}
+    //     gtag('js', new Date());
+
+    //     gtag('config', 'UA-160840751-1');
+    // };
 
     self.initKatex = function() {
         $("script[type='math/tex']").replaceWith(
@@ -28,14 +28,14 @@ var App = (function (){
         );
     };
 
-    self.initNav = function() {
-        $('.sidenav').sidenav();        
-    };
+    // self.initNav = function() {
+    //     $('.sidenav').sidenav();
+    // };
 
     self.init = function() {
-        self.initGoogleAnalytics()
+        // self.initGoogleAnalytics()
         self.initKatex();
-        self.initNav();
+        // self.initNav();
     };
 
     return {

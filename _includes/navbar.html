@@ -7,19 +7,70 @@
                 POG
             </a>
 
+            <div class="col-md-auto mb-2 justify-content-right mb-md-0">
+                <button type="button" class="btn btn-secondary btn-lg mx-2" data-bs-toggle="modal"
+                    data-bs-placement="bottom" data-bs-target="#exampleModal" role="button"
+                    aria-controls="popover-font-settings" aria-expanded="true"
+                    aria-label="Mostra Configurações de Fontes">
+                    <i class="fas fa-font fa-fw"></i>
+                </button>
 
-            <button
-                class="btn btn-outline-light text-light ol-12 col-md-auto mb-2 justify-content-right mb-md-0"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#sidebar"
-                role="button"
-                aria-controls="sidebar"
-                aria-expanded="true"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button type="button" class="btn btn-secondary btn-lg mx-2" data-bs-toggle="offcanvas"
+                    data-bs-target="#sidebar" role="button" aria-controls="sidebar" aria-expanded="true"
+                    aria-label="Mostra menu de navegação">
+                    <i class="fas fa-bars fa-fw"></i>
+                </button>
+            </div>
+
         </div>
     </nav>
 </header>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="modal-font-settings" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-font-settings">Configurações de fontes</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row mb-3">
+                    <label class="form-label" for="font-size-group">Tamanho da fonte</label>
+                    <div class="btn-group" id="font-size-group" role="group" aria-label="Mudar tamanho de fonte">
+                        <button type="button" class="btn btn-primary">
+                            <i class="fas fa-font fa-lg"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            <i class="fas fa-font fa-2x"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-label" for="font-face-group">Tipo de fonte</label>
+                    <div class="btn-group" id="font-face-group" role="group" aria-label="Mudar tipo da fonte">
+                        <input type="radio" class="btn-check" name="fontChoice" id="fontFaceSerif" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="fontFaceSerif">serif</label>
+
+                        <input type="radio" class="btn-check" name="fontChoice" id="fontFaceSans" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="fontFaceSans">sans</label>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="form-label" for="theme-group">Tema</label>
+                    <div class="btn-group" id="theme-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="themeChoice" id="themeChoice1" autocomplete="off" checked>
+                        <label class="btn btn-outline-primary" for="themeChoice1">Claro</label>
+
+                        <input type="radio" class="btn-check" name="themeChoice" id="themeChoice2" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="themeChoice2">Sepia</label>
+
+                        <input type="radio" class="btn-check" name="themeChoice" id="themeChoice3" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="themeChoice3">Escuro</label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
