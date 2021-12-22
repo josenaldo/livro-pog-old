@@ -1,0 +1,70 @@
+<div
+    class="flex-shrink-0 p-3 text-white bg-dark offcanvas offcanvas-start"
+    style="width: 300px"
+    id="sidebar"
+    tabindex="-1"
+    aria-labelledby="offcanvasExampleLabel"
+>
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            <a
+                class="
+                    navbar-brand
+                    d-flex
+                    align-items-center
+                    mb-3 mb-md-0
+                    me-md-auto
+                    text-white text-decoration-none
+                "
+                href="{{'/' | relative_url}}"
+            >
+                <img
+                    src="{{'/assets/images/logo/brand.png' | relative_url}}"
+                    alt="{{site.title}}"
+                />
+                POG
+            </a>
+        </h5>
+        <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+        ></button>
+    </div>
+
+    <div class="offcanvas-body">
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                {% if page.url == "/" %}
+                    {% assign link_class = "active" %}
+                {% else %}
+                    {% assign link_class = "" %}
+                {% endif %}
+                <a class="nav-link  {{link_class}}" href="{{'/' | relative_url}}">
+                    Home
+                </a>
+            </li>
+
+
+            {% assign capitulos_ordenados = site.capitulos | sort:"order_number" %}
+
+            {% for capitulo in capitulos_ordenados %}
+            <li class="nav-item">
+                {% if page.url == capitulo.url %}
+                    {% assign link_class = "active" %}
+                {% else %}
+                    {% assign link_class = "" %}
+                {% endif %}
+
+                <a class="nav-link {{link_class}}" href="{{capitulo.url | relative_url}}">
+                    {% if capitulo.parent %}
+                        <i class="fas fa-minus"></i>
+                    {% endif %}
+                    {{ capitulo.title}}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

@@ -5,18 +5,16 @@
 
 <body class="d-flex flex-column h-100">
 
-  <main role="main" class="flex-shrink-0">
-    {% include navbar.html %}
+    {% include sidebar.html %}
 
-    {{ content }}
-  </main>
+    <main role="main" class="flex-shrink-0">
+        {% include navbar.html %}
 
-  {% include footer.html %}
+        {{ content }}
+    </main>
 
-  {% include scripts.html %}
-
-  {% include gtag.html %}
-
+    {% include footer.html %}
+    {% include scripts.html %}
+    {% include gtag.html %}
 </body>
-
 </html>

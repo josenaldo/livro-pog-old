@@ -27,26 +27,6 @@ icon: "fas fa-book"
                     </a>
                 </div>
             </li>
-
-            <!-- {% assign sub_capitulos = site.capitulos | where: "parent", capitulo.name | sort:"order_number" %}
-
-            {% for sub_capitulo in sub_capitulos %}
-                <li class="collection-item row sumario-item">
-                    <div class="col s10"> ->
-                        <span class="sumario-titulo">{{ sub_capitulo.title}}</span>
-                        <p class="sumario-descricao">{{ sub_capitulo.description }}</p>
-                    </div>
-                    <div class="col s2 right-align">
-                        <a class="{{ site.css }}-text text-lighten-4 waves-effect"
-                            href="{{sub_capitulo.url | relative_url}}">
-                            <span class="fa-stack fa-2x">
-                                <i class="fas fa-square fa-stack-2x"></i>
-                                <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4" ></i>
-                            </span>
-                        </a>
-                    </div>
-                </li>
-            {% endfor %} -->
         {% endfor %}
     </ul>
 </div>

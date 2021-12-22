@@ -68,81 +68,412 @@
 
 <body class="d-flex flex-column h-100">
 
+    <div
+    class="flex-shrink-0 p-3 text-white bg-dark offcanvas offcanvas-start"
+    style="width: 300px"
+    id="sidebar"
+    tabindex="-1"
+    aria-labelledby="offcanvasExampleLabel"
+>
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            <a
+                class="
+                    navbar-brand
+                    d-flex
+                    align-items-center
+                    mb-3 mb-md-0
+                    me-md-auto
+                    text-white text-decoration-none
+                "
+                href="/"
+            >
+                <img
+                    src="/assets/images/logo/brand.png"
+                    alt="Programação Orientada a Gambiarra"
+                />
+                POG
+            </a>
+        </h5>
+        <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+        ></button>
+    </div>
+
+    <div class="offcanvas-body">
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                
+                <a class="nav-link  " href="/">
+                    Home
+                </a>
+            </li>
+
+
+            
+
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/agradecimentos/">
+                    
+                    Agradecimentos
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/introducao/">
+                    
+                    Introdução
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/o-que-e-pog/">
+                    
+                    O que é POG?
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/historia/">
+                    
+                    História da POG
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/requisitos/">
+                    
+                    Requisitos da POG
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/requisitos/dimensao-humana/">
+                    
+                        <i class="fas fa-minus"></i>
+                    
+                    Dimensão Humana
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/principios/">
+                    
+                    Príncípios da POG
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/tecnicas/">
+                    
+                    Técnicas da POG
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/tecnicas/tecnica-zipomatic-versioning/">
+                    
+                    Zipomatic versioning
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/tecnicas/tecnica-monkey-patching/">
+                    
+                    Monkey Patching
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/tecnicas/tecnica-incremental-patching-debug/">
+                    
+                    Incremental patching debug
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/tecnicas/tecnica-my-precious/">
+                    
+                    My precious
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/tecnicas/tecnica-psychoding/">
+                    
+                    Psychoding
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/">
+                    
+                    Gambi Design Patterns
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-que-porra-e-essa/">
+                    
+                    WTF / WTH / QPE
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-reuse-by-copy-and-paste/">
+                    
+                    RCP Pattern (Reuse by Copy and Paste)
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-hardcoded-data/">
+                    
+                    Hardcoded Data
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-forceps/">
+                    
+                    Forceps
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-ostrich-syndrome-skill/">
+                    
+                    Ostrich Syndrome Skill
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-nonsense-flag/">
+                    
+                    Nonsense Flag Nonsense Naming
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-commented-code-implementation/">
+                    
+                    Commented Code Implementation Comments Forever
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-reinvented-square-wheel-helper/">
+                    
+                    Reinvented Square Wheel Helper
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-you-shall-not-pass/">
+                    
+                    You Shall Not Pass
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-bulletproof/">
+                    
+                    Perfectness Execution Bulletproof
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-exception-success/">
+                    
+                    Exception Success
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-string-sushiman/">
+                    
+                    String Sushiman
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-human-factor/">
+                    
+                    Sleeper Human Factor
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-black-cat-in-a-dark-room/">
+                    
+                    Black Cat In A Dark Room
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-mega-zord/">
+                    
+                    Mega Zord
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-thunder-mega-zord/">
+                    
+                    THUNDER MEGA ZORD
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-controller-confusion/">
+                    
+                    Controller Confusion
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link active" href="/capitulos/gambi-design-patterns/gdp-no-more-layers/">
+                    
+                    No More Layers
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-db-is-our-god/">
+                    
+                    Db Is Our God
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/gambi-design-patterns/gdp-snow-white-returns/">
+                    
+                    Snow White Returns
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/referencias/">
+                    
+                    Referências
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link " href="/capitulos/conclusoes/">
+                    
+                    Conclusões
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
     <main role="main" class="flex-shrink-0">
         <header>
     <nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-dark">
-
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand -->
-            <a class="navbar-brand" href="/">
-                <img src="/assets/images/logo/brand.png" alt="Programação Orientada a Gambiarra">
+            <a class="navbar-brand d-flex align-items-center col-md-auto mb-2 mb-md-0" href="/">
+                <img src="/assets/images/logo/brand.png" alt="Programação Orientada a Gambiarra" />
                 POG
             </a>
 
-            <!-- Navbar Toggler -->
-            <div class="bs-offset-main bs-canvas-anim">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
 
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" data-bs-scroll="false"
-                data-bs-backdrop="true" aria-labelledby="offcanvasNavbarLabel">
-
-                <div class="offcanvas-header">
-                    <a class="navbar-brand" href="/">
-                        <img src="/assets/images/logo/brand.png" alt="Programação Orientada a Gambiarra">
-                        POG
-                    </a>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav text-start flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/noticias">Notícias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/biografia">Biografia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/pnd">PND</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/videos">Vídeos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/podcasts">Podcasts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/movimentos">Movimentos de Apoio </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/colaboradores">Colaboradores</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex py-2" action="/busca.html" method="get">
-                        <input class="form-control me-2"
-                            type="search"
-                            id="search-box"
-                            name="query"
-                            placeholder="Busca"
-                            aria-label="Busca">
-                        <button class="btn btn-outline-success" type="submit">Busca</button>
-                    </form>
-                </div>
-            </div>
+            <button
+                class="btn btn-outline-light text-light ol-12 col-md-auto mb-2 justify-content-right mb-md-0"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#sidebar"
+                role="button"
+                aria-controls="sidebar"
+                aria-expanded="true"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
     </nav>
 </header>
+
 
         <div class="bg-secondary flex-shrink-0">
     <div class="container mt-0">
@@ -175,7 +506,8 @@
     </div>
 </div>
 
-        
+        <div class="container">
+            
 
 
 
@@ -272,9 +604,11 @@ Uma variedade do CCC, mas com tudo feito na Tela</p>
         </div>
     </div>
 </div>
+        </div>
+
     </main>
 
-    <footer class="page-footer bg-dark py-4 mt-auto" id="sticky-footer">
+    <footer class="page-footer bg-dark py-4 mt-3" id="sticky-footer">
 	<div class="container px-3">
 		<div class="row align-items-center justify-content-between flex-column flex-sm-row">
 			<div class="col-sm text-center">
@@ -358,7 +692,6 @@ Uma variedade do CCC, mas com tudo feito na Tela</p>
 
 </footer>
 
-
     
 <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
 
@@ -374,7 +707,6 @@ Uma variedade do CCC, mas com tudo feito na Tela</p>
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 
 <script type="text/javascript" src="/assets/js/app.js"></script>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E9PC2G049F"></script>
 <script>
@@ -385,6 +717,6 @@ Uma variedade do CCC, mas com tudo feito na Tela</p>
     gtag('config', 'G-E9PC2G049F');
 </script>
 
-</body>
 
+</body>
 </html>
