@@ -84,20 +84,26 @@ defaults:
       path: ""
       type: "capitulos"
     values:
-      image: default-image.jpg
       layout: "capitulo"
+      image:
+        path: "assets/images/og-image.png"
+        width: "1280"
+        height: "640"
   - scope:
       path: ""
       type: "posts"
     values:
-      image: default-cover.jpg
       layout: "post"
+      image:
+        path: "assets/images/og-image.png"
+        width: "1280"
+        height: "640"
   - scope:
       path: ""
     values:
       layout: "home"
       image:
-        path: "/assets/images/og-image.png"
+        path: "assets/images/og-image.png"
         width: "1280"
         height: "640"
 
