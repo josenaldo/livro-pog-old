@@ -5,6 +5,8 @@ sentence: Se compilou, é porque funciona!
 sentence-author: Você, ao fazer POG
 order_number: 5000
 date: 2020-04-16 00:04
+name: principios
+parent:
 ---
 
 * Enjambração Criativística
@@ -38,3 +40,5 @@ date: 2020-04-16 00:04
 * Simplicidade Indolente
   * Se tá funcionando sem isso, pra que colocar?
 * SHIT
+* O Teorema de Namarra
+  * Se você não sabe, não se preocupe, muda isso na marra que funciona.

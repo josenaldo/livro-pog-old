@@ -6,6 +6,8 @@ sentence: Vou realizar os testes na produção
 sentence-author: POGramador com auto-estima
 order_number: 99000
 date: 2020-04-16 00:30
+name: conclusoes
+parent:
 ---
 
 POG é uma arte dominada por poucos

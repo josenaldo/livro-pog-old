@@ -6,6 +6,8 @@ sentence: Na minha máquina funcionou
 sentence-author: POGramador sobre POG
 order_number: 7000
 date: 2020-04-16 00:06
+name: tecnica-zipomatic-versioning
+parent:
 ---
 
 ## Precisa guardar versões?

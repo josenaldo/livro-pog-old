@@ -6,6 +6,8 @@ sentence-author: Engenheiros do Hawaii sobre POG
 order_number: 3000
 date: 2020-04-16 00:02
 image: /assets/images/capitulos/historia.jpg
+name: historia
+parent:
 ---
 
 Quando procuramos definir a primeira POG da história, a maior dificuldade está no fato de que o bom POGramador não deixa rastros de seus méritos, pois POGramador não usa comentários(a não ser que sejam inúteis).

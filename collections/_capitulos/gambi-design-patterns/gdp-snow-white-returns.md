@@ -6,6 +6,8 @@ sentence: A Função ficou com 3000 linhas porque é impossível deixar ela meno
 sentence-author: Programador POG tentando se passar por expert
 order_number: 31000
 date: 2021-08-24 00:23
+name: gdp-snow-white-returns
+parent:
 ---
 
 POrque um return quando eu posso ter sete?

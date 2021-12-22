@@ -6,6 +6,8 @@ sentence-author: Líder de Projeto, sobre uma solução não pog
 order_number: 1001
 date: 2020-04-16 00:00
 image: /assets/images/capitulos/introducao.jpg
+name: introducao
+parent:
 ---
 
 **Saudações, ruma de POGramador!**

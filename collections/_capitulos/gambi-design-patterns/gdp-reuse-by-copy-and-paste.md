@@ -6,6 +6,8 @@ sentence: Tive que arrumar direto no banco - daí funcionou! Se o problema "volt
 sentence-author: POGger sobre O Poder da Fé
 order_number: 13000
 date: 2020-04-16 00:12
+name: gdp-reuse-by-copy-and-paste
+parent:
 ---
 
 Copie o máximo de código que puder: Princípio da Reflexão Reprodutória

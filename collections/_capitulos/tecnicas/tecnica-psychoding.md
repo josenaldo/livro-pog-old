@@ -6,6 +6,8 @@ sentence: Não me interessa se é restrição da ferramenta, dá um jeito e colo
 sentence-author: Gerente de Projeto mostrando como se lidera a equipe a criar uma POG
 order_number: 10000
 date: 2020-04-16 00:09
+name: tecnica-psychoding
+parent:
 ---
 Não sabe como fazer algo?
 

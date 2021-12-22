@@ -1,6 +1,29 @@
 ---
 layout: default
 ---
+
+{% capture the_collection %}{{ page.collection }}{% endcapture %}
+
+{% if page.collection %}
+    {% assign document = site[the_collection] | sort:"order_number" %}
+{% endif %}
+
+{% for links in document %}
+    {% if links.title == page.title %}
+        {% unless forloop.first %}
+            {% assign prevurl = prev.url %}
+            {% assign prevtitle = prev.title %}
+        {% endunless %}
+
+        {% unless forloop.last %}
+            {% assign next = document[forloop.index] %}
+            {% assign nexttitle = next.title %}
+            {% assign nexturl = next.url %}
+        {% endunless %}
+    {% endif %}
+    {% assign prev = links %}
+{% endfor %}
+
 <div class="container-fluid card advantage z-depth-2">
     {% if page.image %}
         {% assign imagem_do_post =  page.image %}
@@ -26,18 +49,48 @@ layout: default
     </blockquote>
 
     <div class="card-content {{ site.css }}-text text-darken-4">
-        {{ content }}
+        <div class="row">
+            <div class="col s1">
+                {% if prevurl %}
+                    <a class="{{ site.css }}-text text-lighten-4 waves-effect"
+                        href="{{prevurl | relative_url}}">
+                        <span class="fa-stack fa-2x fa-fw">
+                            <i class="fas fa-square fa-stack-2x"></i>
+                            <i class="fas fa-arrow-left fa-stack-1x {{ site.css }}-text text-darken-4"></i>
+                        </span>
+                    </a>
+                {% endif %}
+            </div>
+            <div class="col s10">
+                {{ content }}
+            </div>
+            <div class="col s1">
+                {% if nexturl %}
+                    <a class="{{ site.css }}-text text-lighten-4 waves-effect"
+                        href="{{nexturl | relative_url}}">
+                        <span class="fa-stack fa-2x fa-fw">
+                            <i class="fas fa-square fa-stack-2x"></i>
+                            <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4"></i>
+                        </span>
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+
     </div>
 
     <div class="capitulo-nav row {{site.css}} lighten-5">
         <div class="col s4 left-align">
-            <a class="{{ site.css }}-text text-lighten-4 waves-effect"
-                href="{{ page.previous.url | relative_url }}">
-                <span class="fa-stack fa-2x fa-fw">
-                    <i class="fas fa-square fa-stack-2x"></i>
-                    <i class="fas fa-arrow-left fa-stack-1x {{ site.css }}-text text-darken-4"></i>
-                </span>
-            </a>
+            {% if prevurl %}
+                <a class="{{ site.css }}-text text-lighten-4 waves-effect"
+                    href="{{prevurl | relative_url}}">
+                    <span class="fa-stack fa-2x fa-fw">
+                        <i class="fas fa-square fa-stack-2x"></i>
+                        <i class="fas fa-arrow-left fa-stack-1x {{ site.css }}-text text-darken-4"></i>
+                    </span>
+                </a>
+            {% endif %}
+
         </div>
         <div class="col s4 center-align">
             <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{'capitulos' | relative_url}}">
@@ -47,13 +100,17 @@ layout: default
                 </span>
             </a>
         </div>
+
         <div class="col s4 right-align">
-            <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{page.next.url | relative_url }}">
+        {% if nexturl %}
+            <a class="{{ site.css }}-text text-lighten-4 waves-effect"
+                href="{{nexturl | relative_url}}">
                 <span class="fa-stack fa-2x fa-fw">
                     <i class="fas fa-square fa-stack-2x"></i>
                     <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4"></i>
                 </span>
             </a>
+            {% endif %}
         </div>
     </div>
 </div>

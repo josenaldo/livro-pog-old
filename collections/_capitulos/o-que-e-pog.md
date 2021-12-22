@@ -6,6 +6,8 @@ sentence-author: POGramador explicando porque o sistema POG não funciona
 order_number: 2000
 image: /assets/images/capitulos/o-que-e-pog.jpg
 date: 2020-04-16 00:01
+name: o-que-e-pog
+parent:
 ---
 
 **Gambiarra**.

@@ -4,27 +4,49 @@ title: Capítulos
 icon: "fas fa-book"
 ---
 
-<div class="row sumario ">
+<div class="row sumario">
+    <ul class="collection">
+        {% assign capitulos_ordenados = site.capitulos | sort:"order_number" %}
 
+        {% for capitulo in capitulos_ordenados %}
+            <li class="collection-item row sumario-item">
+                <div class="col s10">
+                    {% if capitulo.parent %}
+                        ->
+                    {% endif %}
+                    <span class="sumario-titulo">{{ capitulo.title}}</span>
+                    <p class="sumario-descricao">{{ capitulo.description }}</p>
+                </div>
+                <div class="col s2 right-align">
+                    <a class="{{ site.css }}-text text-lighten-4 waves-effect"
+                        href="{{capitulo.url | relative_url}}">
+                        <span class="fa-stack fa-2x">
+                            <i class="fas fa-square fa-stack-2x"></i>
+                            <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4" ></i>
+                        </span>
+                    </a>
+                </div>
+            </li>
 
-  <ul class="collection">
-    {% assign ordered_capitulo = site.capitulos | sort:"order_number" %}
-    {% for capitulo in ordered_capitulo %}
-    <li class="collection-item row sumario-item">
-      <div class="col s10">
-        <span class="sumario-titulo">{{ capitulo.title}}</span>
-        <p class="sumario-descricao">{{ capitulo.description }}</p>
-      </div>
-      <div class="col s2 right-align">
-        <a class="{{ site.css }}-text text-lighten-4 waves-effect" href="{{capitulo.url | relative_url}}">
-          <span class="fa-stack fa-2x">
-            <i class="fas fa-square fa-stack-2x"></i>
-            <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4"></i>
-          </span>
-        </a>
-      </div>
-    </li>
-    {% endfor %}
+            <!-- {% assign sub_capitulos = site.capitulos | where: "parent", capitulo.name | sort:"order_number" %}
 
-  </ul>
+            {% for sub_capitulo in sub_capitulos %}
+                <li class="collection-item row sumario-item">
+                    <div class="col s10"> ->
+                        <span class="sumario-titulo">{{ sub_capitulo.title}}</span>
+                        <p class="sumario-descricao">{{ sub_capitulo.description }}</p>
+                    </div>
+                    <div class="col s2 right-align">
+                        <a class="{{ site.css }}-text text-lighten-4 waves-effect"
+                            href="{{sub_capitulo.url | relative_url}}">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-square fa-stack-2x"></i>
+                                <i class="fas fa-arrow-right fa-stack-1x {{ site.css }}-text text-darken-4" ></i>
+                            </span>
+                        </a>
+                    </div>
+                </li>
+            {% endfor %} -->
+        {% endfor %}
+    </ul>
 </div>
