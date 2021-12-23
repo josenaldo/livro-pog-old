@@ -1,53 +1,67 @@
-var App = (function (){
-
+var App = (function () {
     var self = this;
+    self.theme = 'darkly';
 
-    // self.initGoogleAnalytics = function (){
-    //     window.dataLayer = window.dataLayer || [];
-    //     function gtag(){dataLayer.push(arguments);}
-    //     gtag('js', new Date());
-
-    //     gtag('config', 'UA-160840751-1');
-    // };
-
-    self.initKatex = function() {
-        $("script[type='math/tex']").replaceWith(
-            function () {
-                var tex = $(this).text();
-        
-                return "<span class=\"inline-equation\">" + katex.renderToString(tex) + "</span>";
-            }
-        );
-        
-        $("script[type='math/tex; mode=display']").replaceWith(
-            function () {
-                var tex = $(this).text();
-        
-                return "<div class=\"equation\">" + katex.renderToString("\\displaystyle " + tex) + "</div>";
-            }
-        );
+    self.supports_html5_storage = function () {
+        try {
+            return "localStorage" in window && window["localStorage"] !== null;
+        } catch (e) {
+            return false;
+        }
     };
 
-    // self.initNav = function() {
-    //     $('.sidenav').sidenav();
-    // };
+    self.set_theme = function (theme_name) {
+        var theme = "/assets/css/theme/" + theme_name + ".css";
+        $('link[title="theme-css"]').attr("href", theme);
 
-    self.init = function() {
-        // self.initGoogleAnalytics()
-        self.initKatex();
-        // self.initNav();
+        self.theme = theme_name;
+        let supports_storage = supports_html5_storage();
+
+        if (supports_storage) {
+            localStorage.theme = theme_name;
+        }
+    };
+
+    self.init_theme = function () {
+        let supports_storage = supports_html5_storage();
+        if (supports_storage) {
+            var theme_name = localStorage.theme;
+            if (theme_name) {
+                set_theme(theme_name);
+            } else {
+                set_theme("darkly");
+            }
+        } else {
+            set_theme("darkly");
+            $("#theme-chooser").hide();
+        }
+    };
+
+    self.initThemeSelector = function () {
+        $(':radio[name="themeChoice"]').click(function () {
+            let theme_name = $(this).val();
+            set_theme(theme_name);
+        });
+
+        let settingsModal = document.getElementById('settingsModal')
+
+        settingsModal.addEventListener("show.bs.modal", function (event) {
+            let theme_name = self.theme;
+            $("#theme_" + theme_name).prop("checked", true);
+        });
+    };
+
+    self.init = function () {
+        self.initThemeSelector();
+        self.init_theme();
     };
 
     return {
-        init: self.init
+        init: self.init,
+        theme: self.theme,
     };
-
 })();
 
-
-
-$(document).ready(function() {
-    M.AutoInit();
-    App.init();    
+$(document).ready(function () {
+    App.init();
 });
-

@@ -9,7 +9,7 @@
 
             <div class="col-md-auto mb-2 justify-content-right mb-md-0">
                 <button type="button" class="btn btn-secondary btn-lg mx-2" data-bs-toggle="modal"
-                    data-bs-placement="bottom" data-bs-target="#exampleModal" role="button"
+                    data-bs-placement="bottom" data-bs-target="#settingsModal" role="button"
                     aria-controls="popover-font-settings" aria-expanded="true"
                     aria-label="Mostra Configurações de Fontes">
                     <i class="fas fa-font fa-fw"></i>
@@ -27,11 +27,11 @@
 </header>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="modal-font-settings" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-sm">
+<div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="modal-font-settings" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modal-font-settings">Configurações de fontes</h5>
+                <h5 class="modal-title" id="modal-font-settings">Configurações</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -56,17 +56,17 @@
                         <label class="btn btn-outline-primary" for="fontFaceSans">sans</label>
                     </div>
                 </div>
-                <div class="row mb-3">
+                <div class="row mb-3" id="theme-chooser">
                     <label class="form-label" for="theme-group">Tema</label>
                     <div class="btn-group" id="theme-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="themeChoice" id="themeChoice1" autocomplete="off" checked>
-                        <label class="btn btn-outline-primary" for="themeChoice1">Claro</label>
+                        <input type="radio" class="btn-check" name="themeChoice" id="theme_litera" autocomplete="off" value="litera">
+                        <label class="btn btn-outline-primary" for="theme_litera">Claro</label>
 
-                        <input type="radio" class="btn-check" name="themeChoice" id="themeChoice2" autocomplete="off">
-                        <label class="btn btn-outline-primary" for="themeChoice2">Sepia</label>
+                        <input type="radio" class="btn-check" name="themeChoice" id="theme_sandstone" autocomplete="off" value="sandstone">
+                        <label class="btn btn-outline-primary" for="theme_sandstone">Sepia</label>
 
-                        <input type="radio" class="btn-check" name="themeChoice" id="themeChoice3" autocomplete="off">
-                        <label class="btn btn-outline-primary" for="themeChoice3">Escuro</label>
+                        <input type="radio" class="btn-check" name="themeChoice" id="theme_darkly" autocomplete="off" value="darkly" checked>
+                        <label class="btn btn-outline-primary" for="theme_darkly">Escuro</label>
                     </div>
                 </div>
 
