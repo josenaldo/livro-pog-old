@@ -42,7 +42,7 @@
                 {% else %}
                     {% assign link_class = "" %}
                 {% endif %}
-                <a class="nav-link  {{link_class}}" href="{{'/' | relative_url}}">
+                <a class="nav-link link-light {{link_class}}" href="{{'/' | relative_url}}">
                     Home
                 </a>
             </li>
@@ -58,7 +58,7 @@
                     {% assign link_class = "" %}
                 {% endif %}
 
-                <a class="nav-link {{link_class}}" href="{{capitulo.url | relative_url}}">
+                <a class="nav-link  link-light {{link_class}}" href="{{capitulo.url | relative_url}}">
                     {% if capitulo.parent %}
                         <i class="fas fa-minus"></i>
                     {% endif %}

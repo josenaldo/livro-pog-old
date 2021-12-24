@@ -1,6 +1,5 @@
-blockquote {
-    background-color: $gray-900;
-    font-style: italic;
-    padding: 1rem;
-    border-radius: .25rem;
-}
+$font-family-sans-serif: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif !default;

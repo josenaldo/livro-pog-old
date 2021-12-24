@@ -1,0 +1,12 @@
+---
+layout: asset
+---
+@import "tipografia";
+
+#main-text {
+    font-family:$font-family-serif !important;
+
+    .card, .card-text, #card-content {
+        font-family: $font-family-serif !important;
+    }
+}

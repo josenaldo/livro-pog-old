@@ -46,27 +46,29 @@
                         </button>
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <label class="form-label" for="font-face-group">Tipo de fonte</label>
-                    <div class="btn-group" id="font-face-group" role="group" aria-label="Mudar tipo da fonte">
-                        <input type="radio" class="btn-check" name="fontChoice" id="fontFaceSerif" autocomplete="off" checked>
-                        <label class="btn btn-outline-primary" for="fontFaceSerif">serif</label>
+                <div class="row mb-3" id="font-chooser">
+                    <label class="form-label" for="font-group">Tipo de fonte</label>
+                    <div class="btn-group" id="font-group" role="group" aria-label="Mudar tipo da fonte">
+                        <input type="radio" class="btn-check" name="fontChoice" id="font_serif" autocomplete="off" value="serif" checked>
+                        <label class="btn btn-outline-primary" for="font_serif">serif</label>
 
-                        <input type="radio" class="btn-check" name="fontChoice" id="fontFaceSans" autocomplete="off">
-                        <label class="btn btn-outline-primary" for="fontFaceSans">sans</label>
+                        <input type="radio" class="btn-check" name="fontChoice" id="font_sans" autocomplete="off" value="sans">
+                        <label class="btn btn-outline-primary" for="font_sans">sans</label>
                     </div>
                 </div>
                 <div class="row mb-3" id="theme-chooser">
                     <label class="form-label" for="theme-group">Tema</label>
                     <div class="btn-group" id="theme-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="themeChoice" id="theme_litera" autocomplete="off" value="litera">
-                        <label class="btn btn-outline-primary" for="theme_litera">Claro</label>
 
-                        <input type="radio" class="btn-check" name="themeChoice" id="theme_sandstone" autocomplete="off" value="sandstone">
-                        <label class="btn btn-outline-primary" for="theme_sandstone">Sepia</label>
+                        <input type="radio" class="btn-check" name="themeChoice" id="theme_flattly" autocomplete="off" value="flattly">
+                        <label class="btn btn-outline-primary" for="theme_flattly">
+                            <i class="fas fa-sun"></i>
+                        </label>
 
                         <input type="radio" class="btn-check" name="themeChoice" id="theme_darkly" autocomplete="off" value="darkly" checked>
-                        <label class="btn btn-outline-primary" for="theme_darkly">Escuro</label>
+                        <label class="btn btn-outline-primary" for="theme_darkly">
+                            <i class="fas fa-moon"></i>
+                        </label>
                     </div>
                 </div>
 
