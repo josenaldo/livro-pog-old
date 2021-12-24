@@ -46,6 +46,18 @@
                     Home
                 </a>
             </li>
+            <li class="nav-item">
+                {% if page.url == "/capitulos/" %}
+                    {% assign link_class = "active" %}
+                {% else %}
+                    {% assign link_class = "" %}
+                {% endif %}
+                <a class="nav-link link-light {{link_class}}" href="{{'capitulos/' | relative_url}}">
+                    Capítulos
+                </a>
+            </li>
+
+            <hr>
 
 
             {% assign capitulos_ordenados = site.capitulos | sort:"order_number" %}
