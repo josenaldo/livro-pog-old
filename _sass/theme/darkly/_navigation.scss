@@ -1,0 +1,23 @@
+.navigation {
+    font-size: 2em;
+    text-decoration: none;
+
+    -webkit-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
+    transition: all 350ms ease;
+
+    &:hover {
+        background-color: $gray-700;
+        text-decoration: none;
+    }
+
+    a {
+        color: $gray-700;
+        text-decoration: none;
+
+        &:hover {
+            color: $gray-600;
+        }
+    }
+}

@@ -2476,7 +2476,13 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .modal .btn-close, .toast .btn-close { background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'><path d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/></svg>"); }
 
-blockquote { background-color: #212529; font-style: italic; padding: 1rem; border-radius: .25rem; }
+.navigation { font-size: 2em; text-decoration: none; -webkit-transition: all 350ms ease; -moz-transition: all 350ms ease; -o-transition: all 350ms ease; transition: all 350ms ease; }
+
+.navigation:hover { background-color: #ecf0f1; text-decoration: none; }
+
+.navigation a { color: #dee2e6; text-decoration: none; }
+
+.navigation a:hover { color: #ced4da; }
 
 .search { position: relative; }
 
@@ -2495,13 +2501,5 @@ blockquote { background-color: #212529; font-style: italic; padding: 1rem; borde
 .social ul li a:-webkit-any-link { text-decoration: none !important; border-bottom: none !important; }
 
 body { padding-top: 80px; }
-
-.navigation { font-size: 2em; text-decoration: none; -webkit-transition: all 350ms ease; -moz-transition: all 350ms ease; -o-transition: all 350ms ease; transition: all 350ms ease; }
-
-.navigation:hover { background-color: #7b8a8b; text-decoration: none; }
-
-.navigation a { color: #7b8a8b; text-decoration: none; }
-
-.navigation a:hover { color: #95a5a6; }
 
 /*# sourceMappingURL=flattly.css.map */

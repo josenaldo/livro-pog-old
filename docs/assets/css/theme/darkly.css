@@ -2478,7 +2478,13 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .alert-dark { background-color: #303030; }
 
-blockquote { background-color: #222; font-style: italic; padding: 1rem; border-radius: .25rem; }
+.navigation { font-size: 2em; text-decoration: none; -webkit-transition: all 350ms ease; -moz-transition: all 350ms ease; -o-transition: all 350ms ease; transition: all 350ms ease; }
+
+.navigation:hover { background-color: #444; text-decoration: none; }
+
+.navigation a { color: #444; text-decoration: none; }
+
+.navigation a:hover { color: #888; }
 
 .search { position: relative; }
 
@@ -2497,13 +2503,5 @@ blockquote { background-color: #222; font-style: italic; padding: 1rem; border-r
 .social ul li a:-webkit-any-link { text-decoration: none !important; border-bottom: none !important; }
 
 body { padding-top: 80px; }
-
-.navigation { font-size: 2em; text-decoration: none; -webkit-transition: all 350ms ease; -moz-transition: all 350ms ease; -o-transition: all 350ms ease; transition: all 350ms ease; }
-
-.navigation:hover { background-color: #444; text-decoration: none; }
-
-.navigation a { color: #444; text-decoration: none; }
-
-.navigation a:hover { color: #888; }
 
 /*# sourceMappingURL=darkly.css.map */
