@@ -1,5 +1,5 @@
-#main-text { font-family: Georgia, Cambria, "Times New Roman", Times, serif !important; }
+body { font-family: Georgia, Cambria, "Times New Roman", Times, serif !important; }
 
-#main-text .card, #main-text .card-text, #main-text #card-content { font-family: Georgia, Cambria, "Times New Roman", Times, serif !important; }
+body .card, body .card-text, body #card-content { font-family: Georgia, Cambria, "Times New Roman", Times, serif !important; }
 
 /*# sourceMappingURL=serif.css.map */
