@@ -499,21 +499,23 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="row mb-3">
+                <div class="row mb-3" id="font-size-chooser">
                     <label class="form-label" for="font-size-group">Tamanho da fonte</label>
+                    <p class="small fst-italic">Essa configuração só se aplica ao texto dos capítulos</p>
                     <div class="btn-group" id="font-size-group" role="group" aria-label="Mudar tamanho de fonte">
-                        <button type="button" class="btn btn-primary">
+                        <button type="button" id="btnDecreaseFont" class="btn btn-primary">
                             <i class="fas fa-font fa-lg"></i>
                         </button>
-                        <button type="button" class="btn btn-primary">
+                        <button type="button" id="btnIncreaseFont" class="btn btn-primary">
                             <i class="fas fa-font fa-2x"></i>
                         </button>
                     </div>
                 </div>
                 <div class="row mb-3" id="font-chooser">
                     <label class="form-label" for="font-group">Tipo de fonte</label>
+                    <p class="small fst-italic">Essa configuração só se aplica ao texto dos capítulos</p>
                     <div class="btn-group" id="font-group" role="group" aria-label="Mudar tipo da fonte">
-                        <input type="radio" class="btn-check" name="fontChoice" id="font_serif" autocomplete="off" value="serif" checked>
+                        <input type="radio" class="btn-check" name="fontChoice" id="font_serif" autocomplete="off" value="serif">
                         <label class="btn btn-outline-primary" for="font_serif">serif</label>
 
                         <input type="radio" class="btn-check" name="fontChoice" id="font_sans" autocomplete="off" value="sans">
@@ -522,6 +524,7 @@
                 </div>
                 <div class="row mb-3" id="theme-chooser">
                     <label class="form-label" for="theme-group">Tema</label>
+                    <p class="small fst-italic">Essa configuração se aplica a todo o site</p>
                     <div class="btn-group" id="theme-group" role="group" aria-label="Basic radio toggle button group">
 
                         <input type="radio" class="btn-check" name="themeChoice" id="theme_flattly" autocomplete="off" value="flattly">
@@ -597,7 +600,7 @@
                                 
                             </div>
 
-                            <div class="col-10" id="main-text">
+                            <div class="col-10 fs-6" id="main-text">
                                 <div class="text-center my-5">
                                     <h1 class="card-title text-center">Dimensão Humana</h1>
                                     <p>Como o ser humano cria as condições para a invocação do mal</p>
