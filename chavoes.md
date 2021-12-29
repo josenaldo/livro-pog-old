@@ -29,6 +29,9 @@
 - [x] É facil, não vejo dificuldade em fazer isso!!
   - Gerente sem-noção definindo prazo junto com o programador
   - Local: [tecnicas.md](collections/_capitulos/tecnicas.md)
+- [x] Claro que não! É essa lib/SO/compilador que está toda bugada!!
+  - Estagiário-chefe apoiando justificativa do estagiário ao gerente
+  - Local: [agradecimentos.md](collections/_capitulos/agradecimentos.md)
 
 ## gambi-design-patterns
 
@@ -143,9 +146,9 @@
 - [ ] Para ser POGger, tem de ser astuto, tem que saber onde o compilador quer te ferrar
   - POGger passando seus ensinamentos para estagiário!
   - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
-- [ ] Claro que não! É essa lib/SO/compilador que está toda bugada!!
-  - Estagiário-chefe apoiando justificativa do estagiário ao gerente
-  - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
+
+
+
 - [ ] ...É que 1GB de RAM é pouco! Tem que colocar mais memória!!!
   - POGramador sobre estouro de pilha
   - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)

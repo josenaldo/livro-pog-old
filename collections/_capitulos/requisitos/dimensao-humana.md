@@ -13,7 +13,7 @@ Criar software é transformar o âmago do ser humano em impulsos digitais. E, co
 
 Os Requisitos da POG classificados na Dimensão Humana são aqueles produzidos diretamente pela participação humana nesse processo. Não é apenas nossa presença danosa que permite que a POG floresça. É necessário que essa presença ocorra encarnada em algum dos seguintes estereótipos:
 
-### Equipe Apática
+## Equipe Apática
 
 Quer ver a pog se espalhar como erva daninha num jardim bem nutrido? Entregue seu projeto a uma equipe apática.
 
@@ -23,7 +23,7 @@ Uma equipe apática não se importa com o passado e não liga para o futuro. A �
 
 Dessa forma, mesmo que um pequeno jardim de pogs se torne a nova Floresta Amazônica da Calamidade, uma Equipe Apática não vai se abalar para resolver nada disso.
 
-### Profissionais Superestimados
+## Profissionais Superestimados
 
 Junto com uma Equipe Apática, quase sempre aparece um Profissional Supervalorizado, aquele profissional que todo mundo acredita que ele sabe o que faz e que vai resolver todos os problemas. Evidentemente que todos os problemas caem no colo dele e ele acaba sobrecarregado.
 
@@ -33,7 +33,7 @@ Um Profissional Supervalorizado acaba, portanto, sempre recorrendo à pogs para 
 
 Esse profissional costuma ser um grande invocador de pogs da equipe, o que acaba por aumentar sua fama e o quanto ele é superestimado.
 
-### Arquiteto MacGyver
+## Arquiteto MacGyver
 
 Numa equipe POG, ou mesmo em uma empresa usuária de POG, é muito comum a existência de uma figura mítica: o Arquiteto MacGyver.
 
@@ -43,7 +43,7 @@ O que muita gente não sabe é que o Arquiteto MacGyver é um mestre no uso de g
 
 O Arquiteto MacGyver costuma ter um relacionamento dúbio com a equipe, ora atuando com fonte de inspiração para ideias pseudodisruptivas, ora atuando como fonte  de inspiração para impropérios capazes de fazer o próprio Moonwalker de Curupira[^fn-nomes-capeta] corar de vergonha.
 
-### Gerente Sem Noção
+## Gerente Sem Noção
 
 Um time POG não estaria completo sem um Gerente Sem Noção. Figura frequente no desenvolvimento de software, o Gerente Sem Noção é aquele gerente que tem tanto conhecimento da produção de software quanto um incel possui sobre sexo.
 
@@ -53,7 +53,7 @@ Um Gerente Sem Noção, mesmo não digitando uma linha de código sequer, tem um
 
 Em nossa supracitada sopa de desgraça, tão necessária para nutrir nossas POGs, o Gerente Sem Noção é a pimenta.
 
-### Cliente Corrosivo
+## Cliente Corrosivo
 
 Se o Gerente sem Noção é a pimenta, o Cliente Corrosivo  é o "tompero" {% cite Jacquin2019%}.
 
@@ -71,7 +71,7 @@ Dentre os comportamentos nocivos deste cliente, temos:
 
 O Cliente Corrosivo tem esse nome porque sua atuação no projeto é semelhante a de um ácido, corroendo até mesmo o melhor dos materiais e transformando uma boa equipe em aterro sanitário de boas ideias, capaz de produzir o mais puro suco de chorume em forma de código POG.
 
-### Usuário Abrasivo
+## Usuário Abrasivo
 
 Ainda que o cliente não seja corrosivo, seu séquito de lacaios, os usuários abrasivos, podem contribuir para criar um ambiente propício ao aparecimento de POG.
 
@@ -85,7 +85,7 @@ Esse usuário causa pequenos danos, no decorrer do projeto, que vão se acumulan
 
 Obviamente que isso vira um círculo vicioso, onde mais pogs são necessárias pra aplacar a sede de sangue, que só aumenta devido às pogs já usadas, numa retroalimentação de energias negativas que faz qualquer adepto do namastê emplacar um sonoro sifudê.
 
-### Intrometido Inepto
+## Intrometido Inepto
 
 Pra completar a corte enviada pelo Estraga Suruba[^fn-nomes-capeta], temos o Intrometido Inepto. Essa figura aparece em diversas fases do projeto com uma única missão: se intrometer onde não é chamado para fornecer uma opinião não solicitada sobre um assunto que não domina.
 
@@ -99,7 +99,7 @@ O Intrometido Inepto costuma colaborar na criação de pogs ao colocar ideias pe
 
 Se você identificar um Intrometido Inepto junto aos tomadores de decisão associados ao seu projeto, a atitude mais correta e humana é capturar e entregar para o Ibama. Se isso não for possível, reze. Se for ateu, essa é uma boa hora pra adotar uma religião.
 
-### Dobrador de problemas
+## Dobrador de problemas
 
 Ao tratarmos da dimensão humana, não poderíamos deixar de mencionar um papel que pode ser assumido por qualquer um dos membros dessa pequena seita de invocação de calamidades digitais: o Dobrador de Problemas.
 
@@ -112,3 +112,9 @@ Você dá um problema pra essa criatura desatinada resolver e, de repente, ela i
 Ninguém sabe. Mas agora o gerente exige a contratação de mais 18 POGramadores e nosso espírito de luz (de cabaré) pode retornar ao seu limbo, feliz pelos empregos criados e projetos extendidos, e aguardar a próxima vez que será sumonado.
 
 Quem será o próximo a ser possuído?[^fn-next-problem-bender]
+
+---
+[^fn-nomes-capeta]: Moonwalker de Curupira é um dos nomes do Virose Bacteriana, do Discurso Epistemológico, do Farofa Doce, do Azuado, do Pai da Mentira, do Filho do Presidente, do Fede a 17... Para mais nomes, visite [Invocador de Nomes do Capeta](https://invocapiroto.com.br)
+
+[^fn-next-problem-bender]: Certeza que é o gerente. É sempre o gerente.
+
