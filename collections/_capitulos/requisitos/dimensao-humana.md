@@ -1,8 +1,8 @@
 ---
 title: Dimensão Humana
-description: Como o ser humano cria as condições para a invocação do mal
-sentence:
-sentence-author:
+description: Quando o ser humano cria as condições para a invocação do mal
+sentence: O importante é fazer funcionar.
+sentence-author: Programador 100% pragmático sobre POG
 order_number: 4100
 date: 2021-12-21 00:00
 name: dimensao-humana

@@ -111,11 +111,22 @@
   - Gerente de Projeto mostrando como se lidera a equipe a criar uma POG
   - Local: [tecnicas/tecnica-psychoding.md](collections/_capitulos/tecnicas/tecnica-psychoding.md)
 
-## Não usadas
+## Requisitos
 
-- [ ] Já atualizou a versão do Windows?
+- [x] O importante é fazer funcionar.
+  - Programador 100% pragmático sobre POG
+  - Local: [requisitos/dimensao-humana.md](collections/_capitulos/requisitos/dimensao-humana.md)
+- [x] Já atualizou a versão do Windows?
   - Resposta padrão do suporte sobre POG
   - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
+
+- [x] Esse problema só acontece quando vira o horário de verão, depois o sistema volta normal.
+  - POGramador com esperança (novamente) de que o sistema ainda irá funcionar
+  - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
+
+## Não usadas
+
+
 - [ ] É so botar botar um @
   - Programador PHP sobre o erro que aconteceu sobre POG
   - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
@@ -140,9 +151,7 @@
 - [ ] Internet Explorer 7 ? Atualiza pro 8 que funciona.
   - POGramador com esperança de que o sistema ainda irá funcionar
   - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
-- [ ] Esse problema só acontece quando vira o horário de verão, depois o sistema volta normal.
-  - POGramador com esperança (novamente) de que o sistema ainda irá funcionar
-  - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
+
 - [ ] Para ser POGger, tem de ser astuto, tem que saber onde o compilador quer te ferrar
   - POGger passando seus ensinamentos para estagiário!
   - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
@@ -172,7 +181,4 @@
   - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
 - [ ] Não se preocupe... quando você for implementar vai descobrir a melhor maneira!
   - Gerente sem-noção
-  - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)
-- [ ] O importante é fazer funcionar.
-  - Programador 100% pragmático sobre POG
   - Local: [yyy/xxx.md](collections/_capitulos/yyy/xxx.md)

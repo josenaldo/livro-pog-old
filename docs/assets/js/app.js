@@ -74,6 +74,8 @@ var App = (function () {
     self.increase_font_size = function () {
         if(self.font_size > 1) {
             self.font_size = self.font_size - 1;
+        } else{
+            elf.font_size = 1;
         }
 
         self.set_font_size(self.font_size);
@@ -82,6 +84,8 @@ var App = (function () {
     self.decrease_font_size = function () {
         if(self.font_size < 6) {
             self.font_size = self.font_size + 1;
+        } else {
+            self.font_size = 6;
         }
 
         self.set_font_size(self.font_size);

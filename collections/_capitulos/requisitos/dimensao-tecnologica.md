@@ -1,8 +1,8 @@
 ---
 title: Dimensão Tecnológica
 description: Quando a tecnologia age como cúmplice da desgracença
-sentence:
-sentence-author:
+sentence: Já atualizou a versão do Windows?
+sentence-author: Resposta padrão do suporte sobre POG
 order_number: 4200
 date: 2021-12-21 00:00
 name: dimensao-tecnologica
