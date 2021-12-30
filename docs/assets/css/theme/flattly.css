@@ -2502,4 +2502,6 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 body { padding-top: 80px; }
 
+.card-img-overlay { background-color: #303030; opacity: 0.6; }
+
 /*# sourceMappingURL=flattly.css.map */

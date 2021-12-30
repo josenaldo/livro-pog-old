@@ -1,29 +1,48 @@
 ---
 layout: default
 ---
-<div class="post container-fluid card z-depth-2 ">
-  {% if page.image %}
-  {% assign imagem_do_post =  page.image %}
-  {% else %}
-  {% assign imagem_do_post = "default-cover.jpg"%}
-  {% endif%}
+<section class="py-5">
+    <div class="container px-3">
+        <div class="card rounded-3">
+            <div class="card-header position-relative p-0">
+                <img src="{{ page.image.path | default: page.image | relative_url }}" class="card-img"
+                    alt="{{ page.title }}">
+                <div class="card-img-overlay">
+                </div>
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <h1 class="card-title">{{ page.title }}</h1>
+                    <p class="post-meta">{{ page.date | date: "%d/%m/%Y" }}{% if page.author %} •
+                        {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                </div>
+            </div>
 
-  <div class="z-depth-1 center-align cover"
-    style="background-image: url('{{imagem_do_post | relative_url}}'); background-repeat: no-repeat, repeat;">
-    <div class="{{ site.css }} darken-4 filter">
-      <div class="cover-text white-text text-darken-4">
-        <h1>{{page.title}}</h1>
-        <p class="post-meta">{{ page.date | date: "%d/%m/%Y" }}{% if page.author %} •
-          {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-      </div>
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-1 d-flex justify-content-center navigation pt-2 position-relative">
+                            {% if page.prev_url %}
+                            <a class="stretched-link" href="{{page.prev_url | relative_url}}">
+                                <i class="fas fa-angle-left fa-lg"></i>
+                            </a>
+                            {% endif %}
+                        </div>
+
+                        <div class="col-lg-8 col-10 fs-6" id="main-text">
+                            <div class="card-text text-white" id="card-content">
+                                {{ content }}
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-1 d-flex justify-content-center navigation pt-2 position-relative">
+                            {% if page.next_url %}
+                            <a class="stretched-link" href="{{page.next_url  | relative_url}}">
+                                <i class="fas fa-angle-right fa-lg"></i>
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div class="text-darken-4 card-content {{ site.css }}-text ">
-
-    <article class="post-content">
-      {{ content }}
-    </article>
-
-  </div>
-</div>
+</section>

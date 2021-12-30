@@ -28,46 +28,48 @@ layout: default
 <section class="py-5">
     <div class="container px-3">
         <div class="card rounded-3">
+            <div class="card-header position-relative p-0">
+                <img src="{{ page.image.path | default: page.image | relative_url }}" class="card-img" alt="{{ page.title }}">
+                <div class="card-img-overlay">
+                </div>
+                <div class="position-absolute top-50 start-50 translate-middle text-center">
+                    <h1 class="display-1 fw-bolder">{{ page.title }}</h1>
+                    <p class="lead fw-bold">{{page.description}}</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-1 d-flex justify-content-center navigation pt-2 position-relative">
+                            {% if prev_url %}
+                                <a class="stretched-link" href="{{prev_url | relative_url}}">
+                                    <i class="fas fa-angle-left fa-lg"></i>
+                                </a>
+                            {% endif %}
+                        </div>
 
-                <div class="card-body">
+                        <div class="col-lg-8 col-10 fs-6" id="main-text">
+                            <blockquote class="pt-3 p-2 rounded bg-primary text-center">
+                                <p class="text-light fw-bold">{{page.sentence}}</p>
+                                <figcaption class="blockquote-footer text-light small">
+                                    <cite title="{{page.sentence-author}}">{{page.sentence-author}}</cite>
+                                </figcaption>
+                            </blockquote>
 
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-1 d-flex justify-content-center navigation pt-2 position-relative">
-                                {% if prev_url %}
-                                    <a class="stretched-link" href="{{prev_url | relative_url}}">
-                                        <i class="fas fa-angle-left fa-lg"></i>
-                                    </a>
-                                {% endif %}
+                            <div class="card-text" id="card-content">
+                                {{ content }}
                             </div>
-
-                            <div class="col-10 fs-6" id="main-text">
-                                <div class="text-center my-5">
-                                    <h1 class="card-title text-center">{{ page.title }}</h1>
-                                    <p>{{page.description}}</p>
-                                </div>
-
-                                <blockquote class="pt-3 pb-2 rounded bg-primary text-center">
-                                    <p class="text-light lead">{{page.sentence}}</p>
-                                    <figcaption class="blockquote-footer text-light">
-                                        <cite title="{{page.sentence-author}}">{{page.sentence-author}}</cite>
-                                    </figcaption>
-                                </blockquote>
-
-                                <div class="card-text" id="card-content">
-                                    {{ content }}
-                                </div>
-                            </div>
-                            <div class="col-1 d-flex justify-content-center navigation pt-2 position-relative">
-                                {% if next_url %}
-                                    <a class="stretched-link" href="{{next_url | relative_url}}">
-                                        <i class="fas fa-angle-right fa-lg"></i>
-                                    </a>
-                                {% endif %}
-                            </div>
+                        </div>
+                        <div class="col-lg-2 col-1 d-flex justify-content-center navigation pt-2 position-relative">
+                            {% if next_url %}
+                                <a class="stretched-link" href="{{next_url | relative_url}}">
+                                    <i class="fas fa-angle-right fa-lg"></i>
+                                </a>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
 </section>

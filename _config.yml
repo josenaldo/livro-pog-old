@@ -67,7 +67,7 @@ safe: false
 # - vendor/cache/
 # - vendor/gems/
 # - vendor/ruby/
-permalink: pretty
+permalink: none
 exclude: [vendor]
 
 # Coleções

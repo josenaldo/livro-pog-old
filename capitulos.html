@@ -9,29 +9,40 @@ title: Capítulos
 
             <div class="card-body">
                 <div class="text-center my-5">
-                    <h1 class="card-title text-center">{{ page.title }}</h1>
+                    <h1 class="display-1 fw-bolder">{{ page.title }}</h1>
                 </div>
 
-                <ul class="list-group list-group-flush position-relative">
-                    {% assign capitulos_ordenados = site.capitulos | sort:"order_number" %}
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-1">
 
-                    {% for capitulo in capitulos_ordenados %}
-                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                            {% if capitulo.parent %}
-                                <i class="fas fa-minus"></i>
-                            {% endif %}
-                            <span class="fw-bold">{{ capitulo.title}}</span>
-                            <br>{{ capitulo.description }}
-                            <small>{{ capitulo.state }}</small>
                         </div>
-                        <a class="text-primary stretched-link"
-                            href="{{capitulo.url | relative_url}}">
-                            <i class="fas fa-arrow-right fa-2x fa-pull-right fa-border"></i>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
+                        <div class="col-lg-8 col-10">
+                            <ul class="list-group list-group-flush position-relative">
+                                {% assign capitulos_ordenados = site.capitulos | sort:"order_number" %}
+                                {% for capitulo in capitulos_ordenados %}
+                                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                                    <div class="ms-2 me-auto">
+                                        {% if capitulo.parent %}
+                                            <i class="fas fa-minus"></i>
+                                        {% endif %}
+                                        <span class="fw-bold">{{ capitulo.title}}</span>
+                                        <br>{{ capitulo.description }}
+                                        <small>{{ capitulo.state }}</small>
+                                    </div>
+                                    <a class="text-white stretched-link btn btn-primary"
+                                        href="{{capitulo.url | relative_url}}">
+                                        <i class="fas fa-arrow-right fa-2x"></i>
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-1">
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
