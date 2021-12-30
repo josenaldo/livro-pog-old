@@ -13,16 +13,16 @@ description: Cansou de se esforçar pra ser um profissional melhor e não ser re
                     <h1 class="display-5 fw-bolder text-white mb-2">{{page.title}}</h1>
                     <p class="lead fw-normal text-white-50 mb-4">{{page.description}}</p>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                        <a href="{{ 'capitulos/' | prepend: site.baseurl }}"
+                        <a href="{{ 'capitulos/' | relative_url }}"
                         class="btn btn-primary btn-lg px-4 me-sm-3">
                         Comece a ler</a>
-                        <a class="btn btn-outline-light btn-lg px-4" href="{{ 'ajude/' | prepend: site.baseurl }}">Ajude esse projeto</a>
+                        <a class="btn btn-secondary btn-lg px-4" href="{{ 'ajude/' | relative_url }}">Ajude esse projeto</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-                <img src="{{ 'assets/images/cover/hero-lg.jpg' | prepend: site.baseurl }}"
+                <img src="{{ 'assets/images/cover/hero-lg.jpg' | relative_url }}"
                     class="img-fluid rounded-3 my-5" alt="Capa do Livro: {{page.title}} - {{page.description}}"
                     width="500" height="400" loading="lazy">
             </div>
@@ -105,11 +105,6 @@ description: Cansou de se esforçar pra ser um profissional melhor e não ser re
             </div>
         </div>
 
-    </div>
-</div>
-
-<div class="container px-4 py-5">
-    <div class="row row-cols-1 row-cols-md-3">
         <div class="col my-3">
             <div class="card text-center h-100 bg-light border-0 py-3">
                 <div class="card-header text-dark border-0 bg-transparent">
@@ -225,29 +220,13 @@ description: Cansou de se esforçar pra ser um profissional melhor e não ser re
         {% endif%}
 
         <div class="col-lg-4 my-3">
-            <div class="card h-100 shadow border-0">
-                <img class="card-img-top" src="{{ imagem_do_post | relative_url}}" alt="{{post.title}}">
-
-                <div class="card-body p-4">
-                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">{{post.category}}</div>
-                    <a class="text-decoration-none stretched-link" href="{{post.url}}">
-                        <h5 class="card-title mb-3">{{post.title}}</h5>
-                    </a>
-                    <p class="card-text mb-0">{{post.excerpt }}</p>
-                </div>
-
-                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                    <div class="d-flex align-items-end justify-content-between">
-                        <div class="d-flex align-items-center">
-                            <img class="rounded-circle me-3" heigth="60" width="60" src="{{'assets/images/avatar/avatar-vudu.png' | relative_url}}" alt="Vudu Reverso">
-                            <div class="small">
-                                <div class="fw-bold">{{post.author}}</div>
-                                <div class="text-muted">{{ post.date | date: "%d/%m/%Y" }}</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {%include card.html
+                title=post.title
+                link=post.url
+                image=post.image
+                category=post.category
+                date=post.date
+                content=post.excerpt %}
         </div>
         {% endfor %}
     </div>

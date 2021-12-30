@@ -4,7 +4,10 @@ description: Porque é importante compreendermos o conceito de Programação Ori
 sentence: A culpa é do Hardware!
 sentence-author: POGramador explicando porque o sistema POG não funciona
 order_number: 2000
-image: /assets/images/capitulos/o-que-e-pog.jpg
+image:
+    path: "assets/images/capitulos/o-que-e-pog.jpg"
+    width: "1200"
+    height: "628"
 date: 2020-04-16 00:01
 name: o-que-e-pog
 parent:

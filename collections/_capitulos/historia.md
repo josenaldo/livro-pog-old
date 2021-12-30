@@ -5,7 +5,10 @@ sentence: O Papa é POG
 sentence-author: Engenheiros do Hawaii sobre POG
 order_number: 3000
 date: 2020-04-16 00:02
-image: /assets/images/capitulos/historia.jpg
+image:
+    path: "assets/images/capitulos/historia.jpg"
+    width: "1200"
+    height: "628"
 name: historia
 parent:
 ---

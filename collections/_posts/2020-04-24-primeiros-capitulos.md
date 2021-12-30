@@ -4,7 +4,10 @@ title: Primeiros capítulos
 date: 2020-04-24 20:21:00 -0300
 category: novidades
 author: Vudu Reverso
-image: /assets/images/posts/2020-04-24-primeiros-capitulos.jpg
+image:
+    path: "assets/images/posts/2020-04-24-primeiros-capitulos.jpg"
+    width: "1200"
+    height: "628"
 ---
 **Saudações, ruma de POGramadores!**
 
@@ -14,7 +17,7 @@ NÃO?
 
 Porque desperdiças tua vida, cabrunco?
 
-<!--more-->
+<!-- more -->
 
 Se estiver estudando programação, PARE AGORA! Estudar é coisa de programador. POGramadores de família gastam seu tempo jogando jogos que aumentem sua capacidade gambiarrística, como Minecraft e Terraria.
 

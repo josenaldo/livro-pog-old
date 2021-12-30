@@ -47,7 +47,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                {% if page.url == "/ajude/" %}
+                {% if page.url == "/ajude.html" %}
                     {% assign link_class = "active" %}
                 {% else %}
                     {% assign link_class = "" %}
@@ -57,7 +57,17 @@
                 </a>
             </li>
             <li class="nav-item">
-                {% if page.url == "/capitulos/" %}
+                {% if page.url == "/novidades.html" %}
+                    {% assign link_class = "active" %}
+                {% else %}
+                    {% assign link_class = "" %}
+                {% endif %}
+                <a class="nav-link link-light {{link_class}}" href="{{'novidades/' | relative_url}}">
+                    Novidades
+                </a>
+            </li>
+            <li class="nav-item">
+                {% if page.url == "/capitulos.html" %}
                     {% assign link_class = "active" %}
                 {% else %}
                     {% assign link_class = "" %}

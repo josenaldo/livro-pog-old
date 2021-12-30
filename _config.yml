@@ -76,7 +76,7 @@ collections:
   capitulos:
     output: true
 
-excerpt_separator: <!--more-->
+excerpt_separator: <!-- more -->
 
 # Valores default
 defaults:
@@ -86,26 +86,26 @@ defaults:
     values:
       layout: "capitulo"
       image:
-        path: "assets/images/og-image.png"
-        width: "1280"
-        height: "640"
+        path: "assets/images/default.jpg"
+        width: "1200"
+        height: "628"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       image:
-        path: "assets/images/og-image.png"
-        width: "1280"
-        height: "640"
+        path: "assets/images/default.jpg"
+        width: "1200"
+        height: "628"
   - scope:
       path: ""
     values:
       layout: "home"
       image:
-        path: "assets/images/og-image.png"
-        width: "1280"
-        height: "640"
+        path: "assets/images/default.jpg"
+        width: "1200"
+        height: "628"
 
 scholar:
   style: associacao-brasileira-de-normas-tecnicas

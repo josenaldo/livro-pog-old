@@ -4,38 +4,34 @@ layout: default
 <section class="py-5">
     <div class="container px-3">
         <div class="card rounded-3">
-            <div class="card-header position-relative p-0">
-                <img src="{{ page.image.path | default: page.image | relative_url }}" class="card-img"
-                    alt="{{ page.title }}">
-                <div class="card-img-overlay">
-                </div>
-                <div class="position-absolute top-50 start-50 translate-middle">
-                    <h1 class="card-title">{{ page.title }}</h1>
-                    <p class="post-meta">{{ page.date | date: "%d/%m/%Y" }}{% if page.author %} •
-                        {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-                </div>
-            </div>
 
             <div class="card-body">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-2 col-1 d-flex justify-content-center navigation pt-2 position-relative">
-                            {% if page.prev_url %}
-                            <a class="stretched-link" href="{{page.prev_url | relative_url}}">
+                            {% if page.previous.url %}
+                            <a class="stretched-link" href="{{page.previous.url | relative_url}}">
                                 <i class="fas fa-angle-left fa-lg"></i>
                             </a>
                             {% endif %}
                         </div>
 
                         <div class="col-lg-8 col-10 fs-6" id="main-text">
+
+                            <img src="{{ page.image.path | default: page.image | relative_url }}" class="img-fluid rounded mb-2" alt="{{ page.title }}">
+                            <h1 class="text-center mb-2 display-1">{{ page.title }}</h1>
+                            <p class="post-meta text-center mb-3">{{ page.date | date: "%d/%m/%Y" }}{% if page.author %} •
+                                {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                            <hr>
+
                             <div class="card-text text-white" id="card-content">
                                 {{ content }}
                             </div>
                         </div>
 
                         <div class="col-lg-2 col-1 d-flex justify-content-center navigation pt-2 position-relative">
-                            {% if page.next_url %}
-                            <a class="stretched-link" href="{{page.next_url  | relative_url}}">
+                            {% if page.next.url %}
+                            <a class="stretched-link" href="{{page.next.url  | relative_url}}">
                                 <i class="fas fa-angle-right fa-lg"></i>
                             </a>
                             {% endif %}

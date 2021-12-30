@@ -4,7 +4,10 @@ title: A História da POG precisa de sua ajuda
 date: 2020-05-02 07:23:00 -0300
 category: novidades
 author: Vudu Reverso
-image: /assets/images/posts/2020-05-02-me-ajudem-com-a-historia-da-pog.jpg
+image:
+    path: "assets/images/posts/2020-05-02-me-ajudem-com-a-historia-da-pog.jpg"
+    width: "1200"
+    height: "628"
 ---
 
 **Saudações, ruma de Faz Deploy por FTP!**
@@ -13,11 +16,11 @@ Acabou de surgir uma moda: o dev de palco.
 
 Aqui não tem lugar pra esse tipo de degeneração cognitiva e moral! Aqui nós temos é DEV DE POG!
 
+<!-- more -->
+
 Enquanto essa gente criada a leite com pera temperado está criando palestras e participando de eventos, você está fazendo o trabalho de verdade que move a economia desse país: criando problemas geradores de postos de trabalho!
 
 Agora, amigo POGramador, eu necessito de sua colaboração!
-
-<!--more-->
 
 Escrevinhotei mais um capítulo, [História da POG]({{'/capitulos/historia' | relative_path}}).
 
