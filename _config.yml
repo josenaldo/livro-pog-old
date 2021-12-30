@@ -85,6 +85,7 @@ defaults:
       type: "capitulos"
     values:
       layout: "capitulo"
+      permalink: "/capitulos/:slug/"
       image:
         path: "assets/images/default.jpg"
         width: "1200"
@@ -94,6 +95,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      permalink: "/novidades/:slug/"
       image:
         path: "assets/images/default.jpg"
         width: "1200"

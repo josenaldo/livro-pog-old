@@ -42,7 +42,6 @@ docker exec -it livro-pog bash
 
 ### Se precisar reconectar num servidor que já está rodando
 
-
 ```shell
 pkill -u jekyll
 ```
