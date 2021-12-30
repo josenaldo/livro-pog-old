@@ -28,15 +28,6 @@ layout: default
 <section class="py-5">
     <div class="container px-3">
         <div class="card rounded-3">
-            <div class="card-header position-relative p-0">
-                <img src="{{ page.image.path | default: page.image | relative_url }}" class="card-img" alt="{{ page.title }}">
-                <div class="card-img-overlay">
-                </div>
-                <div class="position-absolute top-50 start-50 translate-middle text-center">
-                    <h1 class="display-1 fw-bolder">{{ page.title }}</h1>
-                    <p class="lead fw-bold">{{page.description}}</p>
-                </div>
-            </div>
             <div class="card-body">
                 <div class="container">
                     <div class="row">
@@ -49,12 +40,19 @@ layout: default
                         </div>
 
                         <div class="col-lg-8 col-10 fs-6" id="main-text">
-                            <blockquote class="pt-3 p-2 rounded bg-primary text-center">
-                                <p class="text-light fw-bold">{{page.sentence}}</p>
-                                <figcaption class="blockquote-footer text-light small">
+
+                            <img src="{{ page.image.path | default: page.image | relative_url }}" class="img-fluid rounded mb-2" alt="{{ page.title }}">
+                            <h1 class="text-center mb-2 display-1">{{ page.title }}</h1>
+
+                            <blockquote class="text-center px-2 mb-2 text-muted">
+                                <p class="">{{page.sentence}}</p>
+                                <figcaption class="blockquote-footer small">
                                     <cite title="{{page.sentence-author}}">{{page.sentence-author}}</cite>
                                 </figcaption>
                             </blockquote>
+
+                            <h3 class=" mb-2 text-center">{{page.description}}</h3>
+                            <hr>
 
                             <div class="card-text" id="card-content">
                                 {{ content }}
