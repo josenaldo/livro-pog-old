@@ -3,7 +3,7 @@ name: Jekyll Deploy
 on:
   push:
     branches:
-      - source
+      - main
 
 jobs:
   build_and_deploy:
@@ -19,10 +19,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - name: Build & Deploy to GitHub Pages
-        uses: josenaldo/jekyll4-deploy-gh-pages@master
+        uses: josenaldo/jekyll4-deploy-gh-pages@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
           JEKYLL_DESTINATION: docs
-          JEKYLL_SOURCE_BRANCH: source
