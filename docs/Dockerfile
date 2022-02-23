@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:4.0.0
+FROM jekyll/jekyll:latest
 
 LABEL author Josenaldo Matos
 
