@@ -1,9 +1,0 @@
-.blockquote-footer::before { content: "\""; }
-
-.blockquote-footer::after { content: "\""; }
-
-#main-text { font-family: Georgia, Cambria, "Times New Roman", Times, serif !important; }
-
-#main-text .card, #main-text .card-text, #main-text #card-content { font-family: Georgia, Cambria, "Times New Roman", Times, serif !important; }
-
-/*# sourceMappingURL=serif.css.map */
