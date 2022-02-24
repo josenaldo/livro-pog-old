@@ -2,3 +2,4 @@
 .jekyll-metadata
 /vendor/bundle
 /.jekyll-cache
+/docs
