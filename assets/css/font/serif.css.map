@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "serif.css",
+	"sources": [
+		"serif.scss",
+		"_sass/_tipografia.scss"
+	],
+	"sourcesContent": [
+		"@import \"tipografia\";\n\n#main-text {\n    font-family:$font-family-serif !important;\n\n    .card, .card-text, #card-content {\n        font-family: $font-family-serif !important;\n    }\n}",
+		"$font-family-sans-serif: Lato, -apple-system, BlinkMacSystemFont, \"Segoe UI\",\n    Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\",\n    \"Segoe UI Emoji\", \"Segoe UI Symbol\" !default;\n\n$font-family-serif: Georgia, Cambria, \"Times New Roman\", Times, serif !default;\n\n.blockquote-footer::before {\n    content: \"\\\"\";\n}\n\n.blockquote-footer::after {\n    content: \"\\\"\";\n}"
+	],
+	"names": [],
+	"mappings": "ACMA,AAAA,kBAAkB,EAAE,MAAM,CAAC,EACvB,OAAO,EAAE,IAAI,GAChB;;AAED,AAAA,kBAAkB,EAAE,KAAK,CAAC,EACtB,OAAO,EAAE,IAAI,GAChB;;ADVD,AAAA,UAAU,CAAC,EACP,WAAW,ECCK,OAAO,EAAE,OAAO,EAAE,iBAAiB,EAAE,KAAK,EAAE,KAAK,CDDlC,UAAU,GAK5C;;AAND,AAGI,UAHM,CAGN,KAAK,EAHT,UAAU,CAGC,UAAU,EAHrB,UAAU,CAGa,aAAa,CAAC,EAC7B,WAAW,ECFC,OAAO,EAAE,OAAO,EAAE,iBAAiB,EAAE,KAAK,EAAE,KAAK,CDE7B,UAAU,GAC7C"
+}

@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>O que é POG? - Programação Orientada a Gambiarra</title>
+    
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
+        integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
+        crossorigin="anonymous" />
+
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Katex CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous"/>
+
+    <!-- Defaul Aplication CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/theme/darkly.css" />
+
+    <!-- Font CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/font/sans.css" />
+
+    <link rel="canonical" href="http://www.livropog.com.br//capitulos/o-que-e-pog/"/>
+
+    <!-- Favicons generated at http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="/assets/favicon/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="google-site-verification" content="1cbkSny462_R3ImGQRd6txNTIoESz9RwkuvOysUdRls" />
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="O que é POG?" />
+<meta name="author" content="Vudu Reverso" />
+<meta property="og:locale" content="pt_BR" />
+<meta name="description" content="Porque é importante compreendermos o conceito de Programação Orientada a Gambiarra" />
+<meta property="og:description" content="Porque é importante compreendermos o conceito de Programação Orientada a Gambiarra" />
+<link rel="canonical" href="http://www.livropog.com.br/capitulos/o-que-e-pog/" />
+<meta property="og:url" content="http://www.livropog.com.br/capitulos/o-que-e-pog/" />
+<meta property="og:site_name" content="Programação Orientada a Gambiarra" />
+<meta property="og:image" content="http://www.livropog.com.br/assets/images/capitulos/o-que-e-pog.jpg" />
+<meta property="og:image:height" content="628" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-16T00:01:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://www.livropog.com.br/assets/images/capitulos/o-que-e-pog.jpg" />
+<meta property="twitter:title" content="O que é POG?" />
+<meta name="twitter:site" content="@vudureverso" />
+<meta name="twitter:creator" content="@Vudu Reverso" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Vudu Reverso"},"dateModified":"2020-04-16T00:01:00+00:00","datePublished":"2020-04-16T00:01:00+00:00","description":"Porque é importante compreendermos o conceito de Programação Orientada a Gambiarra","headline":"O que é POG?","image":{"width":"1200","height":"628","url":"http://www.livropog.com.br/assets/images/capitulos/o-que-e-pog.jpg","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://www.livropog.com.br/capitulos/o-que-e-pog/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://www.livropog.com.br/assets/images/logo/logo.png"},"name":"Vudu Reverso"},"url":"http://www.livropog.com.br/capitulos/o-que-e-pog/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+
+
+
+
+<body class="d-flex flex-column h-100">
+
+    <div
+    class="flex-shrink-0 p-3 text-white bg-dark offcanvas offcanvas-start"
+    style="width: 300px"
+    id="sidebar"
+    tabindex="-1"
+    aria-labelledby="offcanvasExampleLabel"
+>
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+            <a
+                class="
+                    navbar-brand
+                    d-flex
+                    align-items-center
+                    mb-3 mb-md-0
+                    me-md-auto
+                    text-white text-decoration-none
+                "
+                href="/"
+            >
+                <img
+                    src="/assets/images/logo/brand.png"
+                    alt="Programação Orientada a Gambiarra"
+                />
+                POG
+            </a>
+        </h5>
+        <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+        ></button>
+    </div>
+
+    <div class="offcanvas-body">
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                
+                <a class="nav-link link-light " href="/">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item">
+                
+                <a class="nav-link link-light " href="/ajude">
+                    Ajude esse projeto
+                </a>
+            </li>
+            <li class="nav-item">
+                
+                <a class="nav-link link-light " href="/novidades">
+                    Novidades
+                </a>
+            </li>
+            <li class="nav-item">
+                
+                <a class="nav-link link-light " href="/capitulos">
+                    Capítulos
+                </a>
+            </li>
+
+            <hr>
+
+
+            
+
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/agradecimentos/">
+                    
+                    Agradecimentos
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/introducao/">
+                    
+                    Introdução
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light active" href="/capitulos/o-que-e-pog/">
+                    
+                    O que é POG?
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/historia/">
+                    
+                    História da POG
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/requisitos/">
+                    
+                    Requisitos da POG
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/dimensao-humana/">
+                    
+                        <i class="fas fa-minus"></i>
+                    
+                    Dimensão Humana
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/dimensao-tecnologica/">
+                    
+                        <i class="fas fa-minus"></i>
+                    
+                    Dimensão Tecnológica
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/dimensao-estrutural/">
+                    
+                        <i class="fas fa-minus"></i>
+                    
+                    Dimensão Estrutural
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/dimensao-processual/">
+                    
+                        <i class="fas fa-minus"></i>
+                    
+                    Dimensão Processual
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/dimensao-temporal/">
+                    
+                        <i class="fas fa-minus"></i>
+                    
+                    Dimensão Temporal
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/principios/">
+                    
+                    Príncípios da POG
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/tecnicas/">
+                    
+                    Técnicas da POG
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/tecnica-zipomatic-versioning/">
+                    
+                    Zipomatic versioning
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/tecnica-monkey-patching/">
+                    
+                    Monkey Patching
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/tecnica-incremental-patching-debug/">
+                    
+                    Incremental patching debug
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/tecnica-my-precious/">
+                    
+                    My precious
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/tecnica-psychoding/">
+                    
+                    Psychoding
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gambi-design-patterns/">
+                    
+                    Gambi Design Patterns
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-que-porra-e-essa/">
+                    
+                    WTF / WTH / QPE
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-reuse-by-copy-and-paste/">
+                    
+                    RCP Pattern (Reuse by Copy and Paste)
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-hardcoded-data/">
+                    
+                    Hardcoded Data
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-forceps/">
+                    
+                    Forceps
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-ostrich-syndrome-skill/">
+                    
+                    Ostrich Syndrome Skill
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-nonsense-flag/">
+                    
+                    Nonsense Flag Nonsense Naming
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-commented-code-implementation/">
+                    
+                    Commented Code Implementation Comments Forever
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-reinvented-square-wheel-helper/">
+                    
+                    Reinvented Square Wheel Helper
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-you-shall-not-pass/">
+                    
+                    You Shall Not Pass
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-bulletproof/">
+                    
+                    Perfectness Execution Bulletproof
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-exception-success/">
+                    
+                    Exception Success
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-string-sushiman/">
+                    
+                    String Sushiman
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-human-factor/">
+                    
+                    Sleeper Human Factor
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-black-cat-in-a-dark-room/">
+                    
+                    Black Cat In A Dark Room
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-mega-zord/">
+                    
+                    Mega Zord
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-thunder-mega-zord/">
+                    
+                    THUNDER MEGA ZORD
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-controller-confusion/">
+                    
+                    Controller Confusion
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-no-more-layers/">
+                    
+                    No More Layers
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-db-is-our-god/">
+                    
+                    Db Is Our God
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/gdp-snow-white-returns/">
+                    
+                    Snow White Returns
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/referencias/">
+                    
+                    Referências
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                
+
+                <a class="nav-link  link-light " href="/capitulos/conclusoes/">
+                    
+                    Conclusões
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    <main role="main" class="flex-shrink-0">
+        <header>
+    <nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand d-flex align-items-center col-md-auto mb-2 mb-md-0" href="/">
+                <img src="/assets/images/logo/brand.png" alt="Programação Orientada a Gambiarra" />
+                POG
+            </a>
+
+            <div class="col-md-auto mb-2 justify-content-right mb-md-0">
+                <button type="button" class="btn btn-secondary btn-lg mx-2" data-bs-toggle="modal"
+                    data-bs-placement="bottom" data-bs-target="#settingsModal" role="button"
+                    aria-controls="popover-font-settings" aria-expanded="true"
+                    aria-label="Mostra Configurações de Fontes">
+                    <i class="fas fa-font fa-fw"></i>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-lg mx-2" data-bs-toggle="offcanvas"
+                    data-bs-target="#sidebar" role="button" aria-controls="sidebar" aria-expanded="true"
+                    aria-label="Mostra menu de navegação">
+                    <i class="fas fa-bars fa-fw"></i>
+                </button>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<!-- Modal -->
+<div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="modal-font-settings" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-font-settings">Configurações</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row mb-3" id="font-size-chooser">
+                    <label class="form-label" for="font-size-group">Tamanho da fonte</label>
+                    <p class="small fst-italic">Essa configuração só se aplica ao texto dos capítulos</p>
+                    <div class="btn-group" id="font-size-group" role="group" aria-label="Mudar tamanho de fonte">
+                        <button type="button" id="btnDecreaseFont" class="btn btn-primary">
+                            <i class="fas fa-font fa-lg"></i>
+                        </button>
+                        <button type="button" id="btnIncreaseFont" class="btn btn-primary">
+                            <i class="fas fa-font fa-2x"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="row mb-3" id="font-chooser">
+                    <label class="form-label" for="font-group">Tipo de fonte</label>
+                    <p class="small fst-italic">Essa configuração só se aplica ao texto dos capítulos</p>
+                    <div class="btn-group" id="font-group" role="group" aria-label="Mudar tipo da fonte">
+                        <input type="radio" class="btn-check" name="fontChoice" id="font_serif" autocomplete="off" value="serif">
+                        <label class="btn btn-outline-primary" for="font_serif">serif</label>
+
+                        <input type="radio" class="btn-check" name="fontChoice" id="font_sans" autocomplete="off" value="sans">
+                        <label class="btn btn-outline-primary" for="font_sans">sans</label>
+                    </div>
+                </div>
+                <div class="row mb-3" id="theme-chooser">
+                    <label class="form-label" for="theme-group">Tema</label>
+                    <p class="small fst-italic">Essa configuração se aplica a todo o site</p>
+                    <div class="btn-group" id="theme-group" role="group" aria-label="Basic radio toggle button group">
+
+                        <input type="radio" class="btn-check" name="themeChoice" id="theme_flattly" autocomplete="off" value="flattly">
+                        <label class="btn btn-outline-primary" for="theme_flattly">
+                            <i class="fas fa-sun"></i>
+                        </label>
+
+                        <input type="radio" class="btn-check" name="themeChoice" id="theme_darkly" autocomplete="off" value="darkly" checked>
+                        <label class="btn btn-outline-primary" for="theme_darkly">
+                            <i class="fas fa-moon"></i>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="navbar-dark bg-secondary flex-shrink-0">
+    <div class="container mt-0">
+        <ol class="breadcrumb bg-secondary border-0">
+            
+            <li class="breadcrumb-item">
+                <a href="/" class="link-light text-decoration-none">Home</a>
+            </li>
+    
+            
+            
+            <li class="breadcrumb-item">
+                <a  class="link-light text-decoration-none"
+                    href="/capitulos/">Capitulos</a>
+            </li>
+            
+            
+            
+            <li class="breadcrumb-item text-white">
+                <b>O que é POG?</b>
+            </li>
+            
+            
+        </ol>
+    </div>
+</div>
+
+        
+
+
+
+
+
+
+<section class="py-5">
+    <div class="container px-3">
+        <div class="card rounded-3">
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-1 d-flex justify-content-center navigation pt-2 position-relative">
+                            
+                                <a class="stretched-link" href="/capitulos/introducao/">
+                                    <i class="fas fa-angle-left fa-lg"></i>
+                                </a>
+                            
+                        </div>
+
+                        <div class="col-lg-8 col-10 fs-6" id="main-text">
+
+                            <img src="/assets/images/capitulos/o-que-e-pog.jpg" class="img-fluid rounded mb-2" alt="O que é POG?">
+                            <h1 class="text-center mb-2 display-1">O que é POG?</h1>
+
+                            <blockquote class="text-center px-2 mb-2 text-muted">
+                                <p class="">A culpa é do Hardware!</p>
+                                <figcaption class="blockquote-footer small">
+                                    <cite title="POGramador explicando porque o sistema POG não funciona">POGramador explicando porque o sistema POG não funciona</cite>
+                                </figcaption>
+                            </blockquote>
+
+                            <h3 class=" mb-2 text-center">Porque é importante compreendermos o conceito de Programação Orientada a Gambiarra</h3>
+                            <hr>
+
+                            <div class="card-text" id="card-content">
+                                <p><strong>Gambiarra</strong>.</p>
+
+<p>Ao assumir o sacerdócio da área da POGramação, a palavra Gambiarra é cravada em nossos cérebros e passa a fazer parte do nosso vocabulário.</p>
+
+<p>Muito se discute sobre os benefícios e malefícios da Gambiarra. A maioria faz piada. E muitos até tentam resistir. Inutilmente, claro. A Gambiarra torna-se uma parte importante de nossas vidas, quer você queira ou não.</p>
+
+<p>Mas, afinal, o que é uma Gambiarra?</p>
+
+<p>Dentre os civis (aqueles que não comungam do conhecimento sagrado da
+POGramação), a palavra Gambiarra quase sempre tem uma conotação ligada a adaptações ineficientes ou soluções improvisadas pra problemas que exigem técnicas mais apuradas.</p>
+
+<p>Uma acepção menos pejorativa e mais objetiva é o uso desta palavra pra designar o conjunto de lâmpadas em série, usado para iluminar uma área onde ocorrerá um evento, como uma peça de teatro, uma festa junina ou um bacanal de pessoas sem um pingo de vergonha.</p>
+
+<p>E dessa forma, é que você, jovem POGramador, deve ver a Gambiarra: como a luz que ilumina o espetáculo que é o seu código!</p>
+
+<blockquote><p>"Por definição, a Gambiarra é aquilo que é de difícil concepção, de inesperada execução para tornar fácil o uso de algo que sequer deveria existir."</p><cite><a class="citation" href="/capitulos/referencias/#Desciclopedia2016">(DESCICLOPEDIA, 2016)</a></cite></blockquote>
+
+<p><strong>Ou seja, a Gambiarra é a solução técnica planejadamente improvisada e resultante de uma inspiração momentânea, com o intuito de resolver um problema complexo, onde o uso de técnicas tradicionais incorrem em alto custo energético para o resolvedor.</strong></p>
+
+<p>A duração da gambiarra é limitada, devendo essa ser substituída, assim que possível, por uma solução técnica convencional. Portanto, uma boa gambiarra tem, como tempo de permanência, o valor mínimo \(Tg\) (Tempo da Gambiarra), sendo que \(Tg\) tende ao infinito.</p>
+
+<p>Por ter baixo custo presente, seu custo futuro tende a ser ignorado pelo gambiarrizador, já que esse custo certamente será assumido por terceiros. Portanto, a gambiarra se mostra extremamente vantajosa, o que justifica a sua utilização.</p>
+
+<h2 id="sinônimos-de-gambiarra">Sinônimos de Gambiarra</h2>
+
+<p>O termo Gambiarra possui diversos sinônimos, usados nas mais diversas áreas. Em sua maioria, os sinônimos são eufemismos, utilizados como forma de esconder dos civis que uma Gambiarra está sendo usada, já que a mente primitiva do ser humano comum é incapaz de perceber o brilhantismo dessa solução.</p>
+
+<p>Dentre estes sinônimos, temos:</p>
+
+<ul class="browser-default">
+  <li>ATI - Aparato Técnico Improvisado</li>
+  <li>ATND - Artifício Técnico Não Documentado</li>
+  <li>CPMF - Conserto Provisório Mas Funciona</li>
+  <li>DAT - Dispositivo Alternativo Temporário</li>
+  <li>ERR - Engenharia de Reparos Rápidos</li>
+  <li>MASC - Medida Adaptativa à Situações Críticas</li>
+  <li>MTEDM - Manutenção Técnica com Elementos Disponíveis no Momento</li>
+  <li>MUTRETA - Método Único de  Tratamento e Resolução de Erros Totalmente Adaptável</li>
+  <li>REZA - Reestruturação Emergencial Zuada Auxiliar</li>
+  <li>RTA - Recurso Técnico Avançado</li>
+  <li>RTA - Recurso Tecnológico Alternativo</li>
+  <li>RTDM - Recurso Técnico Disponível no Momento</li>
+  <li>RTE - Recurso Técnico de Emergência</li>
+  <li>RTI - Recurso Técnico Inteligente</li>
+  <li>STCT - Solução Técnica de Cunho Temporário</li>
+</ul>
+
+<p>No contexto da POGramação, temos também os seguintes sinônimos:</p>
+
+<ul class="browser-default">
+  <li>ADP - Adaptação De Programador</li>
+  <li>CACA - Código Avançado Completo e Adaptável</li>
+  <li>CAGADA - Código Alternativo Gerador de  Algoritmos Duramente Aplicáveis</li>
+  <li>DADA - Deixa Assim, Depois Arrumo</li>
+  <li>IST - Improvisation Solution Tabajara</li>
+  <li>ITAC - Implementação Técnica Abstratamente Controversa</li>
+  <li>RAP - Recurso Avançado de Programação</li>
+  <li>TAPA - Técnica Alternativa de Programação Avançada</li>
+</ul>
+
+<p>Podemos notar como o uso de siglas é comum na denominação da Gambiarra. Portanto, a lógica é clara: se algo, na computação, é nomeado com uma sigla, provavelmente é uma Gambiarra.</p>
+
+<p>O exemplo mais notório dessa regra é o acrônimo recursivo GNU, que significa “GNU is Not Unix”, e denota uma Gambiarra que se gambiarriza em si mesma.</p>
+
+<p>Mas existe um termo que merece uma explicação adicional, devido às suas peculiaridades: Marreta<sup id="fnref:fn-marreta" role="doc-noteref"><a href="#fn:fn-marreta" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<h3 id="marreta">Marreta</h3>
+
+<p>O termo “Marreta” é usado por quem associa o poder gambiarrizador à ferramenta Marreta, que é usada no lugar de um martelo. O POGramador também associa o poder gambiarrizante ao deus Thor, que resolvia tudo na base do martelo.</p>
+
+<p>A origem do termo está no ditado “Pra quem só sabe usar martelo, todo problema é prego”.</p>
+
+<p>Obviamente que podemos discutir o porquê de não se usar o termo “Martelo”, mas o uso do termo correto associado ao ditado é uma incoerência gambiarrística! A própria utilização da marreta, no lugar do martelo, demonstra uma gambiarra verbal, o que fecha o ciclo lógico da gambiarra numa metagambiarra.</p>
+
+<h3 id="gambiarra-em-outras-línguas">Gambiarra em outras línguas</h3>
+
+<p>A gambiarra é um conceito universal. Não importa o país que você visite, sempre existe uma criatura abençoada alterando alguma coisa, de forma improvisada, para que um propósito não planejado seja atingido ou algum reparo desejado, mas impossível, seja tornado possível.</p>
+
+<p>Sabendo disso, POGramadores bem informados compreendem que não precisam apenas ter competência, eles precisam DEMONSTRAR competência. E a forma mais simples de demonstrar competência é na comunicação verbal, principalmente com cliente e civis.</p>
+
+<p>O POGramador deve se utilizar de todo artifício verbal em seu arsenal para mostrar que é dotado de capacidades técnicas que o marcam como um profissional de primeira linha. Dentre essas habilidades, está a capacidade de dominar o  inglês<sup id="fnref:fn-idioma" role="doc-noteref"><a href="#fn:fn-idioma" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<p>Por essa razão, é muito comum o uso do vocábulo <em>workaround</em>.</p>
+
+<p>Sempre que você ver um profissional usando o termo <em>workaround</em>, saiba que esse profissional é o POGramador de alto nível.</p>
+
+<p>Outros sinônimos, em inglês, que são poucos usados no Brasil e, portanto, podem aumentar a pontuação do POGramador, são as expressões <em>kludge</em>, <em>jugaad</em>, <em>jury rig</em> e <em>“quick and dirt”</em>.</p>
+
+<p>Outra expressão com a qual devemos ficar alerta é “Do It Yourself” (DIY). Sempre que essa expressão surge, quase sempre em um livro de feitiçarias malégnas<sup id="fnref:fn-shiryu" role="doc-noteref"><a href="#fn:fn-shiryu" class="footnote" rel="footnote">3</a></sup> disfarçado de tutorial, pode ter certeza de que existe uma criatura condenada sumonando uma gambiarra malégna, por conta própria.</p>
+
+<p>Nas mãos de pessoas despreparadas, como civis e programadores, isso quase sempre acaba num arremedo de projeto, como aquela sua tia que tentou fazer um jarro chinês e acabou com uma réplica do Útero de Satanás no meio da sala.</p>
+
+<p>E por falar em POGramação…</p>
+
+<h2 id="programação-orientada-a-gambiarra">Programação Orientada a Gambiarra</h2>
+
+<p>Dentre todas as formas de encarnação que a Gambiarra possui, este livro tratará de sua forma digital mais profícua<sup id="fnref:fn-proficua" role="doc-noteref"><a href="#fn:fn-proficua" class="footnote" rel="footnote">4</a></sup>: <strong>A POG (Programação Orientada a Gambiarras)</strong>.</p>
+
+<blockquote><p>A Programação Orientada a Gambiarras (POG ou WOP – Workaround-oriented programming) é um paradigma de programação de sistemas de software que integra-se perfeitamente a qualquer grande Paradigma de Programação atual.</p><cite><a class="citation" href="/capitulos/referencias/#Desciclopedia2016">(DESCICLOPEDIA, 2016)</a></cite></blockquote>
+
+<p>Este paradigma permite que utilizemos de Gambiarras para resolver problemas computacionais, não computacionais, espirituais, econômicos e até mesmo sexuais, de forma a garantir o sucesso do projeto.</p>
+
+<p>A aplicação da POG tende a criar mais problemas do que resolve, criando, dessa forma, um círculo virtuoso que garante empregos a milhões de POGramadores pelo mundo. Cada problema criado significa mais trabalho e, portanto, mais empregos!</p>
+
+<p>Para compreender a POG, é necessário compreender quais os requisitos para a formação da POG, quais os princípios que guiam o POGramador e quais as técnicas que esse POGramador usará. Veremos esses tópicos nos próximos capítulos.</p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:fn-marreta" role="doc-endnote">
+      <p>O motivo pelo qual o termo “marreta” é tão importante é bastante óbvio, mesmo para o leitor mais desatento: é porquê eu gosto e eu quero. Se você não percebeu isso, sugiro que procure um profissional especialista<sup id="fnref:fn-especialista" role="doc-noteref"><a href="#fn:fn-especialista" class="footnote" rel="footnote">5</a></sup> (astrólogo, vidente, adivinho ou áreas correlatas). <a href="#fnref:fn-marreta" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-idioma" role="doc-endnote">
+      <p>O idioma, não um homem proveniente da Inglaterra. <a href="#fnref:fn-idioma" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-shiryu" role="doc-endnote">
+      <p>Se Shiryu disse que é malégna, então é malégna. <a href="#fnref:fn-shiryu" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-proficua" role="doc-endnote">
+      <p>O que capirotos é “profícua”? Não sei. Mas parece termo de autor chique, então, como bom POGramador, vou usar sem saber o que é, aplicando o Gambi Pattern RCP (Reuse by Copy and Paste). <a href="#fnref:fn-proficua" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:fn-especialista" role="doc-endnote">
+      <p>Porque as pessoas dizem “profissional especialista”? Existe algum especialista que não seja profissional? Um especialista nato? “Conheça Enzo Rodrigo, especialista em computação quântica aos 4 anos de idade, entre uma colherada de mingau e outra, resolveu o problema da conjunção telepática de gatos robóticos.” <a href="#fnref:fn-especialista" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-1 d-flex justify-content-center navigation pt-2 position-relative">
+                            
+                                <a class="stretched-link" href="/capitulos/historia/">
+                                    <i class="fas fa-angle-right fa-lg"></i>
+                                </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    </main>
+
+    <footer class="page-footer bg-dark py-4 mt-3" id="sticky-footer">
+	<div class="container px-3">
+		<div class="row align-items-center justify-content-between flex-column flex-sm-row">
+			<div class="col-sm text-white text-center">
+				<p class="social-title">Encontre esse projeto no Github</p>
+				<a href="https://github.com/josenaldo/livro-pog/" class="link-light" target="_new">
+					<i class="fab fa-github fa-3x"></i>
+				</a>
+			</div>
+
+			<div class="col-sm text-white text-center">
+				<p class="social-title">Ajude esse projeto</p>
+				<a href="/ajude" target="_new" class="link-light">
+					<i class="fas fa-handshake fa-3x"></i>
+				</a>
+			</div>
+
+			<div class="col-sm text-white text-center">
+				<p class="social-title">Quer falar comigo?</p>
+				<div class="social">
+					<ul class="social-link">
+						<li>
+							<a class="link-light" href="mailto:josenaldo@gmail.com" target="_new">
+								<i class="fas fa-envelope fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://github.com/josenaldo" target="_new">
+								<i class="fab fa-github-alt fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.twitter.com/vudureverso" target="_new">
+								<i class="fab fa-twitter fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.linkedin.com/in/josenaldo/" target="_new">
+								<i class="fab fa-linkedin fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.facebook.com/josenaldo.matos" target="_new">
+								<i class="fab fa-facebook fa-2x"></i>
+							</a>
+						</li>
+
+						<li>
+							<a class="link-light" href="https://www.instagram.com/vudureverso" target="_new">
+								<i class="fab fa-instagram fa-2x"></i>
+							</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright text-light">
+		<div class="container text-center">
+			Copyright © 2021 - Vudu Reverso - Tudo nessa porra é reservado
+		</div>
+	</div>
+
+</footer>
+
+    <!--JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Popover -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+<!-- Mansory -->
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+    crossorigin="anonymous"
+    async></script>
+
+<!-- KaTeX -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"
+    integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx"
+    crossorigin="anonymous"></script>
+
+<!-- Katex Auto Render -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
+    integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<script>
+    window.WebFontConfig = {
+        custom: {
+            families: ['KaTeX_AMS', 'KaTeX_Caligraphic:n4,n7', 'KaTeX_Fraktur:n4,n7',
+                'KaTeX_Main:n4,n7,i4,i7', 'KaTeX_Math:i4,i7', 'KaTeX_Script',
+                'KaTeX_SansSerif:n4,n7,i4', 'KaTeX_Size1', 'KaTeX_Size2', 'KaTeX_Size3',
+                'KaTeX_Size4', 'KaTeX_Typewriter'],
+        },
+    };
+</script>
+
+<!-- Katex Webfont Loader -->
+<script defer src="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.js"
+    integrity="sha256-4O4pS1SH31ZqrSO2A/2QJTVjTPqVe+jnYgOWUVr7EEc=" crossorigin="anonymous"></script>
+
+<!-- Application JS -->
+<script type="text/javascript" src="/assets/js/app.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E9PC2G049F"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E9PC2G049F');
+</script>
+
+
+</body>
+</html>
