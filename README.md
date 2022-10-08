@@ -50,3 +50,7 @@ pkill -u jekyll
 
 git config --global user.email "josenaldo@gmail.com"
 git config --global user.name "Josenaldo de Oliveira Matos Filho"
+
+## Verificar
+
+- <https://www.linguistic-antipatterns.com/#tab=%22Incorrect-associated-spec%22>

@@ -2,26 +2,25 @@ title: Programação Orientada a Gambiarra
 email: josenaldo@gmail.com
 description: Como garantir que o inferno seja uma amostra grátis do seu trabalho
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://www.livropog.com.br"
+url: "https://josenaldo.github.io/livro-pog/"
 author: Vudu Reverso
 
 # Build settings
 markdown: kramdown
 kramdown:
-  math_engine: mathjax
+    math_engine: mathjax
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll/scholar
-  - jekyll-seo-tag
-
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll/scholar
+    - jekyll-seo-tag
 
 destination: docs
 
 # Social usernames/URLs
 twitter_username: vudureverso
-github_username:  josenaldo
+github_username: josenaldo
 instagram_username: vudureverso
 reddit_username: vudureverso
 linkedin_link: https://www.linkedin.com/in/josenaldo/
@@ -29,22 +28,21 @@ facebook_link: https://www.facebook.com/josenaldo.matos
 
 #Twitter
 twitter:
-  username: vudureverso
-  card: summary_large_image
+    username: vudureverso
+    card: summary_large_image
 
 #logo
 logo: "/assets/images/logo/logo.png"
 
 social:
-  name: Vudu Reverso
-  links:
-    - https://twitter.com/vudureverso
-    - https://www.facebook.com/josenaldo.matos
-    - https://www.linkedin.com/in/josenaldo/
-    - https://github.com/josenaldo
+    name: Vudu Reverso
+    links:
+        - https://twitter.com/vudureverso
+        - https://www.facebook.com/josenaldo.matos
+        - https://www.linkedin.com/in/josenaldo/
+        - https://github.com/josenaldo
 
 lang: pt-BR
-
 
 # Required by template
 css: "blue-grey"
@@ -73,45 +71,45 @@ exclude: [vendor]
 # Coleções
 collections_dir: collections
 collections:
-  capitulos:
-    output: true
+    capitulos:
+        output: true
 
 excerpt_separator: <!-- more -->
 
 # Valores default
 defaults:
-  - scope:
-      path: ""
-      type: "capitulos"
-    values:
-      layout: "capitulo"
-      permalink: "/capitulos/:slug/"
-      image:
-        path: "assets/images/default.jpg"
-        width: "1200"
-        height: "628"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      permalink: "/novidades/:slug/"
-      image:
-        path: "assets/images/default.jpg"
-        width: "1200"
-        height: "628"
-  - scope:
-      path: ""
-    values:
-      layout: "home"
-      image:
-        path: "assets/images/default.jpg"
-        width: "1200"
-        height: "628"
+    - scope:
+          path: ""
+          type: "capitulos"
+      values:
+          layout: "capitulo"
+          permalink: "/capitulos/:slug/"
+          image:
+              path: "assets/images/default.jpg"
+              width: "1200"
+              height: "628"
+    - scope:
+          path: ""
+          type: "posts"
+      values:
+          layout: "post"
+          permalink: "/novidades/:slug/"
+          image:
+              path: "assets/images/default.jpg"
+              width: "1200"
+              height: "628"
+    - scope:
+          path: ""
+      values:
+          layout: "home"
+          image:
+              path: "assets/images/default.jpg"
+              width: "1200"
+              height: "628"
 
 scholar:
-  style: associacao-brasileira-de-normas-tecnicas
-  # locale: pt-br
-  source: ./_bibliography
-  bibliography: library.bib
-  relative: /capitulos/referencias/
+    style: associacao-brasileira-de-normas-tecnicas
+    # locale: pt-br
+    source: ./_bibliography
+    bibliography: library.bib
+    relative: /capitulos/referencias/
